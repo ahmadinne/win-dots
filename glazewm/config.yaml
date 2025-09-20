@@ -1,0 +1,175 @@
+general:
+  startup_commands: [
+    "shell-exec yasb",
+    "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe",
+    "shell-exec C:/Users/ahmadinne/scoop/apps/powertoys/current/PowerToys.ColorPickerUI.exe",
+    "shell-exec C:/Users/ahmadinne/scoop/apps/flow-launcher/current/Flow.Launcher.exe",
+    "shell-exec C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe",
+  ]
+  shutdown_commands: [
+    "shell-exec taskkill /IM yasb.exe /",
+    "shell-exec taskkill /IM hap.exe /F",
+    "shell-exec taskkill /IM PowerToys.ColorPickerUI.exe /F",
+    "shell-exec taskkill /IM Flow.Launcher.exe /F",
+    "shell-exec taskkill /IM vim_ahk.exe /F"
+  ]
+  config_reload_commands: [
+    "shell-exec yasbc reload",
+    "shell-exec autohotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk"
+  ]
+  focus_follows_cursor: true
+  toggle_workspace_on_refocus: false
+
+  cursor_jump:
+    enabled: true
+    trigger: 'window_focus' #monitor/window
+
+  hide_method: 'cloak' #cloak/hide
+  show_all_in_taskbar: true
+
+gaps:
+  scale_with_dpi: true
+  inner_gap: '5px'
+  outer_gap:
+    top: '5px'
+    right: '10px'
+    bottom: '10px'
+    left: '10px'
+
+window_effects:
+  # Focused Windows
+  focused_window:
+    border:
+      enabled: true
+      color: '#000000'
+
+    hide_title_bar:
+      enabled: false
+
+    corner_style:
+      enabled: true
+      # Allowed values: 'square', 'rounded', 'small_rounded'.
+      style: 'small_rounded'
+
+    transparency:
+      enabled: false
+      opacity: '95%'
+
+  # Non Focused Windows / Other Windows
+  other_windows:
+    border:
+      enabled: true
+      color: '#000000'
+    hide_title_bar:
+      enabled: false
+    corner_style:
+      enabled: true
+      style: 'small_rounded'
+    transparency:
+      enabled: false
+      opacity: '70%'
+
+window_behavior:
+  initial_state: 'tiling'
+
+  state_defaults:
+    floating:
+      centered: true
+      shown_on_top: true
+
+    fullscreen:
+      maximized: false
+      shown_on_top: false
+
+workspaces:
+  - name: '1'
+  - name: '2'
+  - name: '3'
+  - name: '4'
+  - name: '5'
+  - name: '6'
+  - name: '7'
+  - name: '8'
+  - name: '9'
+
+window_rules:
+  - commands: ['set-minimized']
+    match:
+      - window_process: { equals: 'hap' }
+
+  - commands: ['ignore']
+    match:
+      # Ignores any Yasb windows.
+      - window_process: { equals: 'yasb' }
+      - window_process: { equals: 'hap' }
+
+      # Ignores picture-in-picture windows for browsers.
+      - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
+        window_class: { regex: 'Chrome_WidgetWin_1|MozillaDialogClass' }
+
+      # Ignore rules for various 3rd-party apps.
+      - window_process: { equals: 'PowerToys' }
+        window_class: { regex: 'HwndWrapper\[PowerToys\.PowerAccent.*?\]' }
+      - window_process: { equals: 'PowerToys' }
+        window_title: { regex: '.*? - Peek' }
+      - window_process: { equals: 'Lively' }
+        window_class: { regex: 'HwndWrapper' }
+      - window_process: { equals: 'EXCEL' }
+        window_class: { not_regex: 'XLMAIN' }
+      - window_process: { equals: 'WINWORD' }
+        window_class: { not_regex: 'OpusApp' }
+      - window_process: { equals: 'POWERPNT' }
+        window_class: { not_regex: 'PPTFrameClass' }
+
+keybindings:
+  # Change focus to a workspace defined in `workspaces` config.
+  - commands: ['focus --workspace 1']
+    bindings: ['alt+1']
+  - commands: ['focus --workspace 2']
+    bindings: ['alt+2']
+  - commands: ['focus --workspace 3']
+    bindings: ['alt+3']
+  - commands: ['focus --workspace 4']
+    bindings: ['alt+4']
+  - commands: ['focus --workspace 5']
+    bindings: ['alt+5']
+  - commands: ['focus --workspace 6']
+    bindings: ['alt+6']
+  - commands: ['focus --workspace 7']
+    bindings: ['alt+7']
+  - commands: ['focus --workspace 8']
+    bindings: ['alt+8']
+  - commands: ['focus --workspace 9']
+    bindings: ['alt+9']
+
+  # Move the focused window's parent workspace to a monitor in a given
+  # direction.
+  # - commands: ['move-workspace --direction left']
+  #   bindings: ['alt+shift+a']
+  # - commands: ['move-workspace --direction right']
+  #   bindings: ['alt+shift+f']
+  # - commands: ['move-workspace --direction up']
+  #   bindings: ['alt+shift+d']
+  # - commands: ['move-workspace --direction down']
+  #   bindings: ['alt+shift+s']
+
+  # Move focused window to a workspace defined in `workspaces` config.
+  - commands: ['move --workspace 1', 'focus --workspace 1']
+    bindings: ['alt+shift+1']
+  - commands: ['move --workspace 2', 'focus --workspace 2']
+    bindings: ['alt+shift+2']
+  - commands: ['move --workspace 3', 'focus --workspace 3']
+    bindings: ['alt+shift+3']
+  - commands: ['move --workspace 4', 'focus --workspace 4']
+    bindings: ['alt+shift+4']
+  - commands: ['move --workspace 5', 'focus --workspace 5']
+    bindings: ['alt+shift+5']
+  - commands: ['move --workspace 6', 'focus --workspace 6']
+    bindings: ['alt+shift+6']
+  - commands: ['move --workspace 7', 'focus --workspace 7']
+    bindings: ['alt+shift+7']
+  - commands: ['move --workspace 8', 'focus --workspace 8']
+    bindings: ['alt+shift+8']
+  - commands: ['move --workspace 9', 'focus --workspace 9']
+    bindings: ['alt+shift+9']
