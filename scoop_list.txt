@@ -9,22 +9,21 @@ gcc
 gh
 git
 glazewm
-grep
 hunt-and-peck
 iosevkaterm-nf
-iosevkaterm-nf-mono
-iosevkaterm-nf-propo
 moor
-neovim or vscode
+neovim
 nodejs
 obs-studio
 obsidian
 openjdk
-pipes-rs - optional
-powertoys - optional (only used the color picker tho)
+pipes-rs
+powertoys
+prismlauncher
 python
 starship
 vcredist2022
-yasb or zebar
+yasb
 yazi
 zoom
+
