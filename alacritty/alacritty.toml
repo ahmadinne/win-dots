@@ -4,7 +4,7 @@ import = ["colors.toml"]
 live_config_reload = true
 
 [terminal]
-shell = "bash"
+shell = "pwsh"
 
 [keyboard]
 bindings = [
@@ -61,7 +61,7 @@ style = "bold"
 style = "italic"
 
 [font.normal]
-family = "IosevkaTerm Nerd Font Mono"
+family = "Iosevka Nerd Font"
 # family = "Inconsolata Nerd Font"
 # family = "Hack Nerd Font"
 # family = "RobotoMono Nerd Font"

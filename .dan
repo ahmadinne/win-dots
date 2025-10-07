@@ -1,15 +1,12 @@
-alacritty/ = /c/Users/ahmadinne/appdata/roaming/alacritty/
 nvim = /c/Users/ahmadinne/appdata/local/nvim
 OldNewExplorer/ = /c/Users/ahmadinne/Documents/OldNewExplorer/
 vim_ahk/ = /c/Users/ahmadinne/Documents/vim_ahk/
 PowerShell/ = /c/Users/ahmadinne/Documents/PowerShell/
-WindowsPowerShell/ = /c/Users/ahmadinne/Documents/WindowsPowerShell/
 autohotkey = /c/Users/ahmadinne/.config/autohotkey
-dan = /c/Users/ahmadinne/.config/dan
 scoop = /c/Users/ahmadinne/.config/scoop
 glazewm = /c/Users/ahmadinne/.config/glazewm
 yasb = /c/Users/ahmadinne/.config/yasb
-scoop_list.txt = /c/Users/ahmadinne/.config/scoop_list.txt
 .bashrc = /c/Users/ahmadinne/.bashrc
 Pitch-Black/ = /c/Users/ahmadinne/Documents/Pitch-Black/
 Wallpapers/ = /c/Users/ahmadinne/Pictures/Wallpapers/
+alacritty/ = /c/Users/ahmadinne/appdata/roaming/alacritty/
