@@ -20,7 +20,7 @@ For more information about configuration options, please visit the Wiki https://
     color: var(--text1);
     font-weight: 600;
 	font-style: normal;
-    font-family: 'Iosevka Fixed', "Iosevka NFP";
+    font-family: "Iosevka NF";
 }
 .yasb-bar {
     background-color: var(--bg-color1);

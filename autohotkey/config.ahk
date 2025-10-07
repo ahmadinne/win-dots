@@ -22,6 +22,7 @@ Capslock::Ctrl
 !e::Run "C:/Users/ahmadinne"
 !b::Run "chrome"
 !o::Run "obsidian"
+!;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
 
 ; Utilities
 !p::Send "#{PrintScreen}"
@@ -53,19 +54,19 @@ Capslock::Ctrl
 }
 
 ; File Explorer typeshi
-#HotIf WinActive("ahk_exe explorer.exe")
-g::Send "{Home}"
-+g::Send "{End}"
-h::Send "!{Left}"
-j::Send "{Down}"
-k::Send "{Up}"
-l::Send "{Enter}{Space}"
-#HotIf
-g::g
-h::h
-j::j
-k::k
-l::l
+; #HotIf WinActive("ahk_exe explorer.exe")
+; g::Send "{Home}"
+; +g::Send "{End}"
+; h::Send "!{Left}"
+; j::Send "{Down}"
+; k::Send "{Up}"
+; l::Send "{Enter}{Space}"
+; #HotIf
+; g::g
+; h::h
+; j::j
+; k::k
+; l::l
 
 ; Killer do killings
 !q::Run "glazewm command close", , "Hide"
