@@ -3,14 +3,14 @@ general:
     "shell-exec yasb",
     "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
     "shell-exec C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe",
-    "shell-exec C:/Users/ahmadinne/scoop/apps/powertoys/current/PowerToys.ColorPickerUI.exe",
+    "shell-exec C:/Users/ahmadinne/scoop/apps/powertoys/current/PowerToys.exe",
     # "shell-exec C:/Users/ahmadinne/scoop/apps/flow-launcher/current/Flow.Launcher.exe",
     "shell-exec C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe",
   ]
   shutdown_commands: [
     "shell-exec taskkill /IM yasb.exe /",
     "shell-exec taskkill /IM hap.exe /F",
-    "shell-exec taskkill /IM PowerToys.ColorPickerUI.exe /F",
+    "shell-exec taskkill /IM PowerToys.exe /F",
     # "shell-exec taskkill /IM Flow.Launcher.exe /F",
     "shell-exec taskkill /IM vim_ahk.exe /F"
   ]
