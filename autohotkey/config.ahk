@@ -18,7 +18,7 @@ Capslock::Ctrl
 ; ---- GlazeWM Keybinds -----
 
 ; Programs
-!t::Run "alacritty"
+!t::Run "wt"
 !e::Run "C:/Users/ahmadinne"
 !b::Run "chrome"
 !o::Run "obsidian"
