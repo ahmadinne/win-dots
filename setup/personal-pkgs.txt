@@ -1,6 +1,7 @@
 7zip
 autohotkey
 bat
+dark
 eza
 fastfetch
 gcc
@@ -11,7 +12,11 @@ hunt-and-peck
 iosevka-nf
 neovim
 nodejs
+obs-studio
+obsidian
+openjdk
 powertoys
+prismlauncher
 pwsh
 python
 starship
