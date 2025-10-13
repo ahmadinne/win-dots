@@ -4,6 +4,7 @@ function Brightness ($br) {    Get-CimInstance -Namespace root/WMI -Classname Wm
 # Powershell's configurations
 Invoke-Expression (&starship init powershell)
 Set-PSReadlineKeyHandler -Chord Ctrl+u -Function BackwardKillLine
+Set-PSReadLineOption -PredictionSource None
 $EDITOR = "nvim"
 
 # Unix like Aliases
