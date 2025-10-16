@@ -12,7 +12,6 @@ iosevka-nf
 neovim
 nodejs
 powertoys
-pwsh
 python
 starship
 vcredist2022

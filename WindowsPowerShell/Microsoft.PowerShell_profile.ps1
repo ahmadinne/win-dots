@@ -4,7 +4,7 @@ function Brightness ($br) {    Get-CimInstance -Namespace root/WMI -Classname Wm
 # Powershell's configurations
 Invoke-Expression (&starship init powershell)
 Set-PSReadlineKeyHandler -Chord Ctrl+u -Function BackwardKillLine
-Set-PSReadLineOption -PredictionSource None
+# Set-PSReadLineOption -PredictionSource None
 $EDITOR = "nvim"
 
 # Unix like Aliases
@@ -16,7 +16,7 @@ Function Ezacmd {eza --color=always --git --no-filesize --icons=always --no-time
 Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
 Function WtConfig {nvim $HOME/scoop/apps/windows-terminal/current/settings}
-Set-Alias -Name ls -Value Ezacmd
+# Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
 Set-Alias -Name alacritty.toml -Value Alacrittycmd

@@ -1,16 +1,15 @@
 general:
   startup_commands: [
-    "shell-exec yasb",
-    "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
-    "shell-exec C:/Users/ahmadinne/scoop/apps/powertoys/current/PowerToys.exe",
     # "shell-exec C:/Users/ahmadinne/scoop/apps/flow-launcher/current/Flow.Launcher.exe",
-    "shell-exec C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe",
+    # "shell-exec C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe",
+    "shell-exec yasb",
+    "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk"
   ]
   shutdown_commands: [
-    "shell-exec taskkill /IM yasb.exe /",
-    "shell-exec taskkill /IM PowerToys.exe /F",
     # "shell-exec taskkill /IM Flow.Launcher.exe /F",
-    "shell-exec taskkill /IM vim_ahk.exe /F"
+    # "shell-exec taskkill /IM vim_ahk.exe /F",
+    "shell-exec taskkill /IM yasb.exe /",
+    "shell-exec taskkill /IM autohotkey.exe /"
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
