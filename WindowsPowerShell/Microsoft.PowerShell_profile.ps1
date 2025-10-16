@@ -15,11 +15,13 @@ Set-Alias -Name touch -Value New-Item
 Function Ezacmd {eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a}
 Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
+Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
 Function WtConfig {nvim $HOME/scoop/apps/windows-terminal/current/settings}
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
 Set-Alias -Name alacritty.toml -Value Alacrittycmd
+Set-Alias -Name settings.json -Value Terminalcmd
 Set-Alias -Name wt.json -Value WtConfig
 
 Function y {

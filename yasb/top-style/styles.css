@@ -20,11 +20,11 @@ For more information about configuration options, please visit the Wiki https://
     color: var(--text1);
     font-weight: 600;
 	font-style: normal;
-    font-family: "Iosevka";
+    font-family: "Iosevka NF";
 }
 .yasb-bar {
     background-color: var(--bg-color1);
-    border-radius: 0px;
+    border-radius: 4px;
     border: 0px solid var(--bg-color2);
 	padding: 0px 8px 0px 5px;
 }
@@ -111,7 +111,7 @@ For more information about configuration options, please visit the Wiki https://
 
 /* Spacing for the widgets */
 .widget {
-    padding: 0 10px;
+    padding: 0 5px;
     margin: 0;
 }
 .icon {

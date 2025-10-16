@@ -10,7 +10,7 @@ bars:
     screens: ["*"]
     class_name: "yasb-bar"
     alignment:
-      position: "bottom"
+      position: "top"
       center: true
     animation:
       enabled: true
@@ -26,17 +26,23 @@ bars:
       always_on_top: false
       windows_app_bar: true
     dimensions:
-      width: "100%"
+      width: "50%"
       height: 32
     padding:
-      top: 0
-      left: 0
+      top: 5
+      left: 5
       bottom: 0
-      right: 0
+      right: 5
     widgets:
-      left: [ "volume", "brightness" ]
-      center: [ "glazewm_workspaces" ]
-      right: [ "wifi", "battery", "clock" ]
+      left:
+      - "glazewm_workspaces"
+      - "wifi"
+      center:
+      - "clock"
+      right:
+      - "systray"
+      - "volume"
+      - "battery"
 widgets:
   home:
     type: "yasb.home.HomeWidget"
@@ -113,8 +119,7 @@ widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      # label: "{%B %d, %H:%M}"
-      label: "  {%H:%M}"
+      label: "{%B %d, %H:%M}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar: 
@@ -179,7 +184,7 @@ widgets:
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
-      label: "{icon}  {level}"
+      label: "{icon}"
       label_alt: "{icon} {level}"
       tooltip: false
       volume_icons:
@@ -191,11 +196,6 @@ widgets:
       callbacks:
         on_left: "toggle_mute"
         on_right: "exec cmd.exe /c start ms-settings:sound"
-  brightness:
-    type: "yasb.brightness.BrightnessWidget"
-    options:
-      label: "{icon}  {percent}%"
-      label_alt: "Brightness: {percent}%"
   microphone:
     type: "yasb.microphone.MicrophoneWidget"
     options:
@@ -238,27 +238,13 @@ widgets:
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
-      # label: "{wifi_name}"
-      label: "{wifi_icon}  {wifi_name}"
+      label: "{wifi_name}"
       label_alt: "{wifi_icon} {wifi_name}"
-      get_exact_wifi_strength: false
-      wifi_icons: [
-        "\udb82\udd2e",
-        "\udb82\udd1f",
-        "\udb82\udd22",
-        "\udb82\udd25",
-        "\udb82\udd28"
-      ]
   battery:
     type: "yasb.battery.BatteryWidget"
     options: 
-      # label: "{icon}"
-      label: "{icon}  {percent}%"
+      label: "{icon}"
       label_alt: "{icon} {percent}%"
-      hide_unsupported: True
-      charging_options:
-        icon_format: "{charging_icon}"
-        blink_charging_icon: False
       status_thresholds:
         critical: 15
         low: 30

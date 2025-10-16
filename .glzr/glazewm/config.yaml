@@ -29,7 +29,7 @@ gaps:
   scale_with_dpi: true
   inner_gap: '5px'
   outer_gap:
-    top: '5px'
+    top: '10px'
     right: '10px'
     bottom: '10px'
     left: '10px'
@@ -38,14 +38,14 @@ window_effects:
   # Focused Windows
   focused_window:
     border:
-      enabled: false
+      enabled: true
       color: '#000000'
 
     hide_title_bar:
       enabled: false
 
     corner_style:
-      enabled: false
+      enabled: true
       # Allowed values: 'square', 'rounded', 'small_rounded'.
       style: 'small_rounded'
 
@@ -56,12 +56,12 @@ window_effects:
   # Non Focused Windows / Other Windows
   other_windows:
     border:
-      enabled: false
+      enabled: true
       color: '#000000'
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
+      enabled: true
       style: 'small_rounded'
     transparency:
       enabled: false
