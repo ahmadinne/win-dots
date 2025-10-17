@@ -48,3 +48,6 @@ Function cd {
 Set-Alias originalLs Get-ChildItem
 Remove-Item Alias:ls -Force
 Function ls { eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a }
+
+# Starto
+bunnyfetch
