@@ -13,7 +13,6 @@ Set-Alias -Name touch -Value New-Item
 
 # Aliases
 Function Startupcmd {cd "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"; explorer .}
-Function Ezacmd {eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a}
 Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
 Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
@@ -38,3 +37,14 @@ Function y {
     }
     Remove-Item -Path $tmp
 }
+
+Set-Alias originalCd Set-Location
+Remove-Item Alias:cd -Force 
+Function cd {
+	param([string]$path = $HOME)
+	Set-Location $path
+}
+
+Set-Alias originalLs Get-ChildItem
+Remove-Item Alias:ls -Force
+Function ls { eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a }
