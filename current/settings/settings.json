@@ -1,0 +1,89 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "alwaysShowTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Paradise",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Iosevka Nerd Font",
+                "size": 11
+            },
+            "intenseTextStyle": "all"
+        },
+        "list": 
+        [
+            {
+				"commandline": "powershell.exe -nologo",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "pwsh.exe -nologo",
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#000000",
+            "black": "#151515",
+            "blue": "#8DA3B9",
+            "brightBlack": "#424242",
+            "brightBlue": "#8DA3B9",
+            "brightCyan": "#8AA6A2",
+            "brightGreen": "#8C977D",
+            "brightPurple": "#A988B0",
+            "brightRed": "#B66467",
+            "brightWhite": "#E8E3E3",
+            "brightYellow": "#D9BC8C",
+            "cursorColor": "#E8E3E3",
+            "cyan": "#8AA6A2",
+            "foreground": "#E8E3E3",
+            "green": "#8C977D",
+            "name": "Paradise",
+            "purple": "#A988B0",
+            "red": "#B66467",
+            "selectionBackground": "#E8E3E3",
+            "white": "#E8E3E3",
+            "yellow": "#D9BC8C"
+        }
+    ],
+    "showTabsInTitlebar": false,
+    "theme": "system",
+    "themes": []
+}

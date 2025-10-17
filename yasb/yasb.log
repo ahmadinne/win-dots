@@ -2409,3 +2409,11 @@ expected ',' or ']', but got '<scalar>'
 2025-10-17 14:17:04,850 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
 2025-10-17 14:17:04,888 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-10-17 14:17:04,889 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-17 22:17:32,702 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-17 22:17:32,715 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-17 22:17:32,715 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-17 22:17:32,884 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-17 22:17:33,601 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-17 22:17:35,930 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-17 22:17:36,061 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-17 22:17:36,064 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
