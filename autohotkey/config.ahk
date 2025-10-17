@@ -13,7 +13,7 @@
 ; +Capslock::~
 
 ; Capslock to Ctrl
-Capslock::Ctrl
+; Capslock::Ctrl
 
 ; ---- GlazeWM Keybinds -----
 
@@ -26,7 +26,7 @@ Capslock::Ctrl
 
 ; Utilities
 !p::Send "#{PrintScreen}"
-!s::Send "#+s"
+!+p::Send "#+s"
 
 ; Windows management
 !j::Run "glazewm command focus --direction left", , "Hide"
@@ -37,7 +37,7 @@ Capslock::Ctrl
 !l::Run "glazewm command resize --width +2%", , "Hide"
 
 ; Pause Keybindings
-!+p::Run "glazewm command wm-toggle-pause", , "Hide"
+!^p::Run "glazewm command wm-toggle-pause", , "Hide"
 !Tab::Run "glazewm command wm-cycle-focus", , "Hide"
 
 ; Window States
@@ -69,7 +69,12 @@ Capslock::Ctrl
 ; l::l
 
 ; Killer do killings
-!q::Run "glazewm command close", , "Hide"
+; !q::Run "glazewm command close", , "Hide"
+!q::{
+	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
+		Run "glazewm command close", , "Hide"
+}
+
 !+Del::Run "glazewm command wm-exit", , "Hide"
 
 ; Reload da guns!
