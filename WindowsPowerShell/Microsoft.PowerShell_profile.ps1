@@ -12,6 +12,7 @@ Set-Alias -Name grep -Value Select-String
 Set-Alias -Name touch -Value New-Item
 
 # Aliases
+Function Startupcmd {cd "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"; explorer .}
 Function Ezacmd {eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a}
 Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
@@ -23,6 +24,10 @@ Set-Alias -Name init.lua -Value Initcmd
 Set-Alias -Name alacritty.toml -Value Alacrittycmd
 Set-Alias -Name settings.json -Value Terminalcmd
 Set-Alias -Name wt.json -Value WtConfig
+Set-Alias -Name autorun -Value taskschd.msc
+Set-Alias -Name autostart -Value taskschd.msc
+Set-Alias -Name startup -Value taskschd.msc
+Set-Alias -Name shell:startup -Value Startupcmd
 
 Function y {
     $tmp = (New-TemporaryFile).FullName
