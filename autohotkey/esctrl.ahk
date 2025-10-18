@@ -24,8 +24,10 @@ capsUsed := false
     global capsUsed
     DllCall("keybd_event", "UInt",0x11, "UInt",0, "UInt",2, "UInt",0) 
     if !capsUsed {
-        DllCall("keybd_event", "UInt",0x1B, "UInt",0, "UInt",0, "UInt",0) 
-        DllCall("keybd_event", "UInt",0x1B, "UInt",0, "UInt",2, "UInt",0)
+		SendEvent("{Blind}{vk1B}")
+		; below only works if you don't want to replace the original escape key with tilde or whatever is it
+        ; DllCall("keybd_event", "UInt",0x1B, "UInt",0, "UInt",0, "UInt",0) 
+        ; DllCall("keybd_event", "UInt",0x1B, "UInt",0, "UInt",2, "UInt",0)
     }
 }
 
