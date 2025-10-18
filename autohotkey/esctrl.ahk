@@ -10,9 +10,9 @@ Escape::`
 
 
 ; --- Normal ----
-; No bug or error with any combination
-; have a little delay before sending escape key
-; no delay for control when hold
+; - No bug or error with any combination
+; - have a little delay before sending escape key
+; - no delay for control when hold
 isHold := false
 *CapsLock::
 {
@@ -32,9 +32,9 @@ isHold := false
 
 
 ; ---- The Monster ----
-; faster than the other version
-; but always send escape when releasing the capslock
-; can't use control + w in the terminal because of this
+; - faster than the other version
+; - but always send escape when releasing the capslock
+; - can't use control + w in the terminal because of this
 ; #UseHook
 ; #InputLevel 1
 ; capsUsed := false
@@ -67,10 +67,7 @@ isHold := false
 
 
 ; ---- Very Slow version ----
-; has delay to everything, including when hold for control
-; Capslock to Ctrl
-; Capslock::Ctrl
-
+; - has delay to everything, including when hold for control
 ; *Capslock::
 ; {
 ; 	KeyWait("CapsLock", "T0.15")
