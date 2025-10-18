@@ -1,20 +1,5 @@
 #Requires AutoHotKey v2.0
 
-; Ctrl on hold, and Escape on click
-; Capslock::Send "{Blind}{Ctrl DownR}"
-; Capslock Up::{
-; 	Send "{Blind}{Ctrl Up}"
-; 	If (A_PriorKey = "Capslock") ; if capslock was pressed alone
-; 		Send "{Esc}"
-; }
-
-; Grave on normal, Tilde on shift
-; Capslock::`
-; +Capslock::~
-
-; Capslock to Ctrl
-; Capslock::Ctrl
-
 ; ---- GlazeWM Keybinds -----
 
 ; Programs

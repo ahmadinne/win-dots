@@ -3,7 +3,8 @@ general:
     # "shell-exec C:/Users/ahmadinne/scoop/apps/flow-launcher/current/Flow.Launcher.exe",
     # "shell-exec C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe",
     "shell-exec yasb",
-    "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk"
+    "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec autototkey.exe C:/Users/ahmadinne/.config/autohotkey/esctrl.ahk"
   ]
   shutdown_commands: [
     # "shell-exec taskkill /IM Flow.Launcher.exe /F",
@@ -13,7 +14,8 @@ general:
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
-    "shell-exec autohotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk"
+    "shell-exec autohotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec autohotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/esctrl.ahk"
   ]
   focus_follows_cursor: true
   toggle_workspace_on_refocus: false
