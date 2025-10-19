@@ -32,7 +32,7 @@
 !+f::Run "glazewm command toggle-fullscreen", , "Hide"
 !m::Run "glazewm command toggle-minimized", , "Hide"
 !f::{
-	if WinActive("Chrome") or WinActive("Minecraft") or WinActive("ahk_exe explorer.exe") {
+	if WinActive("Chrome") or WinActive("Minecraft") {
 		Send "{f11}"
 	} else {
 		Run "glazewm command toggle-fullscreen", , "Hide"
