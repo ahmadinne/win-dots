@@ -22,7 +22,7 @@ general:
     enabled: true
     trigger: 'window_focus' #monitor/window
 
-  hide_method: 'hide' #cloak/hide
+  hide_method: 'cloak' #cloak/hide
   show_all_in_taskbar: true
 
 gaps:
@@ -73,7 +73,7 @@ window_behavior:
       shown_on_top: true
 
     fullscreen:
-      maximized: false
+      maximized: true
       shown_on_top: false
 
 workspaces:

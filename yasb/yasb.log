@@ -4710,3 +4710,36 @@ KeyError: 'icon_None'
 2025-10-19 18:47:51,446 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
 2025-10-19 18:47:51,488 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-10-19 18:47:51,489 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 19:21:49,231 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 19:21:49,231 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 19:21:49,341 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 19:21:49,341 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 19:21:49,394 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 19:21:49,412 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 19:21:49,425 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 19:21:49,827 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 19:21:49,827 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 19:21:49,827 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 19:21:49,867 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 19:21:50,313 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 19:21:50,675 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 19:21:50,711 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 19:21:50,712 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 19:42:30,732 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 19:42:30,738 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 19:42:30,839 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 19:42:30,841 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 19:42:31,163 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 19:42:31,165 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 19:42:31,178 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 19:42:31,354 [INFO] [Thread-7 (_restart_pipe_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 19:42:31,357 [INFO] [Thread-8 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 19:42:31,360 [INFO] [Thread-7 (_restart_pipe_server)] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 19:42:31,947 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 19:42:31,949 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 19:42:31,949 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 19:42:32,005 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 19:42:32,542 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 19:42:33,268 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 19:42:33,325 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 19:42:33,326 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
