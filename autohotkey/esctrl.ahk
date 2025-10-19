@@ -1,4 +1,5 @@
 #Requires AutoHotKey v2.0
+#SingleInstance Force
 
 SetKeyDelay(-1, -1)
 SetCapsLockState("AlwaysOff")
