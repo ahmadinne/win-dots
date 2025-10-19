@@ -4,7 +4,7 @@ general:
     # "shell-exec C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe",
     "shell-exec yasb",
     "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
-    "shell-exec autototkey.exe C:/Users/ahmadinne/.config/autohotkey/esctrl.ahk"
+    "shell-exec autohotkey.exe C:/Users/ahmadinne/.config/autohotkey/esctrl.ahk"
   ]
   shutdown_commands: [
     # "shell-exec taskkill /IM Flow.Launcher.exe /F",

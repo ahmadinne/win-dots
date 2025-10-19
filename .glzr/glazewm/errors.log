@@ -4,3 +4,6 @@
 [2m2025-10-16T09:27:12.260132Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:/Users/ahmadinne/Documents/vim_ahk/vim_ahk.exe'.
 [2m2025-10-16T10:12:09.355786Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
 [2m2025-10-17T06:55:28.957305Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-10-19T06:12:18.360191Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'autototkey.exe C:/Users/ahmadinne/.config/autohotkey/esctrl.ahk'.
+
+Error: The operation was canceled by the user. (0x800704C7)
