@@ -39,24 +39,16 @@
 	}
 }
 
-; File Explorer typeshi
-; #HotIf WinActive("ahk_exe explorer.exe")
-; g::Send "{Home}"
-; +g::Send "{End}"
-; h::Send "!{Left}"
-; j::Send "{Down}"
-; k::Send "{Up}"
-; l::Send "{Enter}{Space}"
-; #HotIf
-; g::g
-; h::h
-; j::j
-; k::k
-; l::l
-
 ; Killer do killings
-; !q::Run "glazewm command close", , "Hide"
 !q::{
+	check := WinExist("A")
+	if !check
+		return
+
+	winClass := WinGetClass("ahk_id " check)
+	if (winClass = "progman" || winClass = "WorkerW" || winClass = "shell_TrayWnd")
+		return
+
 	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
 		Run "glazewm command close", , "Hide"
 }
