@@ -17,6 +17,7 @@ Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
 Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
 Function WtConfig {nvim $HOME/scoop/apps/windows-terminal/current/settings}
+Function Fetches {cls; bunnyfetch}
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
@@ -27,6 +28,8 @@ Set-Alias -Name autorun -Value taskschd.msc
 Set-Alias -Name autostart -Value taskschd.msc
 Set-Alias -Name startup -Value taskschd.msc
 Set-Alias -Name shell:startup -Value Startupcmd
+Set-Alias -Name bf -Value bunnyfetch
+Set-Alias -Name bfs -Value Fetches
 
 Function y {
     $tmp = (New-TemporaryFile).FullName
