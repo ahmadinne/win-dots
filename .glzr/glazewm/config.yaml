@@ -38,17 +38,14 @@ window_effects:
   # Focused Windows
   focused_window:
     border:
-      enabled: true
+      enabled: false
       color: '#000000'
-
     hide_title_bar:
       enabled: false
-
     corner_style:
       enabled: true
       # Allowed values: 'square', 'rounded', 'small_rounded'.
       style: 'small_rounded'
-
     transparency:
       enabled: false
       opacity: '95%'
@@ -56,7 +53,7 @@ window_effects:
   # Non Focused Windows / Other Windows
   other_windows:
     border:
-      enabled: true
+      enabled: false
       color: '#000000'
     hide_title_bar:
       enabled: false

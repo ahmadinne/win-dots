@@ -3342,3 +3342,1371 @@ expected ',' or ']', but got '<scalar>'
 2025-10-19 16:45:20,972 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
 2025-10-19 16:45:21,008 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2025-10-19 16:45:21,009 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 16:47:48,152 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 16:47:48,154 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 16:47:48,154 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 16:47:48,277 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 16:47:49,107 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 16:47:50,500 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 16:47:50,588 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 16:47:50,634 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:16:06,312 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 17:16:06,312 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 17:16:06,423 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:16:06,423 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:16:06,464 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:16:06,465 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:16:06,465 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:16:06,777 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:16:06,793 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:16:06,793 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:16:06,841 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:16:07,119 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:16:07,710 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:16:07,742 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:16:07,742 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:24:12,084 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 17:24:12,086 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 17:24:12,197 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:24:12,197 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:24:12,235 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:24:12,241 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:24:12,243 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:24:12,551 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:24:12,551 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:24:12,551 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:24:12,615 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:24:12,959 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:24:13,587 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:24:13,622 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:24:13,623 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:25:27,163 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 17:25:27,163 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 17:25:27,275 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:25:27,275 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:25:27,311 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:25:27,319 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:25:27,322 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:25:27,626 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:25:27,626 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:25:27,626 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:25:27,690 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:25:28,028 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:25:28,584 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:25:28,616 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:25:28,617 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:25:37,891 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 17:25:37,891 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 17:25:37,998 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:25:37,998 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:25:38,043 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:25:38,056 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:25:38,058 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:25:38,350 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:25:38,350 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:25:38,350 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:25:38,414 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:25:38,650 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:25:39,262 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:25:39,298 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:25:39,298 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:31:55,104 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:31:55,129 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:31:55,130 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:32:05,475 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:32:05,716 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:32:06,378 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:32:06,417 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:32:06,418 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:32:23,718 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 17:32:23,718 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 17:32:23,826 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:32:23,843 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:32:23,880 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:32:23,884 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:32:23,886 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:32:24,185 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:32:24,185 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:32:24,201 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:32:24,248 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:32:24,470 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:32:24,791 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:32:24,846 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:32:24,847 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:33:02,088 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:33:02,188 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:33:02,188 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:33:02,192 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:33:02,224 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:33:02,229 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:33:02,231 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:33:02,524 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:33:02,524 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:33:02,524 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:33:02,579 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:33:02,835 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:33:03,099 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:33:03,132 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:33:03,133 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:33:37,640 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:33:37,749 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:33:37,749 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:33:37,752 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:33:37,784 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:33:37,794 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:33:37,795 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:33:38,096 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:33:38,096 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:33:38,096 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:33:38,128 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:33:38,397 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:33:38,768 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:33:38,799 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:33:38,799 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:33:54,820 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:33:54,927 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:33:54,927 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:33:54,927 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:33:54,963 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:33:54,976 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:33:54,976 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:33:55,264 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:33:55,264 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:33:55,264 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:33:55,334 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:33:55,562 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:33:55,914 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:33:55,945 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:33:55,945 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:34:03,764 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:34:03,877 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:34:03,877 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:34:03,877 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:34:03,914 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:34:03,918 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:34:03,919 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:34:04,229 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:34:04,229 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:34:04,229 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:34:04,290 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:34:04,612 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:34:05,005 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:34:05,036 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:34:05,037 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:34:28,326 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:34:28,439 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:34:28,439 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:34:28,441 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:34:28,473 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:34:28,478 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:34:28,480 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:34:28,783 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:34:28,783 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:34:28,783 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:34:28,847 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:34:29,124 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:34:29,458 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:34:29,489 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:34:29,490 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:34:29,696 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:34:29,796 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:34:29,796 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:34:29,799 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:34:29,831 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:34:29,833 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:34:29,834 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:34:30,129 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:34:30,129 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:34:30,129 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:34:30,182 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:34:30,388 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:34:30,763 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:34:30,795 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:34:30,796 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:34:49,821 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:34:49,930 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:34:49,930 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:34:49,932 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:34:49,966 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:34:49,974 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:34:49,975 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:34:50,277 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:34:50,277 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:34:50,277 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:34:50,340 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:34:50,631 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:34:51,050 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:34:51,080 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:34:51,081 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:34:53,204 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:34:53,316 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:34:53,316 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:34:53,318 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:34:53,348 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:34:53,354 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:34:53,355 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:34:53,658 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:34:53,658 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:34:53,658 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:34:53,722 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:34:54,028 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:34:54,487 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:34:54,517 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:34:54,517 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:36:09,930 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:36:10,057 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:36:10,057 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:36:10,057 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:36:10,096 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:36:10,110 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:36:10,111 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:36:10,401 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:36:10,401 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:36:10,401 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:36:10,465 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:36:10,779 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:36:11,184 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:36:11,212 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:36:11,213 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:36:22,582 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:36:22,711 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:36:22,711 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:36:22,763 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:36:22,796 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:36:22,816 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:36:22,817 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:36:23,103 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:36:23,103 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:36:23,103 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:36:23,166 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:36:23,429 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:36:23,811 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:36:23,837 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:36:23,838 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:36:48,468 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:36:48,569 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:36:48,569 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:36:48,571 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:36:48,606 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:36:48,622 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:36:48,623 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:36:48,912 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:36:48,912 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:36:48,912 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:36:48,959 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:36:49,250 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:36:49,599 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:36:49,625 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:36:49,626 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:37:29,644 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:37:29,758 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:37:29,758 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:37:29,760 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:37:29,793 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:37:29,801 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:37:29,801 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:37:30,103 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:37:30,103 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:37:30,103 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:37:30,161 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:37:30,538 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:37:30,844 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:37:30,869 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:37:30,870 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:37:45,505 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:37:45,617 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:37:45,617 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:37:45,633 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:37:45,672 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:37:45,684 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:37:45,685 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:37:45,980 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:37:45,981 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:37:45,981 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:37:46,017 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:37:46,313 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:37:46,607 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:37:46,633 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:37:46,634 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:46:27,253 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:46:27,363 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:46:27,363 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:46:27,363 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:46:27,408 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:46:27,421 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:46:27,422 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:46:27,714 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:46:27,714 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:46:27,714 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:46:27,778 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:46:28,117 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:46:28,523 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:46:28,549 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:46:28,549 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:46:43,657 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:46:43,769 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:46:43,769 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:46:43,769 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:46:43,815 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:46:43,821 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:46:43,822 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:46:44,112 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:46:44,112 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:46:44,112 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:46:44,180 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:46:44,468 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:46:44,833 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:46:44,858 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:46:44,860 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:47:53,099 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:47:53,212 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:47:53,212 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:47:53,212 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:47:53,256 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:47:53,268 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:47:53,269 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:47:53,562 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:47:53,562 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:47:53,562 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:47:53,626 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:47:53,937 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:47:54,277 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:47:54,304 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:47:54,305 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:56:58,431 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:56:58,541 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:56:58,541 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:56:58,544 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:56:58,590 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:56:58,599 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:56:58,603 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:56:58,923 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:56:58,923 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:56:58,923 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:56:58,970 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:56:59,300 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:56:59,700 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:56:59,731 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:56:59,732 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:57:57,667 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:57:57,780 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:57:57,780 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:57:57,782 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:57:57,830 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:57:57,841 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:57:57,844 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:57:58,150 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:57:58,150 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:57:58,150 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:57:58,197 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:57:58,542 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:57:58,947 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:57:58,974 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:57:58,974 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:58:12,367 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:58:12,479 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:58:12,479 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:58:12,482 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:58:12,529 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:58:12,545 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:58:12,547 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:58:12,851 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:58:12,851 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:58:12,851 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:58:12,922 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:58:13,257 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:58:13,661 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:58:13,693 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:58:13,694 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:58:41,978 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:58:42,094 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:58:42,094 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:58:42,094 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:58:42,145 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:58:42,156 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:58:42,157 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:58:42,472 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:58:42,472 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:58:42,472 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:58:42,519 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:58:42,781 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:58:43,207 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:58:43,235 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:58:43,235 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:59:18,566 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:59:18,676 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:59:18,676 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:59:18,710 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:59:18,758 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:59:18,764 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:59:18,766 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:59:19,069 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:59:19,069 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:59:19,069 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:59:19,134 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:59:19,380 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:59:19,740 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:59:19,768 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:59:19,769 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:59:31,673 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:59:31,786 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:59:31,786 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:59:31,788 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:59:31,840 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:59:31,850 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:59:31,852 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:59:32,156 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:59:32,156 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:59:32,156 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:59:32,204 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:59:32,504 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:59:32,884 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:59:32,916 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:59:32,918 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 17:59:42,268 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 17:59:42,384 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 17:59:42,384 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 17:59:42,386 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 17:59:42,437 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 17:59:42,439 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 17:59:42,442 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 17:59:42,745 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 17:59:42,745 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 17:59:42,745 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 17:59:42,811 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 17:59:43,139 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 17:59:43,564 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 17:59:43,593 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 17:59:43,594 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:00:59,393 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:00:59,503 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:00:59,503 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:00:59,505 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:00:59,551 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:00:59,562 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:00:59,567 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:00:59,871 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:00:59,871 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:00:59,871 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:00:59,935 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:01:00,235 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:01:00,578 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:01:00,609 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:01:00,611 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:01:34,838 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:01:34,946 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:01:34,946 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:01:34,948 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:01:35,002 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:01:35,018 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:01:35,021 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:01:35,318 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:01:35,318 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:01:35,318 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:01:35,381 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:01:35,720 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:01:36,145 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:01:36,173 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:01:36,174 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:03:39,074 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:03:39,177 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:03:39,177 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:03:39,177 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:03:39,229 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:03:39,239 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:03:39,242 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:03:39,550 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:03:39,552 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:03:39,552 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:03:39,583 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:03:39,853 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:03:40,277 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:03:40,314 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:03:40,315 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:04:14,350 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:04:14,463 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:04:14,463 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:04:14,463 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:04:14,516 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:04:14,522 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:04:14,524 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:04:14,830 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:04:14,830 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:04:14,830 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:04:14,894 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:04:15,211 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:04:15,601 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:04:15,630 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:04:15,631 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:04:53,760 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:04:53,873 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:04:53,873 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:04:53,875 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:04:53,925 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:04:53,933 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:04:53,936 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:04:54,239 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:04:54,239 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:04:54,239 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:04:54,288 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:04:54,508 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:04:54,894 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:04:54,922 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:04:54,924 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:05:51,361 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:05:51,466 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:05:51,466 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:05:51,499 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:05:51,555 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:05:51,560 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:05:51,565 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:05:51,868 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:05:51,884 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:05:51,884 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:05:51,932 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:05:52,201 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:05:52,556 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:05:52,586 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:05:52,587 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:06:55,518 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:06:55,628 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:06:55,628 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:06:55,630 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:06:55,678 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:06:55,680 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:06:55,684 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:06:56,005 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:06:56,005 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:06:56,005 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:06:56,052 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:06:56,411 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:06:56,835 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:06:56,866 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:06:56,867 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:07:05,532 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:07:05,635 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:07:05,635 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:07:05,635 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:07:05,690 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:07:05,703 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:07:05,704 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:07:06,009 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:07:06,009 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:07:06,009 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:07:06,057 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:07:06,350 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:07:06,712 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:07:06,742 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:07:06,743 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:20:46,470 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:20:46,580 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:20:46,580 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:20:46,582 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:20:46,646 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:20:46,657 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:20:46,659 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:20:46,988 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:20:46,988 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:20:46,988 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:20:47,036 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:20:47,379 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:20:47,796 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:20:47,830 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:20:47,831 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:23:02,753 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:23:02,753 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:23:02,867 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:23:02,867 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:23:02,936 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:23:02,950 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:23:02,952 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:23:03,251 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:23:03,251 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:23:03,251 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:23:03,315 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:23:03,725 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:23:04,170 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:23:04,204 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:23:04,205 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:23:39,557 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:23:39,557 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:23:39,679 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:23:39,679 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:23:39,759 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:23:39,774 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:23:39,776 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:23:40,072 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:23:40,072 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:23:40,072 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:23:40,120 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:23:40,464 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:23:40,903 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:23:40,938 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:23:40,939 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:25:09,064 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:25:09,064 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:25:09,175 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:25:09,175 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:25:09,250 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:25:09,259 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:25:09,262 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:25:09,578 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:25:09,578 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:25:09,578 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:25:09,626 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:25:10,019 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:25:10,473 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:25:10,500 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:25:10,501 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:25:34,465 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:25:34,571 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:25:34,571 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:25:34,573 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:25:34,636 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:25:34,654 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:25:34,658 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:25:34,955 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:25:34,955 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:25:34,955 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:25:35,019 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:25:35,350 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:25:35,790 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:25:35,826 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:25:35,827 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:25:42,608 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:25:42,720 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:25:42,720 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:25:42,720 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:25:42,792 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:25:42,793 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:25:42,799 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:25:43,113 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:25:43,113 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:25:43,113 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:25:43,161 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:25:43,440 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:25:43,905 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:25:43,936 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:25:43,936 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:25:46,681 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:25:46,792 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:25:46,792 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:25:46,792 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:25:46,860 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:25:46,872 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:25:46,875 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:25:47,178 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:25:47,178 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:25:47,178 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:25:47,238 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:25:47,497 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:25:47,932 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:25:47,968 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:25:47,969 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:25:50,115 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:25:50,219 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:25:50,219 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:25:50,219 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:25:50,293 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:25:50,299 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:25:50,304 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:25:50,627 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:25:50,627 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:25:50,627 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:25:50,675 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:25:51,012 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:25:51,457 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:25:51,487 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:25:51,488 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:25:53,181 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:25:53,294 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:25:53,294 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:25:53,294 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:25:53,359 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:25:53,376 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:25:53,378 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:25:53,672 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:25:53,672 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:25:53,672 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:25:53,736 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:25:54,072 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:25:54,513 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:25:54,543 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:25:54,544 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:26:02,461 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:26:02,573 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:26:02,573 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:26:02,573 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:26:02,637 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:26:02,647 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:26:02,649 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:26:02,962 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:26:02,962 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:26:02,962 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:26:03,009 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:26:03,349 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:26:03,793 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:26:03,826 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:26:03,826 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:26:30,171 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\ahmadinne\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block collection
+  in "C:\Users\ahmadinne\.config\yasb\config.yaml", line 79, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\ahmadinne\.config\yasb\config.yaml", line 80, column 24
+2025-10-19 18:26:33,015 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:26:33,015 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:26:33,125 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:26:33,125 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:26:33,194 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:26:33,201 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:26:33,203 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:26:33,528 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:26:33,528 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:26:33,528 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:26:33,560 [ERROR] [MainThread] [root/config.py:124]: The file 'C:\Users\ahmadinne\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block collection
+  in "C:\Users\ahmadinne\.config\yasb\config.yaml", line 79, column 9
+expected <block end>, but found '<scalar>'
+  in "C:\Users\ahmadinne\.config\yasb\config.yaml", line 80, column 24
+2025-10-19 18:26:33,560 [ERROR] [MainThread] [root/config.py:168]: User config file could not be loaded. Exiting Application.
+2025-10-19 18:28:19,981 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:28:19,981 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:28:19,981 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:28:20,013 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:28:20,265 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:28:20,579 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:28:20,607 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:28:20,608 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:28:46,476 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:28:46,476 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:28:46,581 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:28:46,581 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:28:46,641 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:28:46,642 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:28:46,645 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:28:46,965 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:28:46,965 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:28:46,965 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:28:47,029 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:28:47,348 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:28:47,774 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:28:47,805 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:28:47,806 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:28:59,240 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:28:59,240 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:28:59,350 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:28:59,350 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:28:59,412 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:28:59,414 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:28:59,419 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:28:59,737 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:28:59,737 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:28:59,737 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:28:59,785 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:29:00,126 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:29:00,533 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:29:00,560 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:29:00,561 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:29:07,803 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:29:07,911 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:29:07,911 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:29:07,912 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:29:07,972 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:29:07,986 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:29:07,989 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:29:08,294 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:29:08,294 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:29:08,294 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:29:08,341 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:29:08,652 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:29:09,112 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:29:09,143 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:29:09,144 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:29:16,690 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:29:16,800 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:29:16,800 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:29:16,800 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:29:16,865 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:29:16,872 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:29:16,875 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:29:17,185 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:29:17,185 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:29:17,185 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:29:17,249 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:29:17,558 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:29:17,970 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:29:18,004 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:29:18,005 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:30:03,608 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:30:03,608 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:30:03,720 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:30:03,720 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:30:03,778 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:30:03,784 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:30:03,785 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:30:04,105 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:30:04,105 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:30:04,105 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:30:04,168 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:30:04,500 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:30:04,928 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:30:04,963 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:30:04,963 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:32:18,812 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:32:18,925 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:32:18,925 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:32:18,941 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:32:19,006 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:32:19,017 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:32:19,022 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:32:19,358 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:32:19,358 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:32:19,358 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:32:19,406 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:32:19,790 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:32:20,227 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:32:20,261 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:32:20,261 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:36:15,797 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:36:15,912 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:36:15,912 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:36:15,912 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:36:15,964 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:36:15,972 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:36:15,974 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:36:16,275 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:36:16,275 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:36:16,275 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:36:16,338 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:36:16,720 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:36:17,052 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:36:17,082 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:36:17,082 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:36:40,510 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:36:40,640 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:36:40,640 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:36:40,703 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:36:40,756 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:36:40,761 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:36:40,762 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:36:41,066 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:36:41,066 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:36:41,066 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:36:41,114 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:36:41,393 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:36:41,813 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:36:41,842 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:36:41,842 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:38:04,225 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:38:04,334 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:38:04,334 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:38:04,334 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:38:04,387 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:38:04,391 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:38:04,397 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:38:04,701 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:38:04,701 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:38:04,701 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:38:04,748 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:38:05,137 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:38:05,549 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:38:05,584 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:38:05,584 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:38:16,819 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:38:16,947 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:38:16,947 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:38:16,947 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:38:17,002 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:38:17,016 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:38:17,018 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:38:17,307 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:38:17,307 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:38:17,307 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:38:17,393 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:38:17,719 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:38:18,143 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:38:18,176 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:38:18,177 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:38:51,884 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:38:51,986 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:38:51,986 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:38:51,988 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:38:52,038 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:38:52,044 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:38:52,050 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:38:52,354 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:38:52,354 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:38:52,354 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:38:52,402 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:38:52,748 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:38:53,170 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:38:53,201 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:38:53,203 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:39:44,971 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:39:45,077 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:39:45,077 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:39:45,077 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:39:45,130 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:39:45,138 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:39:45,139 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:39:45,435 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:39:45,451 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:39:45,451 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:39:45,499 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:39:45,832 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:39:46,209 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:39:46,239 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:39:46,240 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:39:52,536 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:39:52,649 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:39:52,649 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:39:52,649 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:39:52,702 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:39:52,705 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:39:52,708 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:39:53,011 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:39:53,011 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:39:53,011 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:39:53,076 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:39:53,403 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:39:53,819 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:39:53,853 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:39:53,853 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:40:31,027 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:40:31,134 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:40:31,134 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:40:31,134 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:40:31,186 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:40:31,191 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:40:31,193 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:40:31,508 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:40:31,508 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:40:31,508 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:40:31,555 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:40:31,891 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:40:32,216 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:40:32,252 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:40:32,253 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:41:49,719 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:41:49,832 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:41:49,832 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:41:49,895 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:41:49,941 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:41:49,955 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:41:49,958 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:41:50,264 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:41:50,264 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:41:50,264 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:41:50,312 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:41:50,693 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:41:51,123 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:41:51,157 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:41:51,158 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:42:21,802 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:42:21,915 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:42:21,915 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:42:21,915 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:42:21,970 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:42:21,975 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:42:21,978 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:42:22,280 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:42:22,280 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:42:22,280 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:42:22,344 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:42:22,639 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:22,653 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:42:23,003 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:42:23,036 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:42:23,037 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:42:27,643 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:30,452 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:42:30,564 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:42:30,564 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:42:30,564 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:42:30,617 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:42:30,622 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:42:30,624 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:42:30,921 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:42:30,921 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:42:30,921 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:42:30,986 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:42:31,292 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:31,316 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:42:31,724 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:42:31,758 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:42:31,759 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:42:36,300 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:41,289 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:42,155 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:42:42,265 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:42:42,265 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:42:42,265 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:42:42,331 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:42:42,342 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:42:42,342 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:42:42,635 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:42:42,635 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:42:42,635 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:42:42,699 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:42:43,042 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:43,066 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:42:43,482 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:42:43,516 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:42:43,516 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:42:48,054 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:53,058 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:56,966 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:42:56,966 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:42:57,076 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:42:57,076 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:42:57,121 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:42:57,123 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:42:57,125 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:42:57,431 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:42:57,431 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:42:57,431 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:42:57,495 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:42:57,805 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:42:57,829 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:42:58,211 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:42:58,246 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:42:58,247 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:02,810 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:05,301 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:43:05,414 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:05,414 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:05,418 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:43:05,466 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:05,474 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:05,474 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:05,770 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:05,770 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:05,770 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:05,833 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:06,144 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:06,168 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:06,562 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:06,596 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:06,596 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:11,144 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:13,438 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:43:13,550 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:13,550 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:13,552 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:43:13,603 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:13,607 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:13,609 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:13,915 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:13,915 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:13,915 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:13,963 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:14,274 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:14,287 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:14,661 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:14,698 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:14,699 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:17,866 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:43:17,974 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:17,974 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:17,978 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:43:18,027 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:18,031 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:18,032 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:18,342 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:18,342 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:18,342 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:18,390 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:18,702 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:18,716 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:19,099 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:19,129 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:19,130 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:23,707 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:24,807 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:253]: CLI server received command: reload
+2025-10-19 18:43:24,807 [INFO] [Thread-1 (_run_server)] [root/controller.py:15]: Reloading Application from CLI...
+2025-10-19 18:43:24,917 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:24,917 [DEBUG] [Thread-1 (_run_server)] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:24,970 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:24,972 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:24,975 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:25,289 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:25,289 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:25,289 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:25,333 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:25,651 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:25,672 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:26,048 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:26,083 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:26,084 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:30,655 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:31,780 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:43:31,890 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:31,890 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:31,892 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:43:31,948 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:31,961 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:31,962 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:32,261 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:32,261 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:32,261 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:32,309 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:32,650 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:33,006 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:33,039 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:33,039 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:43,569 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:43:43,697 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:43,697 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:43,712 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:43:43,761 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:43,772 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:43,772 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:44,068 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:44,068 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:44,068 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:44,132 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:44,406 [ERROR] [MainThread] [root/base.py:88]: Failed to execute callback of type 'update_label' with args: []
+Traceback (most recent call last):
+  File "D:\a\yasb\yasb\src\core\widgets\base.py", line 86, in _run_callback
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 171, in _update_label
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\battery.py", line 122, in _get_charging_icon
+KeyError: 'icon_None'
+2025-10-19 18:43:44,429 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:44,834 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:44,868 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:44,869 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:43:48,326 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:43:48,437 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:43:48,437 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:43:48,453 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:43:48,500 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:43:48,502 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:43:48,504 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:43:48,798 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:43:48,814 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:43:48,814 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:43:48,863 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:43:49,139 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:43:49,497 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:43:49,533 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:43:49,534 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:45:22,291 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:45:22,392 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:45:22,392 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:45:22,394 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:45:22,444 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:45:22,453 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:45:22,456 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:45:22,770 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:45:22,770 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:45:22,770 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:45:22,832 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:45:23,194 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:45:23,623 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:45:23,654 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:45:23,654 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:45:38,547 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:45:38,655 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:45:38,655 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:45:38,658 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:45:38,708 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:45:38,711 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:45:38,712 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:45:39,021 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:45:39,021 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:45:39,021 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:45:39,069 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:45:39,411 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:45:39,843 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:45:39,878 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:45:39,878 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:45:48,546 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:45:48,662 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:45:48,662 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:45:48,662 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:45:48,714 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:45:48,723 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:45:48,725 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:45:49,027 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:45:49,027 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:45:49,027 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:45:49,075 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:45:49,412 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:45:49,809 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:45:49,840 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:45:49,841 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:46:08,290 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:46:08,403 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:46:08,403 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:46:08,419 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:46:08,466 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:46:08,478 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:46:08,479 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:46:08,783 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:46:08,783 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:46:08,783 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:46:08,840 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:46:09,158 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:46:09,532 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:46:09,564 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:46:09,565 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:46:37,102 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:46:37,211 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:46:37,211 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:46:37,227 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:46:37,277 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:46:37,283 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:46:37,283 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:46:37,598 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:46:37,598 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:46:37,598 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:46:37,646 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:46:37,986 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:46:38,377 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:46:38,411 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:46:38,412 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:46:40,032 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:46:40,147 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:46:40,147 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:46:40,149 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:46:40,199 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:46:40,203 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:46:40,206 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:46:40,510 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:46:40,510 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:46:40,510 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:46:40,574 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:46:40,901 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:46:41,329 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:46:41,360 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:46:41,361 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:47:07,654 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:47:07,783 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:47:07,783 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:47:07,827 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:47:07,877 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:47:07,891 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:47:07,891 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:47:08,183 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:47:08,183 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:47:08,183 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:47:08,247 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:47:08,580 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:47:08,971 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:47:09,002 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:47:09,003 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:47:32,385 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:47:32,486 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:47:32,486 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:47:32,531 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:47:32,579 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:47:32,582 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:47:32,584 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:47:32,893 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:47:32,893 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:47:32,893 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:47:32,957 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:47:33,264 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:47:33,642 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:47:33,674 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:47:33,675 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-10-19 18:47:50,139 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2025-10-19 18:47:50,251 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2025-10-19 18:47:50,251 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2025-10-19 18:47:50,266 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2025-10-19 18:47:50,314 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2025-10-19 18:47:50,329 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2025-10-19 18:47:50,330 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2025-10-19 18:47:50,625 [INFO] [MainThread] [root/log.py:59]: YASB v1.8.3
+2025-10-19 18:47:50,625 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.2
+2025-10-19 18:47:50,625 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-10-19 18:47:50,690 [DEBUG] [MainThread] [comtypes/__init__.py:149]: CoInitializeEx(None, 2)
+2025-10-19 18:47:51,020 [DEBUG] [MainThread] [tzlocal/win32.py:55]: Looking up time zone info from registry
+2025-10-19 18:47:51,446 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-10-19 18:47:51,488 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-10-19 18:47:51,489 [DEBUG] [Dummy-6] [qasync._windows._EventWorker/_windows.py:195]: Thread started

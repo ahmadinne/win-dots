@@ -1,7 +1,4 @@
-/* 
-This is default and very simple styles file for Yasb. 
-For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
-*/
+/* Ahmadinne's Yasb Styles */
 :root {
     --mauve: #cba6f7;
     --red: #f38ba8;
@@ -20,13 +17,13 @@ For more information about configuration options, please visit the Wiki https://
     color: var(--text1);
     font-weight: 600;
 	font-style: normal;
-    font-family: "Iosevka";
+    font-family: "Iosevka", "Iosevka NFP";
 }
 .yasb-bar {
     background-color: var(--bg-color1);
     border-radius: 0px;
     border: 0px solid var(--bg-color2);
-	padding: 0px 8px 0px 5px;
+	padding: 0px 0px;
 }
 /* Global styles for ToolTip */
 .tooltip {
@@ -141,6 +138,17 @@ For more information about configuration options, please visit the Wiki https://
 .glazewm-workspaces .ws-btn.active_populated {
 	color: var(--text1);
 }
+
+.microphone-widget .icon,
+.volume-widget .icon,
+.brightness-widget .icon,
+.wifi-widget .icon,
+.battery-widget .icon,
+.clock-widget .icon {
+	font-size: 12px;
+	margin-right: 5px;
+}
+
 .power-menu-widget .label {
     color: #f38ba8;
     font-size: 13px;
@@ -196,72 +204,6 @@ For more information about configuration options, please visit the Wiki https://
     margin-bottom: 10px;
     color: var(--text4);
     font-weight: 600;
-}
-.microphone-widget {
-    padding: 0 6px 0 6px;
-}
-.microphone-widget .icon {
-    font-size: 18px;
-}
-.microphone-widget .icon {
-    color: var(--mauve);
-}
-.volume-widget .icon {
-    font-size: 17px;
-    color: var(--blue);
-    margin: 0px 2px 0 0;
-}
-.weather-widget,
-.volume-widget {
-    padding: 0 6px;
-}
-.weather-widget .icon {
-    font-size: 18px;
-    margin: 0 2px 1px 0;
-    color: var(--yellow);
-}
-.weather-card {
-    background-color: var(--bg-color1);
-    border-radius: 8px;
-    min-width: 540px;
-    border: 1px solid var(--bg-color2);
-}
-.weather-card-today .label {
-    font-size: 12px;
-}
-.weather-card-today .label.location {
-    font-size: 24px;
-    font-weight: 700;
-}
-.weather-card-today .label.alert {
-    font-size: 12px;
-    font-weight: 700;
-    background-color: rgba(247, 199, 42, 0.05);
-    border: 1px solid rgba(247, 209, 42, 0.1);
-    color: rgba(196, 181, 162, 0.85);
-    border-radius: 6px;
-    padding: 5px 0;
-}
-.weather-card-day {
-    border: 1px solid transparent;
-    border-radius: 8px;
-    background-color: rgba(17, 17, 27, 0.2);
-}
-.weather-card-day.active {
-    border: 1px solid rgb(61, 61, 80);
-}
-.weather-card-day .label {
-    font-size: 12px;
-}
-.weather-card .hourly-container {
-    background-color: transparent;
-    min-height: 150px;
-    border: none
-}
-.weather-card .hourly-data {
-    background-color: #FAE93F;
-    font-size: 12px;
-    font-weight: bold;
 }
 .media-widget {
     padding: 0;

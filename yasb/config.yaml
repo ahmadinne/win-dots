@@ -1,5 +1,4 @@
-# This is default and very simple configuration file for Yasb. 
-# For more information about configuration options, please visit the Wiki https://github.com/amnweb/yasb/wiki
+# Ahmadinne's Yasb Bar
 watch_stylesheet: true
 watch_config: true
 debug: false
@@ -34,7 +33,7 @@ bars:
       bottom: 0
       right: 0
     widgets:
-      left: [ "volume", "brightness" ]
+      left: [ "microphone", "volume", "brightness" ]
       center: [ "glazewm_workspaces" ]
       right: [ "wifi", "battery", "clock" ]
 widgets:
@@ -50,71 +49,10 @@ widgets:
       system_menu: true
       power_menu: true
       blur: false
-  media:
-    type: "yasb.media.MediaWidget"
-    options:
-      label: "{title}"
-      label_alt: "{artist} - {title}"
-      max_field_size:
-        label: 16
-        label_alt: 24
-      show_thumbnail: true
-      controls_only: false
-      controls_left: true
-      controls_hide: true
-      hide_empty: true
-      thumbnail_alpha: 100
-      thumbnail_padding: 16
-      thumbnail_corner_radius: 0
-      thumbnail_edge_fade: true
-      icons:
-        prev_track: "\udb81\udcae"
-        next_track: "\udb81\udcad"
-        play: "\udb81\udc0a"
-        pause: "\udb80\udfe4"
-      media_menu:
-        blur: false
-        round_corners: false
-        alignment: "right"
-        direction: "down"
-        offset_top: 6
-        offset_left: 0
-        thumbnail_corner_radius: 4
-        thumbnail_size: 100
-        max_title_size: 80
-        max_artist_size: 20
-        show_source: true
-      label_shadow:
-        enabled: true
-        color: "#000000"
-        radius: 2
-        offset: [ 1, 1 ]
-      scrolling_label:
-        enabled: true
-        update_interval_ms: 50
-        style: "left"  # can be "left", "right", "bounce", "bounce-ease"
-        separator: " | "
-        label_padding: 1
-      callbacks:
-        on_left: "toggle_media_menu"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
-  active_window:
-    type: "yasb.active_window.ActiveWindowWidget"
-    options:
-      label: "{win[title]}"
-      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
-      label_no_window: ""
-      label_icon: true
-      label_icon_size: 14
-      max_length: 30
-      max_length_ellipsis: "..."
-      monitor_exclusive: true
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      # label: "{%B %d, %H:%M}"
-      label: "  {%H:%M}"
+      label: "<span>󰅐</span> {%H:%M}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar: 
@@ -132,78 +70,44 @@ widgets:
       hide_empty_workspaces: true
       hide_if_offline: false
       animation: false
-  weather:
-    type: "yasb.weather.WeatherWidget"
-    options:
-      label: "<span>{icon}</span> {temp}"
-      label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key: env
-      update_interval: 600
-      hide_decimal: true
-      location: env
-      callbacks:
-        on_left: "toggle_card"
-        on_middle: "do_nothing"
-        on_right: "toggle_label"
-      icons:
-        sunnyDay: "\ue30d"
-        clearNight: "\ue32b"
-        cloudyDay: "\ue312"
-        cloudyNight: "\ue311"
-        rainyDay: "\ue308"
-        rainyNight: "\ue333"
-        snowyIcyDay: "\ue30a"
-        snowyIcyNight: "\ue335"
-        blizzardDay: "\udb83\udf36"
-        blizzardNight: "\udb83\udf36"
-        foggyDay: "\ue303"
-        foggyNight: "\ue346"
-        thunderstormDay: "\ue30f"
-        thunderstormNight: "\ue338"
-        default: "\uebaa"
-      weather_card:
-        blur: false
-        round_corners: false
-        alignment: "right"
-        direction: "down"
-        icon_size: 64
-        show_hourly_forecast: true
-        time_format: "24h"
-        hourly_point_spacing: 76
-        hourly_icon_size: 32
-        icon_smoothing: true
-        temp_line_width: 2
-        current_line_color: "#8EAEE8"
-        current_line_width: 1
-        current_line_style: "dot"
+      app_icons:
+        enabled_populated: false
+        enabled_active: false
+        size: 20
+        hide_label: true
+        hide_duplicates: true
+        hide_floating: false
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
-      label: "{icon}  {level}"
-      label_alt: "{icon} {level}"
+      label: "<span>{icon}</span> {level}"
       tooltip: false
       volume_icons:
-        - "\ueee8"
-        - "\uf026"
-        - "\uf027"
-        - "\uf027"
-        - "\uf028"
+        - "󰖁"
+        - "󰕿"
+        - "󰖀"
+        - "󰖀"
+        - "󰕾"
       callbacks:
         on_left: "toggle_mute"
         on_right: "exec cmd.exe /c start ms-settings:sound"
   brightness:
     type: "yasb.brightness.BrightnessWidget"
     options:
-      label: "{icon}  {percent}%"
-      label_alt: "Brightness: {percent}%"
+      label: "<span>{icon}</span> {percent}%"
+      brightness_icons: [
+        "󰽥",
+        "󰽣",
+        "󰽦",
+        "󰽢"
+      ]
   microphone:
     type: "yasb.microphone.MicrophoneWidget"
     options:
       label: "<span>{icon}</span> {level}"
-      label_alt: "<span>{icon}</span> {level}%"
       icons:
-        normal: "\udb80\udf6c"
-        muted: "\udb80\udf6d"
+        normal: "󰍬"
+        muted: "󰍭"
       callbacks:
         on_left: "toggle_mute"
         on_middle: "toggle_label"
@@ -238,39 +142,35 @@ widgets:
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
-      # label: "{wifi_name}"
-      label: "{wifi_icon}  {wifi_name}"
-      label_alt: "{wifi_icon} {wifi_name}"
+      label: "<span>{wifi_icon}</span> {wifi_name}"
       get_exact_wifi_strength: false
       wifi_icons: [
-        "\udb82\udd2e",
-        "\udb82\udd1f",
-        "\udb82\udd22",
-        "\udb82\udd25",
+        "󰤯",
+        "󰤟",
+        "󰤢",
+        "󰤨",
         "\udb82\udd28"
       ]
   battery:
     type: "yasb.battery.BatteryWidget"
     options: 
-      # label: "{icon}"
-      label: "{icon}  {percent}%"
-      label_alt: "{icon} {percent}%"
+      label: "<span>{icon}</span> {percent}%"
       hide_unsupported: True
       charging_options:
         icon_format: "{charging_icon}"
         blink_charging_icon: False
       status_thresholds:
-        critical: 15
-        low: 30
-        medium: 60
-        high: 90
+        critical: 10
+        low: 20
+        medium: 40
+        high: 70
         full: 100
       status_icons:
         icon_charging: "󱐋"
         icon_critical: "󰁺"
-        icon_low: "󰁼"
-        icon_medium: "󰁿"
-        icon_high: "󰂂"
+        icon_low: "󰁻"
+        icon_medium: "󰁽"
+        icon_high: "󰂀"
         icon_full: "󰁹"
   systray:
     type: "yasb.systray.SystrayWidget"
