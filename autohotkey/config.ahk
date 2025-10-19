@@ -53,6 +53,16 @@
 		Run "glazewm command close", , "Hide"
 }
 
+
+#q::
+{
+    hwnd := WinGetID("A")
+    class := WinGetClass(hwnd)
+    title := WinGetTitle(hwnd)
+    process := WinGetProcessName(hwnd)
+    MsgBox "Class: " class "`nTitle: " title "`nProcess: " process, "Active Window Info"
+}
+
 !+Del::Run "glazewm command wm-exit", , "Hide"
 
 ; Reload da guns!

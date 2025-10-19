@@ -7,3 +7,11 @@
 [2m2025-10-19T06:12:18.360191Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'autototkey.exe C:/Users/ahmadinne/.config/autohotkey/esctrl.ahk'.
 
 Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-10-19T09:36:44.647733Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to create single instance mutex.
+
+Caused by:
+    Access is denied. (0x80070005)
+[2m2025-10-19T09:37:54.450508Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unrecognized subcommand
+ at line 98 column 15
+[2m2025-10-19T09:38:44.870982Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unrecognized subcommand
+ at line 98 column 15
