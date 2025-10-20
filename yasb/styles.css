@@ -125,16 +125,14 @@
 }
 .icon {
     font-size: 16px;
+	margin-right: 3px;
 }
 .widget .label {
     padding: 0px 2px;
 }
-.glazewm-active-layout {
-    padding: 0
-}
+
 .glazewm-workspaces .offline-status {
     color: var(--text4);
-    padding: 0 0 0 4px;
 }
 .glazewm-workspaces .ws-btn {
     border: none;
@@ -146,6 +144,14 @@
     color: var(--text2);
 	background-color: var(--hover);
 }
+
+.glazewm-workspaces .ws-btn.empty {
+	color: var(--hover2);
+}
+.glazewm-workspaces .ws-btn.active_empty {
+	background-color: var(--hover);
+}
+
 .glazewm-workspaces .ws-btn.populated {
 	color: var(--text4);
 }
@@ -160,14 +166,14 @@
 	background-color: alpha(--text1, 0.5);
 }
 
-.microphone-widget .icon,
-.volume-widget .icon,
-.brightness-widget .icon,
-.wifi-widget .icon,
-.battery-widget .icon,
-.clock-widget .icon {
-	font-size: 10px;
-	margin-right: 3px;
+.microphone-widget:hover,
+.volume-widget:hover,
+.brightness-widget:hover,
+.wifi-widget:hover,
+.wifi-widget .widget-container:hover,
+.battery-widget:hover,
+.clock-widget:hover {
+	background-color: var(--hover);
 }
 
 .power-menu-widget .label {

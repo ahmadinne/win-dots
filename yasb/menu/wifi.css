@@ -5,6 +5,10 @@
 	min-width: 375px;
 }
 
+.wifi-menu:hover {
+	background-color: var(--hover);
+}
+
 .wifi-menu .progress-bar {
 	max-height: 2px;
 }	
