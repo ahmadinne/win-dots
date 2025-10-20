@@ -86,18 +86,6 @@ bright(inputNum:=0,option:=""){
 
     Case "-" : ; bright(10,"-") decreases brightess by 10
       setBright(getBright()-inputNum)
-
-    Case "tog" : ; bright(,"tog") toggles brightness through increments of 50 (0,50,100)
-      Switch getBright(){
-        Default:
-          setBright(50)
-        Case 50:
-          setBright(100)
-        Case 100:
-          setBright(0)
-        Case 0:
-          setBright(50)      
-      }
   }
 }
 setBright(inputB){
