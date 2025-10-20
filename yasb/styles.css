@@ -1,17 +1,25 @@
 /* Ahmadinne's Yasb Styles */
 :root {
-    --mauve: #cba6f7;
-    --red: #f38ba8;
-    --yellow: #ffd16d;
-    --blue: #448fff;
-    --lavender: #b4befe;
-    --text1: #d4d9eb;
-    --text2: #8f929e;
-    --text3: #9399b2;
-    --text4: #7f849c;
+	--white: #e8e3e3;
+	--blue: #8da3b9;
+	--cyan: #8aa6a2;
+	--red: #b66467;
+	--green: #8c977d;
+	--yellow: #d9bc8c;
+	--purple: #a988b0;
+	--black: #151515;
+
+	--hover: #101010;
+	--hover2: #202020;
+    --text1: #e8e3e3;
+    --text2: #D8D3D3;
+    --text3: #C8C4C4;
+    --text4: #B8B4B4;
+    --bg: #000000;
     --bg-color1: #000000;
     --bg-color2: #333333;
 }
+
 * {
     font-size: 10px;
     color: var(--text1);
@@ -19,6 +27,10 @@
 	font-style: normal;
     font-family: "Iosevka", "Iosevka NFP";
 }
+
+@import "./menu/wifi.css";
+@import "./menu/volume.css";
+
 .yasb-bar {
     background-color: var(--bg-color1);
     border-radius: 0px;
@@ -127,16 +139,25 @@
 .glazewm-workspaces .ws-btn {
     border: none;
     color: var(--text1);
-    margin: 0px 3px;
+    margin: 0px 0px;
+	padding: 10px 15px;
 }
 .glazewm-workspaces .ws-btn:hover {
     color: var(--text2);
+	background-color: var(--hover);
 }
 .glazewm-workspaces .ws-btn.populated {
 	color: var(--text4);
 }
 .glazewm-workspaces .ws-btn.active_populated {
 	color: var(--text1);
+	background-color: var(--hover);
+}
+.glazewm-workspaces .ws-btn.active_populated:hover {
+	background-color: var(--hover2);
+}
+.glazewm-workspaces .ws-btn .icon {
+	background-color: alpha(--text1, 0.5);
 }
 
 .microphone-widget .icon,
@@ -145,8 +166,8 @@
 .wifi-widget .icon,
 .battery-widget .icon,
 .clock-widget .icon {
-	font-size: 12px;
-	margin-right: 5px;
+	font-size: 10px;
+	margin-right: 3px;
 }
 
 .power-menu-widget .label {

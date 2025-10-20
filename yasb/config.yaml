@@ -12,21 +12,15 @@ bars:
       position: "bottom"
       center: true
     animation:
-      enabled: true
-      duration: 400
+      enabled: false
     blur_effect:
       enabled: false
-      acrylic: false
-      dark_mode: false
-      round_corners: false
-      round_corners_type: "normal"
-      border_color: "system"
     window_flags:
       always_on_top: false
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 32
+      height: 36
     padding:
       top: 0
       left: 0
@@ -37,22 +31,10 @@ bars:
       center: [ "glazewm_workspaces" ]
       right: [ "wifi", "battery", "clock" ]
 widgets:
-  home:
-    type: "yasb.home.HomeWidget"
-    options:
-      label: "<span>\udb81\udf17</span>"
-      menu_list:
-      - { title: "User Home", path: "~" }
-      - { title: "Download", path: "~\\Downloads" }
-      - { title: "Documents", path: "~\\Documents" }
-      - { title: "Pictures", path: "~\\Pictures" }
-      system_menu: true
-      power_menu: true
-      blur: false
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "<span>󰅐</span> {%H:%M}"
+      label: "<span><img src='$env:USERPROFILE/.config/yasb/svg/clock.svg' /></span> {%H:%M}"
       label_alt: "{%A, %d %B %Y %H:%M}"
       timezones: []
       calendar: 
@@ -81,33 +63,49 @@ widgets:
     type: "yasb.volume.VolumeWidget"
     options:
       label: "<span>{icon}</span> {level}"
-      tooltip: false
+      label_alt: "<span>{icon}</span> {level}"
+      tooltip: true
       volume_icons:
-        - "󰖁"
-        - "󰕿"
-        - "󰖀"
-        - "󰖀"
-        - "󰕾"
+        - "<img src='$env:USERPROFILE/.config/yasb/svg/volume-x.svg' />"
+        - "<img src='$env:USERPROFILE/.config/yasb/svg/volume.svg' />"
+        - "<img src='$env:USERPROFILE/.config/yasb/svg/volume-1.svg' />"
+        - "<img src='$env:USERPROFILE/.config/yasb/svg/volume-1.svg' />"
+        - "<img src='$env:USERPROFILE/.config/yasb/svg/volume-2.svg' />"
       callbacks:
         on_left: "toggle_mute"
-        on_right: "exec cmd.exe /c start ms-settings:sound"
+        on_middle: "exec cmd.exe /c start ms-settings:sound"
+        on_right: "toggle_volume_menu"
+      audio_menu:
+        blur: false
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        # show_apps: true
+        # show_app_labels: true
+        # show_app_icons: true
+        # show_apps_expanded: true
+
   brightness:
     type: "yasb.brightness.BrightnessWidget"
     options:
       label: "<span>{icon}</span> {percent}%"
       brightness_icons: [
-        "󰽥",
-        "󰽣",
-        "󰽦",
-        "󰽢"
+        "<img src='$env:USERPROFILE/.config/yasb/svg/moon.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/sun-dim.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/sun-medium.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/sun.svg' />",
       ]
   microphone:
     type: "yasb.microphone.MicrophoneWidget"
     options:
       label: "<span>{icon}</span> {level}"
       icons:
-        normal: "󰍬"
-        muted: "󰍭"
+        normal: "<img src='$env:USERPROFILE/.config/yasb/svg/mic.svg' />"
+        muted: "<img src='$env:USERPROFILE/.config/yasb/svg/mic-off.svg' />"
       callbacks:
         on_left: "toggle_mute"
         on_middle: "toggle_label"
@@ -143,14 +141,40 @@ widgets:
     type: "yasb.wifi.WifiWidget"
     options:
       label: "<span>{wifi_icon}</span> {wifi_name}"
+      label_alt: "<span>{wifi_icon}</span> {wifi_name}"
       get_exact_wifi_strength: false
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "exec cmd.exe /c start ms-settings:network"
+        on_right: "toggle_label"
       wifi_icons: [
-        "󰤯",
-        "󰤟",
-        "󰤢",
-        "󰤨",
-        "\udb82\udd28"
+        "<img src='$env:USERPROFILE/.config/yasb/svg/wifi-off.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/wifi-zero.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/wifi-low.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/wifi-high.svg' />",
+        "<img src='$env:USERPROFILE/.config/yasb/svg/wifi.svg' />",
       ]
+      menu_config:
+        blur: false
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "left"
+        direction: "up"
+        offset_top: 6
+        offset_left: 0
+        wifi_icons_secured: [ 
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole.svg' />",
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole.svg' />",
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole.svg' />",
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole.svg' />"
+        ]
+        wifi_icons_unsecured: [
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole-open.svg' />",
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole-open.svg' />",
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole-open.svg' />",
+          "<img src='$env:USERPROFILE/.config/yasb/svg/lock-keyhole-open.svg' />"
+        ]
   battery:
     type: "yasb.battery.BatteryWidget"
     options: 
@@ -166,12 +190,12 @@ widgets:
         high: 70
         full: 100
       status_icons:
-        icon_charging: "󱐋"
-        icon_critical: "󰁺"
-        icon_low: "󰁻"
-        icon_medium: "󰁽"
-        icon_high: "󰂀"
-        icon_full: "󰁹"
+        icon_charging: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-charging' />"
+        icon_critical: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-warning' />"
+        icon_low: "<img src='$env:USERPROFILE/.config/yasb/svg/battery' />"
+        icon_medium: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-low' />"
+        icon_high: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-medium' />"
+        icon_full: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-full' />"
   systray:
     type: "yasb.systray.SystrayWidget"
     options:
