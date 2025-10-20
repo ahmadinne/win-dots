@@ -35,13 +35,13 @@ widgets:
     type: "yasb.clock.ClockWidget"
     options:
       label: "<span><img src='$env:USERPROFILE/.config/yasb/svg/clock.svg' /></span> {%H:%M}"
-      label_alt: "{%A, %d %B %Y %H:%M}"
+      label_alt: "<span><img src='$env:USERPROFILE/.config/yasb/svg/clock.svg' /></span> {%A, %d %B %Y %H:%M}"
       timezones: []
       calendar: 
         blur: false
-        round_corners: false
+        round_corners: true
         alignment: "center"
-        direction: "down"
+        direction: "up"
       callbacks:
         on_left: "toggle_calendar"
         on_right: "toggle_label"
@@ -80,8 +80,8 @@ widgets:
         round_corners: true
         round_corners_type: "normal"
         border_color: "System"
-        alignment: "right"
-        direction: "down"
+        alignment: "center"
+        direction: "up"
         offset_top: 6
         offset_left: 0
         # show_apps: true
