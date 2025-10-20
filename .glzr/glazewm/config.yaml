@@ -45,7 +45,7 @@ window_effects:
     corner_style:
       enabled: true
       # Allowed values: 'square', 'rounded', 'small_rounded'.
-      style: 'small_rounded'
+      style: 'rounded'
     transparency:
       enabled: false
       opacity: '95%'
@@ -59,7 +59,7 @@ window_effects:
       enabled: false
     corner_style:
       enabled: true
-      style: 'small_rounded'
+      style: 'rounded'
     transparency:
       enabled: false
       opacity: '70%'
