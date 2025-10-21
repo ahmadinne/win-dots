@@ -169,9 +169,10 @@
 .microphone-widget:hover,
 .volume-widget:hover,
 .brightness-widget:hover,
+.wifi:hover,
 .wifi-widget:hover,
-.wifi-widget .widget-container:hover,
 .battery-widget:hover,
+.bluetooth-widget:hover,
 .clock-widget:hover {
 	background-color: var(--hover);
 }

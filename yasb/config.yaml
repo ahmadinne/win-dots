@@ -162,6 +162,7 @@ widgets:
     type: "yasb.battery.BatteryWidget"
     options: 
       label: "<span>{icon}</span> {percent}%"
+      label_alt: "<span>{icon}</span> {percent}%"
       hide_unsupported: True
       charging_options:
         icon_format: "{charging_icon}"
@@ -183,8 +184,8 @@ widgets:
     type: "yasb.bluetooth.BluetoothWidget"
     options:
       label: "<span>{icon}</span> {device_name}"
-      label_alt: "<span>{icon}</span> {device_count}"
-      label_no_device: "-"
+      label_alt: "<span>{icon}</span> {device_count} Devices"
+      label_no_device: "Nothing"
       label_device_separator: ", "
       max_length: 10
       max_length_ellipsis: "..."
@@ -199,8 +200,8 @@ widgets:
     type: "yasb.systray.SystrayWidget"
     options:
       class_name: "systray"
-      label_collapsed: " Systray"
-      label_expanded: " Systray"
+      label_collapsed: " ST"
+      label_expanded: " ST"
       label_position: "left"
       icon_size: 16
       pin_click_modifier: "ctrl"

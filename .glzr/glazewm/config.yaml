@@ -73,7 +73,7 @@ window_behavior:
       shown_on_top: true
 
     fullscreen:
-      maximized: true
+      maximized: false
       shown_on_top: false
 
 workspaces:
