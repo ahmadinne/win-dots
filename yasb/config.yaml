@@ -26,6 +26,16 @@ bars:
       left: 0
       bottom: 0
       right: 0
+    layouts:
+      left:
+        alignment: "left"
+        stretch: true
+      center:
+        alignment: "center"
+        stretch: true
+      right:
+        alignment: "right"
+        stretch: true
     widgets:
       left: [ "microphone", "volume", "brightness", "systray" ]
       center: [ "glazewm_workspaces" ]
