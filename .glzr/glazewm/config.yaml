@@ -22,7 +22,7 @@ general:
     enabled: true
     trigger: 'window_focus' #monitor/window
 
-  hide_method: 'cloak' #cloak/hide
+  hide_method: 'hide' #cloak/hide
   show_all_in_taskbar: true
 
 gaps:
@@ -97,6 +97,7 @@ window_rules:
       # Ignores any Yasb windows.
       - window_process: { equals: 'yasb' }
       - window_process: { equals: 'hap' }
+      - window_process: { equals: 'buttery-taskbar' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }

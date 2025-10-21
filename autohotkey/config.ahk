@@ -46,7 +46,7 @@
 		return
 
 	winClass := WinGetClass("ahk_id " check)
-	if (winClass = "progman" || winClass = "WorkerW" || winClass = "shell_TrayWnd")
+	if (winClass = "progman" || winClass = "WorkerW" || winClass = "shell_TrayWnd" || winClass = "buttery-taskbar")
 		return
 
 	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
