@@ -27,9 +27,9 @@ bars:
       bottom: 0
       right: 0
     widgets:
-      left: [ "microphone", "volume", "brightness" ]
+      left: [ "microphone", "volume", "brightness", "systray" ]
       center: [ "glazewm_workspaces" ]
-      right: [ "wifi", "battery", "clock" ]
+      right: [ "wifi", "bluetooth", "battery", "clock" ]
 widgets:
   clock:
     type: "yasb.clock.ClockWidget"
@@ -110,33 +110,6 @@ widgets:
         on_left: "toggle_mute"
         on_middle: "toggle_label"
         on_right: "exec cmd.exe /c start ms-settings:sound"
-  power_menu:
-    type: "yasb.power_menu.PowerMenuWidget"
-    options:
-      label: "\uf011"
-      uptime: True
-      blur: False
-      blur_background: True
-      animation_duration: 200
-      button_row: 5
-      buttons:
-        shutdown: ["\uf011", "Shut Down"]
-        restart: ["\uead2", "Restart"]
-        signout: ["\udb80\udf43", "Sign out"]
-        hibernate: ["\uf28e", "Hibernate"]
-        sleep: ["\u23fe", "Sleep"]
-        cancel: ["", "Cancel"]
-  notifications:
-    type: "yasb.notifications.NotificationsWidget"
-    options:
-      label: "<span>\uf476</span> {count}"
-      label_alt: "{count} notifications"
-      hide_empty: true
-      tooltip: false
-      callbacks:
-        on_left: "toggle_notification"
-        on_right: "do_nothing"
-        on_middle: "toggle_label"
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
@@ -196,16 +169,33 @@ widgets:
         icon_medium: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-low' />"
         icon_high: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-medium' />"
         icon_full: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-full' />"
+  bluetooth:
+    type: "yasb.bluetooth.BluetoothWidget"
+    options:
+      label: "<span>{icon}</span> {device_name}"
+      label_alt: "<span>{icon}</span> {device_count}"
+      label_no_device: "-"
+      label_device_separator: ", "
+      max_length: 10
+      max_length_ellipsis: "..."
+      icons:
+        bluetooth_on: "<img src='$env:USERPROFILE/.config/yasb/svg/bluetooth' />"
+        bluetooth_off: "<img src='$env:USERPROFILE/.config/yasb/svg/bluetooth-off' />"
+        bluetooth_connected: "<img src='$env:USERPROFILE/.config/yasb/svg/bluetooth-connected' />"
+      callbacks:
+        on_left: "toggle_label"
+        on_right: "exec cmd.exe /c start ms-settings:bluetooth"
   systray:
     type: "yasb.systray.SystrayWidget"
     options:
       class_name: "systray"
-      label_collapsed: "\ue257"
-      label_expanded: "\ue257"
+      label_collapsed: " Systray"
+      label_expanded: " Systray"
       label_position: "left"
-      icon_size: 10
-      pin_click_modifier: "alt"
+      icon_size: 16
+      pin_click_modifier: "ctrl"
       show_unpinned: false
       show_unpinned_button: true
       show_battery: false
       show_volume: false
+      show_network: false

@@ -453,7 +453,7 @@
 .systray {
 	background: transparent;
 	border: none;
-	margin: 0px;
+	margin: 0px -10px;
 }
 .systray .unpinned-container {
 	background: transparent;
@@ -466,22 +466,25 @@
 	background: transparent;
 }
 .systray .button {
-	background: transparent;
+	background: var(--hover);
 	border-radius: 0px;
-	padding: 2px;
+	padding: 8px;
 }
 .systray .button:hover {
-	background: var(--bg-color2);
+	background: var(--hover2);
 }
 .systray .unpinned-visibility-btn {
 	background: transparent;
 	border: 0px;
 	border-radius: 0px;
-	padding: 5px;
+	padding: 9px;
 }
 .systray .unpinned-visibility-btn:checked {
-	background: var(--bg-color2);
+	background: var(--hover);
 }
 .systray .unpinned-visibility-btn:hover {
-	background: var(--bg-color2);
+	background: var(--hover);
+}
+.systray .unpinned-visibility-btn:checked:hover {
+	background: var(--hover2);
 }

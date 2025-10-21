@@ -43,7 +43,7 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: true
+      enabled: false
       # Allowed values: 'square', 'rounded', 'small_rounded'.
       style: 'rounded'
     transparency:
@@ -58,7 +58,7 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: true
+      enabled: false
       style: 'rounded'
     transparency:
       enabled: false
