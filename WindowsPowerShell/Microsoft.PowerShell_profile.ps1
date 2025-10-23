@@ -7,6 +7,9 @@ Set-PSReadlineKeyHandler -Chord Ctrl+u -Function BackwardKillLine
 Set-PSReadLineKeyHandler -Chord Escape -Function Abort
 $EDITOR = "nvim"
 
+# Source
+. "$PSScriptRoot\pacman.ps1"
+
 # Unix like Aliases
 Set-Alias -Name grep -Value Select-String
 Set-Alias -Name touch -Value New-Item
