@@ -19,14 +19,14 @@ Function Startupcmd {cd "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Prog
 Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
 Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
-Function WtConfig {nvim $HOME/scoop/apps/windows-terminal/current/settings}
 Function Fetches {cls; bunnyfetch}
+Function ComMojang {cd "C:\Users\ahmadinne\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang" }
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
 Set-Alias -Name alacritty.toml -Value Alacrittycmd
 Set-Alias -Name settings.json -Value Terminalcmd
-Set-Alias -Name wt.json -Value WtConfig
+Set-Alias -Name com.mojang -Value ComMojang
 Set-Alias -Name autorun -Value taskschd.msc
 Set-Alias -Name autostart -Value taskschd.msc
 Set-Alias -Name startup -Value taskschd.msc

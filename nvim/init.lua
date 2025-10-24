@@ -52,11 +52,13 @@ vim.cmd([[
 	cnoreabbrev Wf :SudaWrite<CR>
 	cnoreabbrev w! :SudaWrite<CR>
 	cnoreabbrev W! :SudaWrite<CR>
+	cnoreabbrev !w :SudaWrite<CR>
+	cnoreabbrev !W :SudaWrite<CR>
 ]])
 
 
 -- Plugins
-require("config.lazy")
+require("lazy-setup")
 require("lazy").setup({
 	{ "lambdalisue/vim-suda" },
 	{
@@ -102,6 +104,47 @@ require("lazy").setup({
 				},
 			})
 		end
+	},
+	{
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v3.x",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"MunifTanjim/nui.nvim",
+			"nvim-tree/nvim-web-devicons",
+		},
+		lazy = false,
+		opts = {
+			sources = { "filesystem", "buffers", "git_status" },
+			open_files_do_not_replace_types = { "terminal", "Trouble", "trouble", "qf", "Outline" },
+			filesystem = {
+				bind_to_cwd = false,
+				follow_current_file = { enabled = true },
+				use_libuv_file_watcher = true,
+			},
+			window = {
+				mappings = {
+					["l"] = "open",
+					["h"] = "close_node",
+					["<space>"] = "none",
+					["Y"] = {
+						function(state)
+							local node = state.tree:get_node()
+							local path = node:get_id()
+							vim.fn.setreg("+", path, "c")
+						end,
+						desc = "Copy path to clipboard",
+					},
+					["O"] = {
+						function(state)
+							require("lazy.util").open(state.tree:get_node().path, { system = true })
+						end,
+						desc = "Open with system application",
+					},
+					["P"] = { "toggle_preview", config = { use_float = false } },
+				},
+			}
+		}
 	},
 	{
 		"folke/lazydev.nvim",
@@ -292,12 +335,39 @@ require("lazy").setup({
 		'echasnovski/mini.nvim',
 		config = function()
 			require('mini.surround').setup()
-			local statusline = require 'mini.statusline'
-			statusline.setup { use_icons = vim.g.have_nerd_font }
-			statusline.section_location = function()
-				return '%2l:%-2v'
-			end
+			require('mini.git').setup()
+			require('mini.diff').setup()
+			require('mini.tabline').setup()
+			-- local statusline = require 'mini.statusline'
+			-- statusline.setup { use_icons = vim.g.have_nerd_font }
+			-- statusline.section_location = function()
+			-- 	return '%2l:%-2v'
+			-- end
 		end,
+	},
+	{
+		'lewis6991/gitsigns.nvim',
+		opts = {},
+	},
+	{
+		'nvim-lualine/lualine.nvim',
+		event = 'VimEnter',
+		dependencies = { 'nvim-tree/nvim-web-devicons' },
+		opts = {
+			options = {
+				component_separators = { left = "|", right = "|" },
+				section_separators = { left = nil, right = nil },
+				globalstatus = true,
+			},
+			sections = {
+				lualine_a = { "mode" },
+				lualine_b = { "branch", "filename" },
+				lualine_c = { "diff", "diagnostics" },
+				lualine_x = { "location" },
+				lualine_y = { "encoding" },
+				lualine_z = { "filetype" },
+			}
+		}
 	},
 	{
 		'nvim-treesitter/nvim-treesitter',
@@ -330,7 +400,22 @@ require("lazy").setup({
 		opts = {
 			render_modes = { 'n', 'c', 't' },
 		},
-	}
+	},
+	{
+		'vyfor/cord.nvim',
+		build = ':Cord update',
+		event = { 'BufReadPost', 'BufNewFile' },
+		config = function()
+			require("cord").setup()
+		end,
+	},
+	{
+		'stevearc/quicker.nvim',
+		event = { 'BufReadPost', 'BufNewFile' },
+		config = function()
+			require("quicker").setup()
+		end,
+	},
 })
 
 
@@ -345,10 +430,13 @@ vim.keymap.set('n', '<leader>o', builtin.oldfiles, { desc = 'Telescope recent fi
 vim.keymap.set('n', '<leader>/', function()
 	builtin.live_grep {
 		grep_open_files = true,
-		prompt_title = 'Live Grep in Open Files',
+		prompt_title = 'Live Grep in Open Files'
 	}
 end, { desc = 'Search in Open Files' })
-vim.keymap.set('n', '<leader>e', "<cmd>Oil --float<cr>", { desc = "Oil explorer" })
+vim.keymap.set('n', '<leader>mp', "<cmd>MarkdownPreview<cr>", { desc = "Markdown Preview" })
+-- vim.keymap.set('n', '<leader>e', "<cmd>Oil --float<cr>", { desc = "Oil explorer" })
+vim.keymap.set('n', '<leader>e', "<cmd>Neotree filesystem reveal right focus<cr>", { desc = "Neotree" })
+vim.keymap.set('n', '<leader>q', function() require("quicker").toggle() end, { desc = "Toggle QuickFix" })
 
 
 -- Yank Highlight
