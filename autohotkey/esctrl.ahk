@@ -7,29 +7,29 @@ SetCapsLockState("AlwaysOff")
 
 ; ---- Basic ----
 ; ---- Only remap capslock to control, nothing else
-; *CapsLock::Ctrl
+*CapsLock::Ctrl
 
 
 ; ---- Normal ----
 ; - No bug or error with any combination
 ; - have a little delay before sending escape key
 ; - no delay for control when hold
-isHold := false
-*CapsLock::
-{
-	global isHold
-	isHold := true
-	SendInput("{Ctrl down}")
-}
-*CapsLock up::
-{
-	global isHold
-	SendInput("{Ctrl up}")
-	if (A_PriorKey = "CapsLock") {
-		if (A_TimeSincePriorHotkey < 150)
-			SendInput("{Escape}")
-	}
-}
+; isHold := false
+; *CapsLock::
+; {
+; 	global isHold
+; 	isHold := true
+; 	SendInput("{Ctrl down}")
+; }
+; *CapsLock up::
+; {
+; 	global isHold
+; 	SendInput("{Ctrl up}")
+; 	if (A_PriorKey = "CapsLock") {
+; 		if (A_TimeSincePriorHotkey < 150)
+; 			SendInput("{Escape}")
+; 	}
+; }
 
 
 ; ---- The Monster ----

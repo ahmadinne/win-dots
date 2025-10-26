@@ -337,7 +337,7 @@ require("lazy").setup({
 			require('mini.surround').setup()
 			require('mini.git').setup()
 			require('mini.diff').setup()
-			require('mini.tabline').setup()
+			-- require('mini.tabline').setup()
 			-- local statusline = require 'mini.statusline'
 			-- statusline.setup { use_icons = vim.g.have_nerd_font }
 			-- statusline.section_location = function()
@@ -366,7 +366,7 @@ require("lazy").setup({
 				lualine_x = { "location" },
 				lualine_y = { "encoding" },
 				lualine_z = { "filetype" },
-			}
+			},
 		}
 	},
 	{
@@ -415,6 +415,17 @@ require("lazy").setup({
 		config = function()
 			require("quicker").setup()
 		end,
+	},
+	{
+		'rachartier/tiny-inline-diagnostic.nvim',
+		event = "VeryLazy",
+		priority = 1000,
+		config = function()
+			require('tiny-inline-diagnostic').setup({
+				preset = "simple",
+			})
+			vim.diagnostic.config({ virtual_text = false })
+		end
 	},
 })
 

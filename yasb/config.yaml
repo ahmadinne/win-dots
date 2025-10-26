@@ -169,10 +169,10 @@ widgets:
         icon_format: "{charging_icon}"
         blink_charging_icon: False
       status_thresholds:
-        critical: 10
-        low: 20
-        medium: 40
-        high: 70
+        critical: 20
+        low: 40
+        medium: 60
+        high: 85
         full: 100
       status_icons:
         icon_charging: "<img src='$env:USERPROFILE/.config/yasb/svg/battery-charging' />"

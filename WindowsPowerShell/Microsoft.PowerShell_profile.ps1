@@ -18,7 +18,8 @@ Set-Alias -Name touch -Value New-Item
 Function Startupcmd {cd "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"; explorer .}
 Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
-Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
+# Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
+Function Terminalcmd {nvim "$HOME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
 Function Fetches {cls; bunnyfetch}
 Function ComMojang {cd "C:\Users\ahmadinne\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang" }
 # Set-Alias -Name ls -Value Ezacmd
@@ -34,6 +35,7 @@ Set-Alias -Name shell:startup -Value Startupcmd
 Set-Alias -Name bf -Value bunnyfetch
 Set-Alias -Name bfs -Value Fetches
 
+Set-Alias -Name yz -Value y
 Function y {
     $tmp = (New-TemporaryFile).FullName
     yazi $args --cwd-file="$tmp"
