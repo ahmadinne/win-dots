@@ -58,5 +58,20 @@ Remove-Item Alias:ls -Force
 Function ls { eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions }
 Function lsa { eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a }
 
+Function pascal {
+	param($file)
+	$base = [System.IO.Path]::GetFileNameWithoutExtension($file)
+	$tempPath = $env:TEMP
+
+	Get-ChildItem "$tempPath\$base" -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
+	fpc -Mtp -FE"$env:TEMP" -FU"$env:TEMP" -Fo"$env:TEMP" $file | Out-Null
+	if ($LASTEXITCODE -ne 0) {
+		Write-Host "Compilation Failed."
+		return
+	}
+
+	& "$env:TEMP\$base.exe"
+}
+
 # Starto
 bunnyfetch

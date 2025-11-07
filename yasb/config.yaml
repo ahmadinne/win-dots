@@ -9,7 +9,7 @@ bars:
     screens: ["*"]
     class_name: "yasb-bar"
     alignment:
-      position: "bottom"
+      position: "top"
       center: true
     animation:
       enabled: false
