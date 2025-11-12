@@ -21,7 +21,7 @@ Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
 # Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
 Function Terminalcmd {nvim "$HOME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
 Function Fetches {cls; bunnyfetch}
-Function ComMojang {cd "C:\Users\ahmadinne\AppData\Local\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang" }
+Function ComMojang {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd

@@ -21,11 +21,11 @@
 }
 
 * {
-    font-size: 10px;
+    font-size: 11px;
     color: var(--text1);
     font-weight: 600;
 	font-style: normal;
-    font-family: "Iosevka", "Iosevka NFP";
+    font-family: "Segoe UI", "RobotoMono Nerd Font";
 }
 
 @import "./menu/wifi.css";
