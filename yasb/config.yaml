@@ -91,7 +91,7 @@ widgets:
         round_corners_type: "normal"
         border_color: "System"
         alignment: "center"
-        direction: "up"
+        direction: "down"
         offset_top: 6
         offset_left: 0
         # show_apps: true
@@ -144,7 +144,7 @@ widgets:
         round_corners_type: "normal"
         border_color: "System"
         alignment: "left"
-        direction: "up"
+        direction: "down"
         offset_top: 6
         offset_left: 0
         wifi_icons_secured: [ 
