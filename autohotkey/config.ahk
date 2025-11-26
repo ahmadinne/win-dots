@@ -4,34 +4,34 @@
 ; ---- GlazeWM Keybinds -----
 
 ; Programs
-#t::Run "wt"
-#e::Run "C:/Users/ahmadinne"
-#b::Run "chrome"
-#o::Run "obsidian"
-#;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
+!t::Run "wt"
+!e::Run "C:/Users/ahmadinne"
+!b::Run "chrome"
+!o::Run "obsidian"
+!;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
 
 ; Utilities
-#p::Send "#{PrintScreen}"
-#+p::Send "#+s"
+!p::Send "#{PrintScreen}"
+!+p::Send "#+s"
 
 ; Windows management
-#j::Run "glazewm command focus --direction left", , "Hide"
-#k::Run "glazewm command focus --direction right", , "Hide"
-#+j::Run "glazewm command move --direction left", , "Hide"
-#+k::Run "glazewm command move --direction right", , "Hide"
-#h::Run "glazewm command resize --width -2%", , "Hide"
-#l::Run "glazewm command resize --width +2%", , "Hide"
+!j::Run "glazewm command focus --direction left", , "Hide"
+!k::Run "glazewm command focus --direction right", , "Hide"
+!+j::Run "glazewm command move --direction left", , "Hide"
+!+k::Run "glazewm command move --direction right", , "Hide"
+!h::Run "glazewm command resize --width -2%", , "Hide"
+!l::Run "glazewm command resize --width +2%", , "Hide"
 
 ; Pause Keybindings
-#^p::Run "glazewm command wm-toggle-pause", , "Hide"
-#Tab::Run "glazewm command wm-cycle-focus", , "Hide"
+!^p::Run "glazewm command wm-toggle-pause", , "Hide"
+!Tab::Run "glazewm command wm-cycle-focus", , "Hide"
 
 ; Window States
-#w::Run "glazewm command toggle-tiling", , "Hide"
-#+w::Run "glazewm command toggle-floating --centered", , "Hide"
-#+f::Run "glazewm command toggle-fullscreen", , "Hide"
-#m::Run "glazewm command toggle-minimized", , "Hide"
-#f::{
+!w::Run "glazewm command toggle-tiling", , "Hide"
+!+w::Run "glazewm command toggle-floating --centered", , "Hide"
+!+f::Run "glazewm command toggle-fullscreen", , "Hide"
+!m::Run "glazewm command toggle-minimized", , "Hide"
+!f::{
 	if WinActive("Chrome") or WinActive("Minecraft") {
 		Send "{f11}"
 	} else {
@@ -40,7 +40,7 @@
 }
 
 ; Killer do killings
-#q::{
+!q::{
 	check := WinExist("A")
 	if !check
 		return
@@ -54,7 +54,7 @@
 }
 
 
-; #q::
+; !q::
 ; {
 ;     hwnd := WinGetID("A")
 ;     class := WinGetClass(hwnd)
@@ -63,17 +63,17 @@
 ;     MsgBox "Class: " class "`nTitle: " title "`nProcess: " process, "Active Window Info"
 ; }
 
-#+Del::Run "glazewm command wm-exit", , "Hide"
+!+Del::Run "glazewm command wm-exit", , "Hide"
 
-; Reload da guns#
-#+r::Run "glazewm command wm-reload-config", , "Hide"
-#r::Run "glazewm command wm-redraw", , "Hide"
+; Reload da guns!
+!+r::Run "glazewm command wm-reload-config", , "Hide"
+!r::Run "glazewm command wm-redraw", , "Hide"
 
 ; Volume & Brightness
-#,::Send "{Volume_Down}"
-#.::Send "{Volume_Up}"
-#+,::bright(5,"-")
-#+.::bright(5,"+")
+!,::Send "{Volume_Down}"
+!.::Send "{Volume_Up}"
+!+,::bright(5,"-")
+!+.::bright(5,"+")
 
 ; Functions (Do Not Delete)
 bright(inputNum:=0,option:=""){
