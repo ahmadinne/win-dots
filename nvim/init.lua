@@ -462,12 +462,11 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- Colorscheme Configurations
 vim.o.termguicolors = true
 vim.o.background = "dark"
-vim.g.moonflyTransparent = true
 vim.cmd.colorscheme("paradise")
-vim.cmd [[
-	highlight Normal guibg=none
-	highlight NonText guibg=none
-	highlight Normal ctermbg=none
-	highlight NonText ctermbg=none
-	highlight StatusLine guibg=none
-]]
+-- vim.cmd [[
+-- 	highlight Normal guibg=none
+-- 	highlight NonText guibg=none
+-- 	highlight Normal ctermbg=none
+-- 	highlight NonText ctermbg=none
+-- 	highlight StatusLine guibg=none
+-- ]]
