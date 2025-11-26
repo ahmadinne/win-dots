@@ -15,6 +15,5 @@ powertoys
 python
 starship
 vcredist2022
-windows-terminal
 yasb
 yazi
