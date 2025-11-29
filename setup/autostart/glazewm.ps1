@@ -2,7 +2,7 @@
 
 # --- Configurations ---
 $taskname = "GlazeWM"
-$taskpath = "${HOME}\scoop\apps\glazewm\current\cli\glazewm.exe"
+$taskpath = "C:\Program Files\glzr.io\GlazeWM\cli\glazewm.exe"
 $taskdesc = "Autorun programs at start"
 $taskfold = "\Autostart"
 
