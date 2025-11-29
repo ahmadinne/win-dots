@@ -3,6 +3,6 @@ foreach ($pkg in Get-Content packages.txt) {
         Write-Output "$pkg already installed"
     }
 	else {
-		scoop install $pkg
+		Winget install $pkg
 	}
 }
