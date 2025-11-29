@@ -6,7 +6,7 @@
 ; Programs
 !t::Run "wt"
 !e::Run "C:/Users/ahmadinne"
-!b::Run "chrome"
+!b::Run "firefox"
 !o::Run "obsidian"
 !;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
 
@@ -32,7 +32,7 @@
 !+f::Run "glazewm command toggle-fullscreen", , "Hide"
 !m::Run "glazewm command toggle-minimized", , "Hide"
 !f::{
-	if WinActive("Chrome") or WinActive("Minecraft") {
+	if WinActive("Firefox") or WinActive("Chrome") or WinActive("Minecraft") {
 		Send "{f11}"
 	} else {
 		Run "glazewm command toggle-fullscreen", , "Hide"

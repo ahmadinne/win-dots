@@ -15,17 +15,17 @@
     --text2: #D8D3D3;
     --text3: #C8C4C4;
     --text4: #B8B4B4;
-    --bg: #000000;
-    --bg-color1: #000000;
+    --bg: #151515;
+    --bg-color1: #151515;
     --bg-color2: #333333;
 }
 
 * {
-    font-size: 11px;
+    font-size: 12px;
     color: var(--text1);
     font-weight: 600;
 	font-style: normal;
-    font-family: "Segoe UI", "RobotoMono Nerd Font";
+    font-family: "Segoe UI", "JetBrainsMono Nerd Font";
 }
 
 @import "./menu/wifi.css";

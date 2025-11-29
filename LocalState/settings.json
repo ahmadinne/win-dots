@@ -2,7 +2,7 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
-    "alwaysShowTabs": false,
+    "alwaysShowTabs": true,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -65,7 +65,7 @@
     "schemes": 
     [
         {
-            "background": "#000000",
+            "background": "#151515",
             "black": "#151515",
             "blue": "#8DA3B9",
             "brightBlack": "#424242",
@@ -88,7 +88,7 @@
             "yellow": "#D9BC8C"
         }
     ],
-    "showTabsInTitlebar": false,
+    "showTabsInTitlebar": true,
     "theme": "system",
     "themes": []
 }
