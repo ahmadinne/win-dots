@@ -5,6 +5,7 @@ BrechtSanders.WinLibs.POSIX.UCRT.LLVM
 Git.Git
 Github.cli
 glzr-io.glazewm
+ImputNet.Helium
 Neovim.Neovim
 OpenJS.NodeJS
 Microsoft.PowerToys
