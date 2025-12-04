@@ -14,26 +14,30 @@ Komorebic(cmd){
 ; Windows management
 !j::Komorebic("cycle-focus next")
 !k::Komorebic("cycle-focus previous")
-; !Return::Komorebic("promote-focus")
-!+j::Komorebic("move down")
-!+k::Komorebic("move up")
-; !+Return::("promote")
+!Enter::Komorebic("promote-focus")
+!+j::Komorebic("cycle-move next")
+!+k::Komorebic("cycle-move previous")
+!+Enter::Komorebic("promote")
 !h::Komorebic("resize-axis horizontal decrease")
 !l::Komorebic("resize-axis horizontal increase")
 
 ; Pause Keybindings
-!+r::Komorebic("retile")
+!r::Komorebic("retile")
+!+r::{
+	Komorebic("stop --ahk")
+	Komorebic("start --ahk")
+}
 !^p::Komorebic("toggle-pause")
 
 ; Window States
 !w::Komorebic("toggle-float")
-!+f::Komorebic("toggle-monocle")
+; !+f::Komorebic("toggle-monocle")
 !m::Komorebic("minimize")
 !f::{
 	if WinActive("Helium") or WinActive("Firefox") or WinActive("Chrome") or WinActive("Minecraft") {
 		Send "{f11}"
 	} else {
-		Komorebic("toggle-monocle")
+		Komorebic("toggle-maximize")
 	}
 }
 

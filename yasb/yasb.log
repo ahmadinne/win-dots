@@ -2453,3 +2453,15 @@ KeyError: 'reload_command'
 2025-12-04 14:38:59,386 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 328384
 2025-12-04 14:38:59,392 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
 2025-12-04 14:38:59,395 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49260
+2025-12-04 14:42:48,312 [WARNING] [Dummy-5] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-12-04 14:42:48,312 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-04 14:42:51,314 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-4bc493a3-d0e4-11f0-92e8-ca20b6febfc3
+2025-12-04 14:42:56,393 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-4bc493a3-d0e4-11f0-92e8-ca20b6febfc3
+2025-12-04 14:49:24,973 [WARNING] [Dummy-5] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-12-04 14:49:24,973 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-04 14:49:27,974 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-4bc493a3-d0e4-11f0-92e8-ca20b6febfc3
+2025-12-04 14:49:28,014 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-4bc493a3-d0e4-11f0-92e8-ca20b6febfc3
+2025-12-04 14:50:08,427 [WARNING] [Dummy-5] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-12-04 14:50:08,428 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-04 14:50:11,429 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-4bc493a3-d0e4-11f0-92e8-ca20b6febfc3
+2025-12-04 14:50:16,501 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-4bc493a3-d0e4-11f0-92e8-ca20b6febfc3
