@@ -131,38 +131,27 @@
     padding: 0px 2px;
 }
 
-.glazewm-workspaces .offline-status {
-    color: var(--text4);
-}
-.glazewm-workspaces .ws-btn {
+.komorebi-workspaces .ws-btn {
     border: none;
-    color: var(--text1);
+    color: var(--text4);
     margin: 0px 0px;
 	padding: 8px 13px;
 }
-.glazewm-workspaces .ws-btn:hover {
-    color: var(--text2);
+.komorebi-workspaces .ws-btn:hover {
+	color: var(--text2);
 	background-color: var(--hover);
 }
-
-.glazewm-workspaces .ws-btn.empty {
-	color: var(--hover2);
+.komorebi-workspaces .ws-btn.populated {
+	color: var(--text3);
 }
-.glazewm-workspaces .ws-btn.active_empty {
-	background-color: var(--hover);
-}
-
-.glazewm-workspaces .ws-btn.populated {
-	color: var(--text4);
-}
-.glazewm-workspaces .ws-btn.active_populated {
+.komorebi-workspaces .ws-btn.active {
 	color: var(--text1);
 	background-color: var(--hover);
 }
-.glazewm-workspaces .ws-btn.active_populated:hover {
+.komorebi-workspaces .ws-btn.active_populated:hover {
 	background-color: var(--hover2);
 }
-.glazewm-workspaces .ws-btn .icon {
+.komorebi-workspaces .ws-btn .icon {
 	background-color: alpha(--text1, 0.5);
 }
 
