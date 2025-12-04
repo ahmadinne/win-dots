@@ -1,39 +1,37 @@
 #Requires AutoHotKey v2.0
 #SingleInstance Force
 
-; ---- GlazeWM Keybinds -----
+; ---- Komorebi Keybinds -----
+Komorebic(cmd){
+	RunWait(format("komorebic.exe {}", cmd), , "Hide")
+}
 
 ; Programs
 !t::Run "wt"
-!e::Run "C:/Users/ahmadinne"
-!;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
-
-; Utilities
-!p::Send "#{PrintScreen}"
-!+p::Send "#+s"
+!e::Run "$env:USERPROFILE"
+; !;::Run "$env:USERPROFILE/scoop/apps/hunt-and-peck/current/hap.exe /hint"
 
 ; Windows management
-!j::Run "glazewm command focus --direction left", , "Hide"
-!k::Run "glazewm command focus --direction right", , "Hide"
-!+j::Run "glazewm command move --direction left", , "Hide"
-!+k::Run "glazewm command move --direction right", , "Hide"
-!h::Run "glazewm command resize --width -2%", , "Hide"
-!l::Run "glazewm command resize --width +2%", , "Hide"
+!j::Komorebic("cycle-focus next")
+!k::Komorebic("cycle-focus previous")
+!+j::Komorebic("move down")
+!+k::Komorebic("move up")
+!h::Komorebic("resize-axis horizontal decrease")
+!l::Komorebic("resize-axis horizontal increase")
 
 ; Pause Keybindings
-!^p::Run "glazewm command wm-toggle-pause", , "Hide"
-!Tab::Run "glazewm command wm-cycle-focus", , "Hide"
+!+r::Komorebic("retile")
+!^p::Komorebic("toggle-pause")
 
 ; Window States
-!w::Run "glazewm command toggle-tiling", , "Hide"
-!+w::Run "glazewm command toggle-floating --centered", , "Hide"
-!+f::Run "glazewm command toggle-fullscreen", , "Hide"
-!m::Run "glazewm command toggle-minimized", , "Hide"
+!w::Komorebic("toggle-float")
+!+f::Komorebic("toggle-monocle")
+!m::Komorebic("minimize")
 !f::{
 	if WinActive("Helium") or WinActive("Firefox") or WinActive("Chrome") or WinActive("Minecraft") {
 		Send "{f11}"
 	} else {
-		Run "glazewm command toggle-fullscreen", , "Hide"
+		Komorebic("toggle-monocle")
 	}
 }
 
@@ -48,24 +46,15 @@
 		return
 
 	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
-		Run "glazewm command close", , "Hide"
+		Komorebic("close")
 }
 
 
-; !q::
-; {
-;     hwnd := WinGetID("A")
-;     class := WinGetClass(hwnd)
-;     title := WinGetTitle(hwnd)
-;     process := WinGetProcessName(hwnd)
-;     MsgBox "Class: " class "`nTitle: " title "`nProcess: " process, "Active Window Info"
-; }
+; ---- Utilities ----
 
-!+Del::Run "glazewm command wm-exit", , "Hide"
-
-; Reload da guns!
-!+r::Run "glazewm command wm-reload-config", , "Hide"
-!r::Run "glazewm command wm-redraw", , "Hide"
+; Screenshot
+!p::Send "#{PrintScreen}"
+!+p::Send "#+s"
 
 ; Volume & Brightness
 !,::Send "{Volume_Down}"
