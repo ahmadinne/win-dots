@@ -1,10 +1,10 @@
-Autohotkey.Autohotkey
+9PLQFDG8HH9D
 sharkdp.bat
 eza-community.eza
 BrechtSanders.WinLibs.POSIX.UCRT.LLVM
 Git.Git
 Github.cli
-glzr-io.glazewm
+LGUG2Z.komorebi
 ImputNet.Helium
 Neovim.Neovim
 OpenJS.NodeJS

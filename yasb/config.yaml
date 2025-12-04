@@ -69,7 +69,7 @@ widgets:
       label_workspace_populated_btn: "{index}"
       label_default_name: ""
       label_zero_index: false
-      hide_empty_workspaces: false
+      hide_empty_workspaces: true
       hide_if_offline: false
       animation: false
       app_icons:
