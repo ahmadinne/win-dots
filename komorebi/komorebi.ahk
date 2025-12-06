@@ -8,7 +8,7 @@ Komorebic(cmd){
 
 ; Programs
 !t::Run "wt"
-!e::Run "$env:USERPROFILE"
+!e::Run "C:\Users\ahmadinne\"
 ; !;::Run "$env:USERPROFILE/scoop/apps/hunt-and-peck/current/hap.exe /hint"
 
 ; Windows management
