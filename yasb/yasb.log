@@ -2524,3 +2524,158 @@ KeyError: 'reload_command'
 2025-12-06 09:48:56,449 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
 2025-12-06 09:48:57,065 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
 2025-12-06 09:48:57,528 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2025-12-06 20:05:59,131 [INFO] [WiFiConnectWorker] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-06 20:05:59,157 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-06 20:05:59,158 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:508]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-06 20:05:59,160 [DEBUG] [WiFiConnectWorker] [systray_widget/utils.py:96]: Destroying window 131182
+2025-12-07 19:32:56,964 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-12-07 19:32:57,009 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-07 19:32:57,010 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-07 19:32:57,328 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-07 19:32:57,496 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-07 19:32:59,190 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-07 19:32:59,191 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-12-07 19:32:59,200 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-dd5575b2-d368-11f0-81cc-83a7fb2a6b88
+2025-12-07 19:32:59,279 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-12-07 19:32:59,281 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-07 19:32:59,288 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-07 19:32:59,927 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-07 19:32:59,931 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-07 19:32:59,950 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-dd5575b2-d368-11f0-81cc-83a7fb2a6b88
+2025-12-07 19:33:00,236 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-07 19:33:00,447 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 983196
+2025-12-07 19:33:00,467 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-07 19:33:00,474 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49293
+2025-12-07 20:08:39,157 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-07 20:08:40,132 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-07 20:08:41,155 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-07 20:08:42,140 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-07 20:08:43,131 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-07 20:57:20,811 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-07 20:57:20,818 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-07 20:57:20,824 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-07 20:57:20,825 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-07 20:57:20,826 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 983196
+2025-12-08 15:02:58,721 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-12-08 15:02:58,722 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-08 15:02:58,723 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-08 15:02:59,364 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-08 15:03:02,596 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-08 15:03:06,582 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-08 15:03:06,583 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-12-08 15:03:06,583 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-543351e5-d40c-11f0-8274-a0d22e607f5e
+2025-12-08 15:03:06,625 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-12-08 15:03:06,625 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-08 15:03:06,627 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-08 15:03:06,693 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-543351e5-d40c-11f0-8274-a0d22e607f5e
+2025-12-08 15:03:06,822 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-08 15:03:06,824 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-08 15:03:06,952 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-08 15:03:07,168 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 197662
+2025-12-08 15:03:07,218 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-08 15:03:07,255 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49294
+2025-12-08 20:19:07,159 [INFO] [MainThread] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-08 20:19:07,172 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-08 20:19:07,179 [DEBUG] [MainThread] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-08 20:19:07,179 [DEBUG] [MainThread] [systray_widget/systray.py:508]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-08 20:19:07,181 [DEBUG] [MainThread] [systray_widget/utils.py:96]: Destroying window 197662
+2025-12-10 10:30:24,680 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-12-10 10:30:24,682 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-10 10:30:24,683 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-10 10:30:25,006 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-10 10:30:25,262 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-10 10:30:27,138 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-10 10:30:27,139 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-12-10 10:30:27,139 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-9209c125-d578-11f0-8d21-e0c2641c92b5
+2025-12-10 10:30:27,191 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-12-10 10:30:27,191 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-10 10:30:27,193 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-10 10:30:27,456 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-9209c125-d578-11f0-8d21-e0c2641c92b5
+2025-12-10 10:30:27,477 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-10 10:30:27,480 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-10 10:30:27,599 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-10 10:30:27,690 [WARNING] [UpdateChecker] [root/update_service.py:274]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2025-12-10 10:30:27,691 [WARNING] [UpdateChecker] [root/update_service.py:400]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-12-10 10:30:27,801 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 66296
+2025-12-10 10:30:27,807 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-10 10:30:27,810 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49293
+2025-12-10 10:30:58,777 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-12-10 10:31:00,401 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2025-12-10 10:31:01,185 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-10 10:31:01,625 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2025-12-10 10:43:37,233 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-10 10:44:38,653 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-12-10 10:44:46,305 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-10 10:45:26,695 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-12-10 10:45:28,883 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2025-12-10 10:45:29,364 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2025-12-10 12:44:29,031 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-10 12:44:30,033 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-10 12:44:31,034 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-10 12:44:32,038 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-10 12:44:33,055 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2025-12-10 13:11:21,217 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-10 16:59:20,232 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-10 19:54:24,032 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-10 22:32:29,384 [WARNING] [Dummy-5] [root/event_listener.py:82]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2025-12-10 22:32:29,386 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-10 22:32:29,391 [INFO] [WiFiConnectWorker] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-10 22:32:29,394 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-10 22:32:29,395 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:508]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-10 22:32:29,396 [DEBUG] [WiFiConnectWorker] [systray_widget/utils.py:96]: Destroying window 66296
+2025-12-11 10:15:03,187 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-12-11 10:15:03,217 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-11 10:15:03,217 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-11 10:15:03,447 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-11 10:15:03,587 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-11 10:15:04,673 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-11 10:15:04,675 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-12-11 10:15:04,675 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-969eb0e7-d63f-11f0-9d3b-e0c2641c92b5
+2025-12-11 10:15:04,713 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-12-11 10:15:04,715 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-11 10:15:04,716 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-11 10:15:04,944 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-969eb0e7-d63f-11f0-9d3b-e0c2641c92b5
+2025-12-11 10:15:04,959 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-11 10:15:04,961 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-11 10:15:04,980 [WARNING] [UpdateChecker] [root/update_service.py:274]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2025-12-11 10:15:04,980 [WARNING] [UpdateChecker] [root/update_service.py:400]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-12-11 10:15:05,021 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-11 10:15:05,223 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 66250
+2025-12-11 10:15:05,228 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-11 10:15:05,230 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49294
+2025-12-11 10:15:46,897 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-12-11 10:15:50,203 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2025-12-11 10:15:50,800 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-11 10:15:51,227 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2025-12-11 17:23:36,183 [INFO] [WiFiConnectWorker] [root/bar_manager.py:92]: Stopping KomorebiEventListener...
+2025-12-11 17:23:36,200 [INFO] [Dummy-5] [root/event_listener.py:92]: Attempting to reconnect to Komorebi...
+2025-12-11 17:23:36,204 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:504]: Saving state to disk
+2025-12-11 17:23:36,205 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:508]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-11 17:23:36,207 [DEBUG] [WiFiConnectWorker] [systray_widget/utils.py:96]: Destroying window 66250
+2025-12-12 14:24:40,717 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.5
+2025-12-12 14:24:40,719 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2025-12-12 14:24:40,720 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2025-12-12 14:24:41,073 [INFO] [MainThread] [root/service.py:39]: AudioInputService starting...
+2025-12-12 14:24:41,336 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2025-12-12 14:24:42,813 [INFO] [MainThread] [root/bar_manager.py:85]: Starting KomorebiEventListener...
+2025-12-12 14:24:42,828 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2025-12-12 14:24:42,829 [INFO] [Dummy-5] [root/event_listener.py:51]: Created named pipe yasb-a0b53a98-d72b-11f0-9cd5-e0c2641c92b5
+2025-12-12 14:24:42,884 [INFO] [MainThread] [root/update_service.py:404]: Background update checker started
+2025-12-12 14:24:42,885 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2025-12-12 14:24:42,887 [DEBUG] [Dummy-8] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2025-12-12 14:24:43,299 [INFO] [Dummy-5] [root/event_listener.py:125]: Komorebi connected to named pipe: yasb-a0b53a98-d72b-11f0-9cd5-e0c2641c92b5
+2025-12-12 14:24:43,337 [DEBUG] [MainThread] [systray_widget/systray.py:526]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_JDZDISPLAY1.json
+2025-12-12 14:24:43,381 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2025-12-12 14:24:43,385 [WARNING] [UpdateChecker] [root/update_service.py:274]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2025-12-12 14:24:43,385 [WARNING] [UpdateChecker] [root/update_service.py:400]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2025-12-12 14:24:43,478 [DEBUG] [MainThread] [systray_widget/systray.py:277]: Systray thread started
+2025-12-12 14:24:43,678 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:164]: Adding TaskbandHWND prop to hwnd 66230
+2025-12-12 14:24:43,699 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:242]: Finding real tray hwnd
+2025-12-12 14:24:43,703 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:157]: Sending TaskbarCreated message: 49294
+2025-12-12 14:25:19,139 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-12-12 14:25:22,143 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2025-12-12 14:25:24,102 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2025-12-12 14:25:25,388 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-12 14:25:25,980 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2025-12-12 14:57:13,830 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2025-12-12 22:12:02,133 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
