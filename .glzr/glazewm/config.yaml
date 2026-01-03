@@ -27,7 +27,7 @@ gaps:
   scale_with_dpi: true
   inner_gap: '5px'
   outer_gap:
-    top: '37px'
+    top: '5px'
     right: '5px'
     bottom: '5px'
     left: '5px'

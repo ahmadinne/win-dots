@@ -131,27 +131,34 @@
     padding: 0px 2px;
 }
 
-.komorebi-workspaces .ws-btn {
+.glazewm-workspaces .ws-btn {
     border: none;
     color: var(--text4);
     margin: 0px 0px;
 	padding: 8px 13px;
 }
-.komorebi-workspaces .ws-btn:hover {
+.glazewm-workspaces .ws-btn:hover {
 	color: var(--text2);
 	background-color: var(--hover);
 }
-.komorebi-workspaces .ws-btn.populated {
+.glazewm-workspaces .ws-btn.active_empty {
 	color: var(--text3);
 }
-.komorebi-workspaces .ws-btn.active {
+.glazewm-workspaces .ws-btn.active_populated {
+	color: var(--text3);
+}
+.glazewm-workspaces .ws-btn.focused_empty {
 	color: var(--text1);
 	background-color: var(--hover);
 }
-.komorebi-workspaces .ws-btn.active_populated:hover {
+.glazewm-workspaces .ws-btn.focused_populated {
+	color: var(--text1);
+	background-color: var(--hover);
+}
+.glazewm-workspaces .ws-btn.focused_populated:hover {
 	background-color: var(--hover2);
 }
-.komorebi-workspaces .ws-btn .icon {
+.glazewm-workspaces .ws-btn .icon {
 	background-color: alpha(--text1, 0.5);
 }
 

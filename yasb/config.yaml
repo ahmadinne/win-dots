@@ -4,10 +4,6 @@ watch_config: true
 debug: false
 update_check: true # Enable automatic update check.
 show_systray: true # Show YASB on the system tray.
-komorebi:
-  start_command: "komorebic start --ahk"
-  stop_command: "komorebic stop --ahk"
-  reload_command: "komorebic stop --ahk && komorebic start --ahk"
 bars:
   primary-bar:
     enabled: true
@@ -42,33 +38,28 @@ bars:
         alignment: "right"
         stretch: true
     widgets:
-      left: [ "microphone", "volume", "brightness", "systray" ]
-      center: [ "komorebi_workspaces" ]
-      right: [ "wifi", "bluetooth", "battery", "clock" ]
+      left: [ "glazewm_workspaces" ]
+      center: [ "clock" ]
+      right: [ "wifi", "battery" ]
 widgets:
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "<span><img src='$env:USERPROFILE/.config/yasb/svg/clock.svg' /></span> {%H:%M}"
+      label: "<span><img src='$env:USERPROFILE/.config/yasb/svg/clock.svg' /></span> {%A, %H:%M}"
       label_alt: "<span><img src='$env:USERPROFILE/.config/yasb/svg/clock.svg' /></span> {%A, %d %B %Y %H:%M}"
       timezones: []
       calendar: 
         blur: false
         round_corners: true
         alignment: "center"
-        direction: "up"
+        direction: "down"
       callbacks:
         on_left: "toggle_calendar"
         on_right: "toggle_label"
-  komorebi_workspaces:
-    type: "komorebi.workspaces.WorkspaceWidget"
+  glazewm_workspaces:
+    type: "glazewm.workspaces.GlazewmWorkspacesWidget"
     options:
-      label_offline: "\u23fc Komorebi Offline"
-      label_workspace_btn: "{index}"
-      label_workspace_active_btn: "{index}"
-      label_workspace_populated_btn: "{index}"
-      label_default_name: ""
-      label_zero_index: false
+      offline_label: "\u23fc Glazewm Offline"
       hide_empty_workspaces: true
       hide_if_offline: false
       animation: false

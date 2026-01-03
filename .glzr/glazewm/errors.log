@@ -24,3 +24,5 @@ Error: The operation was canceled by the user. (0x800704C7)
 
 Caused by:
     Access is denied. (0x80070005)
+[2m2026-01-03T08:42:50.096585Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk'.
+[2m2026-01-03T08:43:55.300247Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command 'C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk'.
