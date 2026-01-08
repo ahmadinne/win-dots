@@ -3985,3 +3985,378 @@ AttributeError: module 'core.widgets.glazewm.workspaces' has no attribute 'Works
 2026-01-03 16:04:40,861 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
 2026-01-03 16:04:42,174 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
 2026-01-03 16:04:44,948 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-03 16:06:03,641 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 00:58:15,155 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-04 00:58:15,157 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-04 00:58:15,157 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-04 00:58:15,229 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-04 00:58:15,230 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-04 00:58:15,231 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-04 00:58:15,232 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-04 00:58:17,514 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-04 00:58:17,572 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-04 00:58:17,578 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-04 00:58:17,605 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-04 00:58:17,925 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-04 00:58:17,926 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-04 01:03:10,250 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 01:03:11,943 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 01:03:13,367 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-04 01:03:14,853 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-04 01:03:15,423 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-04 01:05:41,070 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-04 01:05:41,106 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-04 01:05:41,106 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-04 01:05:43,919 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-04 01:05:44,007 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-04 01:05:44,007 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-04 01:05:44,009 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-04 01:07:15,783 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-04 01:07:15,784 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-04 01:07:15,784 [ERROR] [Thread-1 (_run_server)] [cli_server/cli_server.py:226]: CLI pipe server failed to create handle. Err: 5
+2026-01-04 01:07:15,784 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-04 01:07:15,784 [ERROR] [Thread-2 (_run_server)] [cli_server/cli_server.py:131]: Log pipe server failed to create handle. Err: 5
+2026-01-04 01:07:15,784 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-04 02:49:28,570 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 04:20:24,658 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 04:20:25,023 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-04 04:20:26,139 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 04:20:27,616 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-04 04:20:28,991 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-04 04:20:29,399 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-04 04:26:32,160 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 04:26:32,605 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-04 04:26:33,839 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-04 04:26:36,853 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-04 13:58:57,347 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-04 13:58:57,349 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-04 13:58:57,349 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-04 13:58:57,349 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-04 13:58:57,349 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-04 13:58:57,350 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-04 13:58:57,351 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-04 13:59:02,835 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-04 13:59:02,953 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-04 13:59:02,974 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-04 13:59:02,979 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-04 13:59:03,385 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-04 13:59:03,385 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-04 14:07:31,991 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 14:07:33,905 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-04 14:07:35,508 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-04 14:07:37,332 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-04 14:07:37,857 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-05 00:24:15,482 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-05 00:24:15,517 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-05 00:24:15,518 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-05 00:24:15,666 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-05 00:24:15,671 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-05 00:24:15,675 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-05 00:24:15,678 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-05 00:24:17,806 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-05 00:24:17,854 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-05 00:24:17,881 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-05 00:24:17,893 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-05 00:24:18,270 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-05 00:24:18,271 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-05 00:25:22,414 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-05 00:25:24,174 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-05 00:25:25,593 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-05 00:25:26,220 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-05 00:25:26,696 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-05 14:10:55,787 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-05 14:10:55,813 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-05 14:10:55,814 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-05 14:10:56,340 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-05 14:11:01,792 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-05 14:11:01,823 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-05 14:11:01,827 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-05 14:11:01,842 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-05 14:11:02,115 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-05 14:11:02,115 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-05 14:15:31,099 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-05 14:15:33,007 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-05 14:15:34,640 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-05 14:15:35,571 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-05 14:15:37,565 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-05 14:15:38,993 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-05 14:15:39,545 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-06 02:38:57,391 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-06 02:38:57,392 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-06 02:38:57,392 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-06 02:38:57,392 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-06 02:38:57,392 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-06 02:39:03,801 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-06 02:39:03,838 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-06 02:39:03,839 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-06 02:39:03,840 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-06 02:39:04,236 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-06 02:39:04,236 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-06 13:31:11,139 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-06 13:31:11,140 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-06 13:31:11,141 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-06 13:31:11,281 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-06 13:31:11,282 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-06 13:31:11,282 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-06 13:31:11,283 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-06 13:31:12,622 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-06 13:31:12,656 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-06 13:31:12,656 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-06 13:31:12,670 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-06 13:31:12,878 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-06 13:31:12,878 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-07 02:21:04,668 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-07 02:21:04,787 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-07 02:21:05,058 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-07 02:21:05,059 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-07 02:21:05,151 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-07 02:21:06,743 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-07 02:21:06,781 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-07 02:21:06,820 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-07 02:21:06,840 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-07 02:21:07,174 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-07 02:21:07,174 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-07 02:22:17,530 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-07 02:22:19,029 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-07 02:22:20,653 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-07 02:22:21,400 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-07 02:22:21,962 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-07 02:35:11,306 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-07 03:48:15,219 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-07 03:48:19,296 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-07 12:47:40,620 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-07 12:47:40,625 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-07 12:47:40,639 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-07 12:47:40,639 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-07 12:47:40,642 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-07 12:47:48,609 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-07 12:47:48,647 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-07 12:47:48,647 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-07 12:47:48,667 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-07 12:47:48,943 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-07 12:47:48,944 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-07 21:16:56,274 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-07 21:16:56,289 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-07 21:16:56,290 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-07 21:16:56,290 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-07 21:16:56,379 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-07 21:17:03,303 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-07 21:17:03,336 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-07 21:17:03,336 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-07 21:17:03,354 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-07 21:17:03,654 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-07 21:17:03,655 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-07 21:17:10,432 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-07 21:17:13,249 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-07 21:17:14,982 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-07 21:17:15,745 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-07 21:17:16,241 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-08 01:24:43,228 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-08 01:25:00,567 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-08 01:25:06,020 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-08 01:25:12,413 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-08 01:25:14,198 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-08 01:25:14,990 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-08 01:25:26,722 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-08 01:25:31,227 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-08 01:25:32,202 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-08 14:40:28,497 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 14:40:28,499 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 14:40:28,499 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 14:40:28,499 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 14:40:28,520 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-08 14:40:31,166 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 14:40:31,189 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 14:40:31,190 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 14:40:31,193 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:14,303 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:14,408 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:14,408 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:14,423 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:14,432 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:14,440 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:14,441 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:14,840 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:14,840 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:14,841 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:15,402 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:15,423 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:15,423 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:15,424 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:16,639 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:16,744 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:16,744 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:16,746 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:16,780 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:16,789 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:16,791 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:17,188 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:17,188 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:17,189 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:17,584 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:17,610 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:17,611 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:17,611 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:30,111 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:30,213 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:30,214 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:30,216 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:30,251 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:30,260 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:30,262 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:30,656 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:30,657 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:30,657 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:31,028 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:31,057 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:31,057 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:31,058 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:38,159 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:38,270 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:38,270 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:38,273 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:38,307 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:38,317 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:38,319 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:38,720 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:38,720 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:38,721 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:39,074 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:39,099 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:39,099 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:39,100 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:43,973 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:44,081 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:44,082 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:44,084 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:44,092 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:44,096 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:44,097 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:44,488 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:44,489 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:44,489 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:44,775 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:44,800 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:44,800 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:44,800 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:47,156 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:47,256 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:47,257 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:47,258 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:47,265 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:47,272 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:47,273 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:47,672 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:47,673 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:47,673 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:48,046 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:48,072 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:48,072 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:48,073 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:51,102 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:51,211 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:51,211 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:51,213 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:51,221 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:51,226 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:51,227 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:51,618 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:51,619 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:51,619 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:51,925 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:51,951 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:51,951 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:51,951 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:55:58,589 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 16:55:58,702 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 16:55:58,702 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 16:55:58,704 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 16:55:58,712 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 16:55:58,717 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 16:55:58,719 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 16:55:59,109 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:55:59,110 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:55:59,110 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:55:59,377 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:55:59,402 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:55:59,402 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:55:59,403 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 16:57:21,481 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 16:57:21,483 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:57:21,484 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 16:57:21,484 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 16:57:21,485 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-08 16:57:26,681 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 16:57:26,825 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 16:57:26,894 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 16:57:26,918 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 17:11:15,345 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 17:11:15,454 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 17:11:15,454 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 17:11:15,463 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 17:11:15,471 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 17:11:15,485 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 17:11:15,487 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 17:11:15,869 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 17:11:15,870 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 17:11:15,870 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 17:11:16,141 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 17:11:16,168 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 17:11:16,168 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 17:11:16,169 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 17:13:44,634 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 17:13:44,738 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 17:13:44,738 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 17:13:44,741 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 17:13:44,746 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 17:13:44,753 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 17:13:44,755 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 17:13:45,145 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 17:13:45,146 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 17:13:45,146 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 17:13:45,464 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 17:13:45,489 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 17:13:45,489 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 17:13:45,490 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 17:13:51,695 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 17:13:51,798 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 17:13:51,798 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 17:13:51,801 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 17:13:51,807 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 17:13:51,813 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 17:13:51,814 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 17:13:52,219 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 17:13:52,219 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 17:13:52,220 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 17:13:52,583 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 17:13:52,608 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 17:13:52,608 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 17:13:52,609 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 17:14:03,472 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 17:14:03,580 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 17:14:03,580 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 17:14:03,582 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 17:14:03,588 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 17:14:03,595 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 17:14:03,596 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 17:14:03,983 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 17:14:03,984 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 17:14:03,984 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 17:14:04,375 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 17:14:04,401 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 17:14:04,401 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 17:14:04,402 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-08 17:19:03,194 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-01-08 17:19:03,304 [INFO] [MainThread] [cli_server/cli_server.py:112]: Log pipe server stopped
+2026-01-08 17:19:03,304 [DEBUG] [MainThread] [cli_server/cli_server.py:206]: CLI server stopped
+2026-01-08 17:19:03,307 [INFO] [MainThread] [root/bar_manager.py:76]: Successfully loaded updated config and re-initialised all bars.
+2026-01-08 17:19:03,315 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-01-08 17:19:03,318 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-01-08 17:19:03,319 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-01-08 17:19:03,714 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-08 17:19:03,715 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-08 17:19:03,715 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-08 17:19:03,982 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-08 17:19:04,003 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-08 17:19:04,003 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-08 17:19:04,004 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
