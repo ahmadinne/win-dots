@@ -2,6 +2,7 @@
 :root {
 	--bg1: #202020;
 	--bg2: #333333;
+	--bg3: #1c1c1c;
 	--text1: #ffffff;
 	--hover1: #363636;
 	--hover2: #5e5e5e;
@@ -25,6 +26,11 @@
     border: 0px solid var(--bg1);
 	padding: 0px 0px;
 }
+
+.container-right {
+	margin-right: 93px;
+}
+
 /* Global styles for ToolTip */
 .tooltip {
     background-color: var(--bg1);
@@ -108,7 +114,7 @@
 
 /* Spacing for the widgets */
 .widget {
-    padding: 0 5px;
+    padding: 0 2px;
     margin: 0;
 }
 .icon {
@@ -145,5 +151,17 @@
 }
 .glazewm-workspaces .ws-btn .icon {
 	background-color: alpha(--text1, 0.5);
+}
+
+.wifi-widget,
+.volume-widget {
+	border: none;
+	margin: 4px 0px;
+	padding: 0px 2px;
+	border-radius: 5px;
+}
+.wifi-widget:hover,
+.volume-widget:hover {
+	background-color: var(--hover1);
 }
 

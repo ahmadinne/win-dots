@@ -6,7 +6,7 @@
 }
 
 .wifi-menu:hover {
-	background-color: var(--hover);
+	background-color: var(--hover1);
 }
 
 .wifi-menu .progress-bar {
@@ -21,7 +21,7 @@
     font-weight: 600;
     margin-bottom: 2px;
     padding: 12px;
-    background-color: var(--black);
+    background-color: var(--bg3);
     color: white;
     border-bottom: 1px solid var(--bg);
 }
@@ -47,7 +47,7 @@
 }
 
 .wifi-menu .wifi-item:hover {
-    background-color: var(--hover);
+    background-color: var(--hover1);
     border-radius: 6px;
 }
 
@@ -99,7 +99,7 @@
     padding: 12px;
     margin-top: 2px;
     color: #9399b2;
-    background-color: var(--black);
+    background-color: var(--bg3);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
