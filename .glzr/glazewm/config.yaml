@@ -21,7 +21,7 @@ general:
     trigger: 'window_focus' #monitor/window
 
   hide_method: 'cloak' #cloak/hide
-  show_all_in_taskbar: true
+  show_all_in_taskbar: false
 
 gaps:
   scale_with_dpi: true

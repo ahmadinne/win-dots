@@ -64,7 +64,7 @@ widgets:
         on_left: "toggle_menu"
         on_middle: "exec cmd.exe /c start ms-settings:network"
       wifi_icons: [
-        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-zero.svg' />",  # Icon for 0% strength
+        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-off.svg' />",  # Icon for 0% strength
         "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-low.svg' />",  # Icon for 1-24% strength
         "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-low.svg' />",  # Icon for 25-49% strength
         "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-high.svg' />",  # Icon for 50-74% strength
