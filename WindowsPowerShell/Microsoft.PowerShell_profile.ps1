@@ -22,6 +22,8 @@ Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
 Function Terminalcmd {nvim "$HOME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
 Function Fetches {cls; bunnyfetch}
 Function ComMojang {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
+Function HostsCmd {nvim "C:\Windows\System32\drivers\etc\hosts"}
+
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
@@ -34,6 +36,7 @@ Set-Alias -Name startup -Value taskschd.msc
 Set-Alias -Name shell:startup -Value Startupcmd
 Set-Alias -Name bf -Value bunnyfetch
 Set-Alias -Name bfs -Value Fetches
+Set-Alias -Name hosts -Value HostsCmd
 
 Set-Alias -Name yz -Value y
 Function y {

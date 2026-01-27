@@ -5327,3 +5327,193 @@ ver.py:212]: CLI server started v1.1.4
 2026-01-20 04:02:23,913 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
 2026-01-20 04:02:23,913 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
 2026-01-20 04:02:23,913 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-20 20:39:30,758 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-20 20:39:30,760 [INFO] [Thread-1 (_run_server)] [cli_server/cli_ser2026-01-20 20:39:30,761 [INFO] [Thread-12026-01-20 20:39:30,760 [INFO] [MainThread] [cli_server/cli_server.py:104]:2026-01-20 20:39:30,761 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-20 20:39:30,778 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-20 20:39:35,271 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-20 20:39:36,282 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-20 20:39:36,309 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-20 20:39:36,310 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-20 20:39:36,316 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-20 20:39:36,511 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-20 20:39:36,511 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-20 20:42:03,883 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-21 18:50:04,609 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-21 18:50:04,727 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-21 18:50:04,728 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-21 18:50:04,947 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-21 18:50:04,948 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-21 18:50:04,949 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-21 18:50:04,950 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-21 18:50:06,757 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-21 18:50:08,788 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-21 18:50:08,826 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-21 18:50:08,826 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-21 18:50:08,828 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-21 18:50:09,313 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-21 18:50:09,313 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-21 18:50:27,731 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-21 18:50:30,414 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-21 18:50:31,233 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-21 18:50:31,846 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-22 13:06:54,626 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-22 13:06:54,628 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-22 13:06:54,629 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-22 13:06:54,629 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-22 13:06:54,630 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-22 13:06:59,975 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-22 13:07:00,634 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-22 13:07:00,679 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-22 13:07:00,679 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-22 13:07:00,681 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-22 13:07:01,350 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-22 13:07:01,351 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-22 13:07:24,623 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 13:07:27,133 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-22 13:07:28,097 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-22 13:07:28,582 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-22 13:49:55,142 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 13:49:56,375 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 13:49:57,324 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 13:49:58,316 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 13:49:59,323 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 14:12:21,250 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-22 17:08:53,014 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-22 17:08:53,015 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-22 17:08:53,016 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-22 17:08:53,151 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-22 17:08:53,152 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-22 17:08:53,152 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-22 17:08:53,153 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-22 17:08:53,707 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-22 17:08:54,513 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-22 17:08:54,548 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-22 17:08:54,548 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-22 17:08:54,550 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-22 17:08:54,906 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-22 17:08:54,907 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-22 17:24:59,440 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 17:25:00,438 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 17:25:01,455 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 17:25:02,458 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 17:25:03,482 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-22 19:17:12,555 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 19:17:14,980 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-22 19:17:15,629 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-22 19:17:16,086 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-22 19:17:20,570 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 19:17:24,642 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 19:17:26,797 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 19:17:29,905 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 19:17:34,678 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-22 19:17:41,934 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-23 17:28:28,471 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-23 17:28:28,491 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+ver.py:212]: CLI server started v1.1.4
+2026-01-23 17:28:28,494 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-23 17:28:28,501 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-23 17:28:28,503 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-23 17:28:28,509 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-23 17:28:35,035 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-23 17:28:36,048 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-23 17:28:36,080 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-23 17:28:36,081 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-23 17:28:36,085 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-23 17:28:36,402 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-23 17:28:36,402 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-23 17:30:39,762 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-23 17:30:41,765 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-23 17:30:43,637 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-23 17:30:44,086 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-23 18:50:32,381 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-23 18:50:33,377 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-23 18:50:34,378 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-23 18:50:35,385 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-23 18:50:36,376 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-23 19:58:35,901 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-23 22:49:33,736 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-24 17:30:25,553 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-24 17:30:25,874 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-24 17:30:25,874 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-24 17:30:25,879 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-24 17:30:29,466 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-24 17:30:31,993 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-24 17:30:32,035 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-24 17:30:32,036 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-24 17:30:32,045 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-24 19:04:20,609 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-24 19:04:21,623 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-24 19:04:22,621 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-24 19:04:23,609 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-24 19:04:24,617 [ERROR] [MainThread] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-24 19:35:26,813 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-24 19:44:12,407 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-25 07:49:00,148 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-25 07:49:00,185 [INFO] [Thread-1 (_run_server)] [cli_server/cli_ser2026-01-25 07:49:00,245 [INFO] [Thread-12026-01-25 07:49:00,186 [INFO] [MainThread] [cli_server/cli_server.py:104]:2026-01-25 07:49:00,246 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-25 07:49:00,294 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-25 07:49:04,599 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-25 07:49:05,599 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-25 07:49:05,666 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-25 07:49:05,690 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-25 07:49:05,698 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-25 07:49:06,034 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-25 07:49:06,035 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-25 07:49:07,630 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-25 07:49:09,860 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-25 07:49:10,558 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-25 07:49:11,153 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-25 07:49:12,722 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-25 19:09:16,235 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-25 19:09:16,298 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-25 19:09:16,299 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-25 19:09:16,302 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-25 19:09:18,982 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-25 19:09:21,032 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-25 19:09:21,107 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-25 19:09:21,155 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-25 19:09:21,164 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-26 13:33:19,606 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-26 13:33:19,836 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-26 13:33:20,064 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-26 13:33:20,101 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-26 13:33:22,002 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-26 13:33:23,374 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-26 13:33:23,493 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-26 13:33:23,494 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-26 13:33:23,499 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-26 13:33:24,217 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-26 13:33:24,218 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-26 13:33:25,443 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-26 13:33:27,679 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-26 13:33:28,339 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-26 13:33:28,824 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
+2026-01-26 13:33:31,697 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-26 13:47:13,753 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-26 13:47:14,115 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-26 13:47:15,122 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-26 13:47:16,128 [ERROR] [WiFiConnectWorker] [wifi_widget/wifi.py:193]: Error in wifi widget update: [Errno 11004] getaddrinfo failed
+2026-01-26 14:00:31,559 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-26 14:49:27,426 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-27 16:45:22,289 [INFO] [MainThread] [root/log.py:69]: YASB v1.8.6
+2026-01-27 16:45:22,302 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-27 16:45:22,303 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-27 16:45:22,303 [INFO] [Thread-1 (_run_server)] [cli_server/cli_server.py:212]: CLI server started v1.1.4
+2026-01-27 16:45:22,303 [INFO] [MainThread] [cli_server/cli_server.py:104]: Log pipe server started
+2026-01-27 16:45:22,304 [ERROR] [MainThread] [root/main.py:74]: Another instance of the YASB is already running.
+2026-01-27 16:45:22,856 [INFO] [MainThread] [root/service.py:48]: AudioOutputService starting...
+2026-01-27 16:45:23,676 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
+2026-01-27 16:45:23,736 [INFO] [MainThread] [root/update_service.py:409]: Background update checker started
+2026-01-27 16:45:23,807 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-01-27 16:45:23,808 [DEBUG] [Dummy-5] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-01-27 16:45:24,242 [WARNING] [UpdateChecker] [root/update_service.py:275]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-01-27 16:45:24,402 [WARNING] [UpdateChecker] [root/update_service.py:405]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-01-27 16:45:29,399 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-27 16:45:50,369 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-27 16:45:56,956 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-27 16:45:58,601 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-27 18:32:13,522 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-27 18:35:24,985 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-27 18:35:26,656 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-27 18:35:28,224 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:545]: Connecting to wifi network...
+2026-01-27 18:35:28,857 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected
+2026-01-27 18:35:29,298 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:567]: Connection completed to wifi network
