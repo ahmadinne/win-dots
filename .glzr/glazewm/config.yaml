@@ -21,7 +21,7 @@ general:
     trigger: 'window_focus' #monitor/window
 
   hide_method: 'cloak' #cloak/hide
-  show_all_in_taskbar: false
+  show_all_in_taskbar: true
 
 gaps:
   scale_with_dpi: true
@@ -41,9 +41,9 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
+      enabled: true
       # Allowed values: 'square', 'rounded', 'small_rounded'.
-      style: 'rounded'
+      style: 'square'
     transparency:
       enabled: false
       opacity: '95%'
@@ -56,8 +56,8 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
-      style: 'rounded'
+      enabled: true
+      style: 'square'
     transparency:
       enabled: false
       opacity: '70%'

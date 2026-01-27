@@ -12,9 +12,9 @@
 * {
     font-size: 12px;
     color: var(--text1);
-    font-weight: 600;
-	font-style: normal;
-    font-family: "Segoe UI", "JetBrainsMono Nerd Font";
+	  font-weight: 700;
+		font-style: normal;
+    font-family: "JetBrainsMono NFP" ;
 }
 
 @import "./menu/wifi.css";
@@ -24,11 +24,13 @@
     background-color: var(--bg1);
     border-radius: 0px;
     border: 0px solid var(--bg1);
-	padding: 0px 0px;
+		padding: 0px 0px;
 }
 
-.container-right {
-	margin-right: 93px;
+.container {
+	/* margin-right: 154px; */
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 /* Global styles for ToolTip */
@@ -119,7 +121,7 @@
 }
 .icon {
     font-size: 16px;
-	margin-right: 3px;
+	margin-right: 0px;
 }
 .widget .label {
     padding: 0px 2px;
@@ -128,39 +130,38 @@
 .glazewm-workspaces .ws-btn {
 	border: none;
 	margin: 0px 0px;
-	padding: 5px 10px;
-	border-radius: 6px;
+	padding-right: 10px;
+	padding-left: 5px;
+	color: var(--hover2);
 }
 .glazewm-workspaces .ws-btn:hover {
 	background-color: var(--hover1);
 }
-.glazewm-workspaces .ws-btn.active_empty {
-	/* border:  */
-}
-.glazewm-workspaces .ws-btn.active_populated {
-	/* border: */
-}
+.glazewm-workspaces .ws-btn.active_empty {}
+.glazewm-workspaces .ws-btn.active_populated {}
 .glazewm-workspaces .ws-btn.focused_empty {
-	background-color: var(--active);
+	color: var(--text1);
 }
 .glazewm-workspaces .ws-btn.focused_populated {
-	background-color: var(--active);
+	/* background-color: var(--active); */
+	color: var(--text1);
 }
 .glazewm-workspaces .ws-btn.focused_populated:hover {
-	background-color: var(--hover2);
+	/* background-color: var(--hover2); */
 }
 .glazewm-workspaces .ws-btn .icon {
 	background-color: alpha(--text1, 0.5);
 }
 
 .wifi-widget,
+.clock-widget,
 .volume-widget {
 	border: none;
-	margin: 4px 0px;
-	padding: 0px 2px;
-	border-radius: 5px;
+	margin: 0px 0px;
+	padding: 0px 5px;
 }
 .wifi-widget:hover,
+.clock-widget:hover,
 .volume-widget:hover {
 	background-color: var(--hover1);
 }

@@ -10,7 +10,7 @@ bars:
     screens: ["*"]
     class_name: "yasb-bar"
     alignment:
-      position: "bottom"
+      position: "top"
       center: true
     animation:
       enabled: false
@@ -21,7 +21,7 @@ bars:
       windows_app_bar: true
     dimensions:
       width: "100%"
-      height: 38
+      height: 30
     padding:
       top: 0
       left: 0
@@ -38,9 +38,9 @@ bars:
         alignment: "right"
         stretch: true
     widgets:
-      left: []
-      center: [ "glazewm_workspaces" ]
-      right: [ "wifi", "volume" ]
+      left: [ "glazewm_workspaces" ]
+      center: [ "wifi", "volume" ]
+      right: [ "clock" ]
 widgets:
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
@@ -73,8 +73,8 @@ widgets:
       menu_config:
         blur: false
         round_corners: false
-        alignment: left
-        direction: up
+        alignment: "center"
+        direction: "bottom"
         offset_top: 6
         offset_left: 0
         wifi_icons_secured: [
@@ -102,9 +102,13 @@ widgets:
       audio_menu:
         blur: false
         round_corners: false
-        alignment: "left"
-        direction: "up"
+        alignment: "center"
+        direction: "bottom"
       callbacks:
         on_left: "toggle_volume_menu"
         on_right: "toggle_mute"
+  clock:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "{%H:%M - %a, %b %d}"
 
