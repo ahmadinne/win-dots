@@ -38,8 +38,8 @@ bars:
         alignment: "right"
         stretch: true
     widgets:
-      left: [ "glazewm_workspaces" ]
-      center: [ "wifi", "volume" ]
+      left: [ "wifi", "volume" ]
+      center: [ "glazewm_workspaces" ]
       right: [ "clock" ]
 widgets:
   glazewm_workspaces:
@@ -59,7 +59,7 @@ widgets:
   wifi:
     type: "yasb.wifi.WifiWidget"
     options:
-      label: "{wifi_icon}"
+      label: "<span>{wifi_icon}</span> {wifi_name}"
       callbacks: 
         on_left: "toggle_menu"
         on_middle: "exec cmd.exe /c start ms-settings:network"
@@ -73,7 +73,7 @@ widgets:
       menu_config:
         blur: false
         round_corners: false
-        alignment: "center"
+        alignment: "left"
         direction: "bottom"
         offset_top: 6
         offset_left: 0
@@ -92,7 +92,7 @@ widgets:
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
-      label: "{icon}"
+      label: "<span>{icon}</span> {level}"
       volume_icons:
         - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-x.svg' />"  # Icon for muted
         - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-1.svg' />"  # Icon for 0-10% volume
@@ -102,7 +102,7 @@ widgets:
       audio_menu:
         blur: false
         round_corners: false
-        alignment: "center"
+        alignment: "left"
         direction: "bottom"
       callbacks:
         on_left: "toggle_volume_menu"

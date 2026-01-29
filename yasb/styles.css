@@ -121,7 +121,6 @@
 }
 .icon {
     font-size: 16px;
-	margin-right: 0px;
 }
 .widget .label {
     padding: 0px 2px;
@@ -130,8 +129,7 @@
 .glazewm-workspaces .ws-btn {
 	border: none;
 	margin: 0px 0px;
-	padding-right: 10px;
-	padding-left: 5px;
+	padding: 5px 7px;
 	color: var(--hover2);
 }
 .glazewm-workspaces .ws-btn:hover {
@@ -166,3 +164,8 @@
 	background-color: var(--hover1);
 }
 
+.volume-widget .icon,
+.wifi-widget .icon {
+	margin-bottom: 2px;
+	margin-right: 5px;
+}
