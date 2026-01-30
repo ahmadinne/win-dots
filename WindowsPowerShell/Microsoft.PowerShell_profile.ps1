@@ -23,6 +23,8 @@ Function Terminalcmd {nvim "$HOME/AppData/Local/Packages/Microsoft.WindowsTermin
 Function Fetches {cls; bunnyfetch}
 Function ComMojang {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
 Function HostsCmd {nvim "C:\Windows\System32\drivers\etc\hosts"}
+Function dbpCmd {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
+Function drpCmd {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
 
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
@@ -37,6 +39,10 @@ Set-Alias -Name shell:startup -Value Startupcmd
 Set-Alias -Name bf -Value bunnyfetch
 Set-Alias -Name bfs -Value Fetches
 Set-Alias -Name hosts -Value HostsCmd
+Set-Alias originaldbp dbp
+Remove-Item Alias:dbp -Force
+Set-Alias -Name dbp -Value dbpCmd
+Set-Alias -Name drp -Value drpCmd
 
 Set-Alias -Name yz -Value y
 Function y {

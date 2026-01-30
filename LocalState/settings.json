@@ -13,12 +13,24 @@
             "keys": "ctrl+shift+c"
         },
         {
+            "id": null,
+            "keys": "ctrl+shift+k"
+        },
+        {
             "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+shift+v"
         },
         {
+            "id": null,
+            "keys": "ctrl+shift+p"
+        },
+        {
             "id": "Terminal.DuplicatePaneAuto",
             "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+n"
         }
     ],
     "newTabMenu": 
@@ -45,7 +57,7 @@
         [
             {
                 "commandline": "powershell.exe -nologo",
-                "elevate": false,
+                "elevate": true,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"

@@ -2,7 +2,7 @@ general:
   startup_commands: [
     # "shell-exec C:/Users/ahmadinne/scoop/apps/flow-launcher/current/Flow.Launcher.exe",
     "shell-exec yasb",
-    "shell-exec C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec C:/Program Files/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
   ]
   shutdown_commands: [
     # "shell-exec taskkill /IM Flow.Launcher.exe /F",
