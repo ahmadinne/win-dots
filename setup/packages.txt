@@ -1,11 +1,10 @@
 autohotkey.autohotkey
 sharkdp.bat
 eza-community.eza
-BrechtSanders.WinLibs.POSIX.UCRT.LLVM
+MartinStorsjo.LLVM-MinGW.UCRT
 Git.Git
 Github.cli
 glzr-io.glazewm
-Google.Chrome
 Neovim.Neovim
 OpenJS.NodeJS
 Microsoft.PowerToys
