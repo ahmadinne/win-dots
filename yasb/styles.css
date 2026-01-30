@@ -151,6 +151,7 @@
 	background-color: alpha(--text1, 0.5);
 }
 
+.battery-widget,
 .wifi-widget,
 .clock-widget,
 .volume-widget {
@@ -158,12 +159,15 @@
 	margin: 0px 0px;
 	padding: 0px 5px;
 }
+
+.battery-widget:hover,
 .wifi-widget:hover,
 .clock-widget:hover,
 .volume-widget:hover {
 	background-color: var(--hover1);
 }
 
+.battery-widget .icon,
 .volume-widget .icon,
 .wifi-widget .icon {
 	margin-bottom: 2px;

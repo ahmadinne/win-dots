@@ -38,7 +38,7 @@ bars:
         alignment: "right"
         stretch: true
     widgets:
-      left: [ "wifi", "volume" ]
+      left: [ "battery", "wifi", "volume" ]
       center: [ "glazewm_workspaces" ]
       right: [ "clock" ]
 widgets:
@@ -111,4 +111,22 @@ widgets:
     type: "yasb.clock.ClockWidget"
     options:
       label: "{%H:%M - %a, %b %d}"
-
+  battery:
+    type: "yasb.battery.BatteryWidget"
+    options:
+      label: "<span>{icon}</span> {percent}%"
+      status_thresholds:
+        critical: 20
+        low: 40
+        medium: 60
+        high: 80
+        full: 100
+      charging_options:
+        icon_format: "{charging_icon}"
+      status_icons:
+        icon_charging: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-charging' />"
+        icon_critical: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-warning' />"
+        icon_low: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-low' />"
+        icon_medium: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
+        icon_high: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-full' />" 
+        icon_full: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery' />" 
