@@ -1,0 +1,56 @@
+// Zed settings
+{
+  "restore_on_startup": "last_workspace",
+  "inline_code_actions": false,
+  "disable_ai": true,
+  "format_on_save": "off",
+  "bottom_dock_layout": "contained",
+  "preview_tabs": {
+    "enable_preview_from_file_finder": true
+  },
+  "tabs": {
+    "show_diagnostics": "errors",
+    "file_icons": true,
+    "git_status": true
+  },
+  "title_bar": {
+    "show_project_items": true,
+    "show_onboarding_banner": true,
+    "show_branch_name": true,
+    "show_branch_icon": true
+  },
+  "relative_line_numbers": "enabled",
+  "indent_guides": {
+    "enabled": false,
+  },
+  "which_key": {
+    "enabled": true,
+  },
+  "project_panel": {
+    "dock": "right",
+  },
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "helix_mode": false,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "icon_theme": "Material Icon Theme",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Gruvbox Light Soft",
+    "dark": "Paradise",
+  },
+}

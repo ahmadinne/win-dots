@@ -1,0 +1,52 @@
+// Zed keymap
+[
+  {
+    "context": "Workspace && !Picker", "bindings": {
+      "ctrl-e": "project_panel::ToggleFocus",
+      "space e": "vim::ToggleProjectPanelFocus",
+      "space f": "file_finder::Toggle",
+      "space q": "pane::CloseActiveItem",
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "g n": "vim::GoToTab",
+      "g b": "vim::GoToPreviousTab"
+    }
+  },
+  // disable yanking when pasting
+  {
+    "context": "Editor && vim_mode == visual && !VimWaiting && !VimObject",
+    "bindings": {
+      "p": ["vim::Paste", { "preserve_clipboard": true }]
+    }
+  },
+  // Normal Mode
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "ctrl-e": "vim::ToggleProjectPanelFocus"
+    },
+  },
+  // Insert Mode
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "space": null,
+      "space f": null,
+      "space e": null,
+      "space q": null
+    }
+  },
+  // Visual Mode
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "ctrl-n": ["editor::SelectNext", { "replace_newest": false }], // editor.action.addSelectionToNextFindMatch  / find_under_expand
+      "ctrl-p": ["editor::SelectPrevious", { "replace_newest": true }], // editor.action.moveSelectionToNextFindMatch  / find_under_expand_skip
+      "ctrl-j": "editor::MoveLineDown",
+      "ctrl-k": "editor::MoveLineUp"
+    },
+  },
+]
