@@ -13,5 +13,4 @@ Microsoft.VCRedist.2015+.x64
 AmN.yasb
 sxyazi.yazi
 DEVCOM.JetBrainsMonoNerdFont
-valinet.ExplorerPatcher
 M2Team.NanaZip
