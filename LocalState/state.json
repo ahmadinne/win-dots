@@ -1,7 +1,11 @@
 {
+	"dismissedMessages" : 
+	[
+		"deprecated"
+	],
 	"generatedProfiles" : 
 	[
 		"{b453ae62-4e3d-5e58-b989-0a998ec441b8}"
 	],
-	"settingsHash" : "3651b8cb60547ee1-01dc92274aa04d7e"
+	"settingsHash" : "77678403cad2a64b-01dc92d5d1981814"
 }

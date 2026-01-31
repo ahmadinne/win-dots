@@ -29,13 +29,14 @@
 !+w::Run "glazewm command toggle-floating --centered", , "Hide"
 !+f::Run "glazewm command toggle-fullscreen", , "Hide"
 !m::Run "glazewm command toggle-minimized", , "Hide"
-!f::{
-	if WinActive("Helium") or WinActive("Firefox") or WinActive("Chrome") or WinActive("Minecraft") {
-		Send "{f11}"
-	} else {
-		Run "glazewm command toggle-fullscreen", , "Hide"
-	}
-}
+; !f::{
+; 	if WinActive("Edge") or WinActive("Helium") or WinActive("Firefox") or WinActive("Chrome") or WinActive("Minecraft") {
+; 		Send "{f11}"
+; 	} else {
+; 		Run "glazewm command toggle-fullscreen", , "Hide"
+; 	}
+; }
+!f::Send "{f11}"
 
 ; Killer do killings
 !q::{
