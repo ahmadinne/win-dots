@@ -1,0 +1,62 @@
+local lsp = vim.lsp
+
+lsp.config('gopls', {
+    settings = {
+        gopls = {
+            ['ui.inlayhint.hints'] = {
+                compositeLiteralFields = true,
+                constantValues = true,
+                parameterNames = true,
+            },
+        },
+    },
+})
+
+lsp.config('rust_analyzer', {
+    settings = {
+        ['rust-analyzer'] = {
+            inlayHints = {
+                typeHints = false,
+                chainingHints = false,
+                parameterHints = false,
+                closingBraceHints = false,
+            },
+            check = {
+                command = 'clippy',
+            },
+            imports = {
+                granularity = { group = 'module' },
+            },
+            assist = {
+                preferSelf = true,
+            },
+        },
+    },
+})
+
+lsp.config('jsonls', {
+    settings = {
+        json = {
+            validate = { enable = true },
+        },
+    },
+})
+
+lsp.enable {
+	'jdtls',
+	'ts_ls',
+	'tsls',
+    'vimls',
+    'vim_ls',
+	'bashls',
+	'cmake',
+	'rust_analyzer',
+	'texlab',
+	'basedpyright',
+	'tsserver',
+	'clangd',
+	'gopls',
+	'lua_ls',
+	'jsonls',
+	'tinymist',
+}

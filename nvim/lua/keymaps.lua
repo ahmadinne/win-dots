@@ -2,7 +2,7 @@
 vim.keymap.set("n", "<leader>so", ":update<CR> :source<CR>")
 vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format)
 vim.keymap.set('n', '<leader>w', ':write<CR>')
-vim.keymap.set('n', '<leader>q', ':bd<CR>')
+vim.keymap.set('n', '<leader>q', '::bp<bar>sp<bar>bn<bar>bd<CR>')
 
 vim.keymap.set('n', 'H', '<cmd>BufferLineCyclePrev<cr>')
 vim.keymap.set('n', 'L', '<cmd>BufferLineCycleNext<cr>')
@@ -73,6 +73,19 @@ vim.keymap.set('x', '<C-p>', function() mc.matchAddCursor(-1) end)
 vim.keymap.set('x', '<leader>n', function() mc.matchSkipCursor(1) end)
 vim.keymap.set('x', '<leader>p', function() mc.matchSkipCursor(-1) end)
 
+-- Clasp
+vim.keymap.set({ "n", "i" }, "<c-l>", function()
+    if
+        vim.fn.mode() == "i"
+        and package.loaded["multicursor-nvim"]
+        and require("multicursor-nvim").numCursors() > 1
+    then
+        vim.cmd("stopinsert")
+    else
+        require("clasp").wrap("next")
+    end
+end)
+
 -- Add and remove cursors with control + left click.
 vim.keymap.set("n", "<c-leftmouse>", mc.handleMouse)
 vim.keymap.set("n", "<c-leftdrag>", mc.handleMouseDrag)
@@ -94,13 +107,13 @@ end)
 
 
 -- Yank Highlight
-vim.api.nvim_create_autocmd("TextYankPost", {
-	desc = "Highlight when yanking (copying) text",
-	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
-	callback = function()
-		vim.hl.on_yank()
-	end,
-})
+-- vim.api.nvim_create_autocmd("TextYankPost", {
+-- 	desc = "Highlight when yanking (copying) text",
+-- 	group = vim.api.nvim_create_augroup("kickstart-highlight-yank", { clear = true }),
+-- 	callback = function()
+-- 		vim.hl.on_yank()
+-- 	end,
+-- })
 
 
 -- Abbreviation

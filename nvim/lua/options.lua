@@ -1,14 +1,13 @@
+-- ahmadinne's Options
+
+
 -- Colorscheme Configurations
 vim.o.termguicolors = true
 vim.o.background = "dark"
 vim.cmd.colorscheme("paradise")
-vim.cmd[[
-	highlight NvimTreeStatusLineNC guibg=none guifg=none
-]]
 
 
 -- Options
-vim.g.mapleader = " "
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.signcolumn = "yes"
@@ -30,15 +29,15 @@ local built_ins = {
   "getscriptPlugin",
   "gzip",
   "logipat",
+  "matchit",
   "netrw",
   "netrwPlugin",
   "netrwSettings",
   "netrwFileHandlers",
-  "matchit",
-  "tar",
-  "tarPlugin",
   "rrhelper",
   "spellfile_plugin",
+  "tar",
+  "tarPlugin",
   "vimball",
   "vimballPlugin",
   "zip",

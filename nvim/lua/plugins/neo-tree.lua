@@ -3,7 +3,7 @@ require('neo-tree').setup({
 	popup_border_style = "NC",
 	clipboard = { sync = "none" },
 	group_empty_dirs = true,
-	hijack_netrw_behavior = "disabled",
+	hijack_netrw_behavior = "current",
 	sources = { "filesystem", "buffers", "git_status" },
 	open_files_do_not_replace_types = { "terminal", "Trouble", "trouble", "qf", "Outline" },
 	enable_git_status = true,
