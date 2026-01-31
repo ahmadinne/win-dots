@@ -1,4 +1,5 @@
 autohotkey.autohotkey
+Altsnap.Altsnap
 sharkdp.bat
 eza-community.eza
 MartinStorsjo.LLVM-MinGW.UCRT
