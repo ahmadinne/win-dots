@@ -4,6 +4,11 @@ vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format)
 vim.keymap.set('n', '<leader>w', ':write<CR>')
 vim.keymap.set('n', '<leader>q', ':bd<CR>')
 
+vim.keymap.set('n', 'H', '<cmd>BufferLineCyclePrev<cr>')
+vim.keymap.set('n', 'L', '<cmd>BufferLineCycleNext<cr>')
+vim.keymap.set('n', '<C-H>', '<cmd>BufferLineMovePrev<cr>')
+vim.keymap.set('n', '<C-L>', '<cmd>BufferLineMoveNext<cr>')
+
 vim.keymap.set({ "n", "o", "x" }, "{", "<cmd>keepj normal!{<cr>")
 vim.keymap.set({ "n", "o", "x" }, "}", "<cmd>keepj normal!}<cr>")
 
@@ -15,7 +20,15 @@ vim.keymap.set("i", "<C-o>", "<C-x><C-o>")
 
 -- Telescope Maps
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader><space>', builtin.buffers, { desc = "Buffer list" })
+vim.keymap.set('n', '<leader><space>', function()
+	builtin.buffers {
+		previewer = false,
+    layout_config = {
+			width = 50,
+			height = 15
+		}
+	}
+end, { desc = "Buffer list" })
 vim.keymap.set('n', '<leader>f', builtin.find_files, {desc = "Find Files"})
 vim.keymap.set('n', '<leader>d', builtin.diagnostics, { desc = "Diagnostics" })
 vim.keymap.set('n', '<leader>h', builtin.help_tags, { desc = "Help" })
@@ -46,7 +59,7 @@ function toggle_tree()
 end
 
 vim.keymap.set("n", "<leader>e", "<cmd>:lua toggle_tree()<cr>")
-vim.keymap.set("n", "<leader>E", "<cmd>:lua require('nvim-tree.api').tree.toggle(false, true)<cr>")
+vim.keymap.set("n", "<leader>E", "<cmd>Neotree toggle<cr>")
 
 
 -- Multicursor Maps

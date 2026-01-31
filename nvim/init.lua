@@ -26,6 +26,7 @@ require("lazy").setup({
 	{ "windwp/nvim-autopairs" },
 	{ "neovim/nvim-lspconfig" },
 	{ "nvim-lua/plenary.nvim" }, -- telescope.nvim dependencies
+	{ "akinsho/bufferline.nvim"},
 	{ "ahmadinne/paradise.nvim" },
 	{ "nvim-mini/mini.surround" },
 	{ "DaikyXendo/nvim-material-icon" },
@@ -48,6 +49,7 @@ require("lazy").setup({
 require "nvim-autopairs".setup()
 require "multicursor-nvim".setup()
 require "mini.surround".setup()
+require "bufferline".setup()
 require "mini.diff".setup()
 require "mason".setup()
 
@@ -56,7 +58,7 @@ require "mason".setup()
 local modules = {
 	'options',
 	'keymaps',
-	'statusline'
+	-- 'statusline'
 }
 
 for _, a in ipairs(modules) do

@@ -6329,3 +6329,7 @@ found unexpected end of stream
 2026-01-30 17:41:02,839 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
 2026-01-30 17:41:03,800 [INFO] [MainThread] [root/watcher.py:54]: Created file watcher for path C:\Users\ahmadinne\.config\yasb
 2026-01-30 17:41:03,835 [INFO] [MainThread] [root/update_service.py:426]: Background update checker started
+2026-01-31 03:45:08,368 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-01-31 03:47:24,262 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-01-31 04:16:27,635 [INFO] [MainThread] [root/bar.py:154]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-01-31 07:16:05,273 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:601]: WiFi network disconnected

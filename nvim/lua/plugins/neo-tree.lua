@@ -1,8 +1,9 @@
 require('neo-tree').setup({
-	close_if_last_window = false,
+	close_if_last_window = true,
 	popup_border_style = "NC",
 	clipboard = { sync = "none" },
 	group_empty_dirs = true,
+	hijack_netrw_behavior = "disabled",
 	sources = { "filesystem", "buffers", "git_status" },
 	open_files_do_not_replace_types = { "terminal", "Trouble", "trouble", "qf", "Outline" },
 	enable_git_status = true,
@@ -23,6 +24,7 @@ require('neo-tree').setup({
 			["-"] = "navigate_up",
 			["="] = "set_root",
 			["."] = "toggle_hidden",
+			["H"] = "none",
 			["l"] = { "toggle_node", nowait = true },
 			["h"] = "close_node",
 			["<space>"] = "none",
