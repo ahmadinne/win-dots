@@ -13,12 +13,16 @@
 !+p::Send "#+s"
 
 ; Windows management
-!j::Run "glazewm command focus --direction left", , "Hide"
-!k::Run "glazewm command focus --direction right", , "Hide"
-!+j::Run "glazewm command move --direction left", , "Hide"
-!+k::Run "glazewm command move --direction right", , "Hide"
-!h::Run "glazewm command resize --width -2%", , "Hide"
-!l::Run "glazewm command resize --width +2%", , "Hide"
+!j::Run "glazewm command focus --direction down", , "Hide"
+!k::Run "glazewm command focus --direction up", , "Hide"
+!h::Run "glazewm command focus --direction left", , "Hide"
+!l::Run "glazewm command focus --direction right", , "Hide"
+!+j::Run "glazewm command move --direction up", , "Hide"
+!+k::Run "glazewm command move --direction down", , "Hide"
+!+h::Run "glazewm command move --direction left", , "Hide"
+!+l::Run "glazewm command move --direction right", , "Hide"
+; !h::Run "glazewm command resize --width -2%", , "Hide"
+; !l::Run "glazewm command resize --width +2%", , "Hide"
 
 ; Pause Keybindings
 !^p::Run "glazewm command wm-toggle-pause", , "Hide"

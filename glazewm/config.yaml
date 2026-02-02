@@ -1,13 +1,17 @@
 general:
   startup_commands: [
-    # "shell-exec C:/Users/ahmadinne/scoop/apps/flow-launcher/current/Flow.Launcher.exe",
     "shell-exec yasb",
     "shell-exec C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec C:/Users/ahmadinne/AppData/Local/FlowLauncher/Flow.Launcher.exe"
+    "shell-exec C:/Users/ahmadinne/Documents/Applications/autotiler/glaze-autotiler.exe",
+    "shell-exec C:/Users/ahmadinne/AppData/Roaming/AltSnap/AltSnap.exe"
   ]
   shutdown_commands: [
-    # "shell-exec taskkill /IM Flow.Launcher.exe /F",
     "shell-exec taskkill /IM yasb.exe /",
-    "shell-exec taskkill /IM autohotkey.exe /"
+    "shell-exec taskkill /IM autohotkey.exe /",
+    "shell-exec taskkill /IM Flow.Launcher.exe /"
+    "shell-exec taskkill /IM glaze-autotiler.exe /",
+    "shell-exec taskkill /IM AltSnap.exe"
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
@@ -41,7 +45,7 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: true
+      enabled: false
       # Allowed values: 'square', 'rounded', 'small_rounded'.
       style: 'square'
     transparency:
@@ -56,7 +60,7 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: true
+      enabled: false
       style: 'square'
     transparency:
       enabled: false
@@ -90,12 +94,18 @@ window_rules:
     match:
       - window_process: { equals: 'hap' }
 
+  - commands: ['set-floating']
+    match:
+    - window_process: { equals: 'Bitwarden' }
+
   - commands: ['ignore']
     match:
       # Ignores any Yasb windows.
+      - window_process: { equals: 'zebar' }
       - window_process: { equals: 'yasb' }
       - window_process: { equals: 'hap' }
       - window_process: { equals: 'buttery-taskbar' }
+      - window_process: { equals: 'GoogleDriveFS'}
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -104,6 +114,8 @@ window_rules:
       # Ignore rules for various 3rd-party apps.
       - window_process: { equals: 'PowerToys' }
         window_class: { regex: 'HwndWrapper\[PowerToys\.PowerAccent.*?\]' }
+      - window_title: { equals: 'Command Palette' }
+        window_class: { equals: 'WinUIDesktopWin32WindowClass' }
       - window_process: { equals: 'PowerToys' }
         window_title: { regex: '.*? - Peek' }
       - window_process: { equals: 'Lively' }

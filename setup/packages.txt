@@ -2,7 +2,9 @@ autohotkey.autohotkey
 Altsnap.Altsnap
 sharkdp.bat
 eza-community.eza
+Flow-Launcher.Flow-Launcher
 MartinStorsjo.LLVM-MinGW.UCRT
+Microsoft.DotNet.DesktopRuntime.10
 Git.Git
 Github.cli
 glzr-io.glazewm

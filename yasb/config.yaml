@@ -127,6 +127,5 @@ widgets:
         icon_charging: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-charging' />"
         icon_critical: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-warning' />"
         icon_low: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-low' />"
-        icon_medium: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
-        icon_high: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-full' />" 
-        icon_full: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery' />" 
+        icon_high: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
+        icon_full: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-full' />" 

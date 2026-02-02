@@ -1,4 +1,10 @@
-require('neo-tree').setup({
+local ok, neotree = pcall(require, 'neo-tree')
+
+if not ok then
+	return
+end
+
+neotree.setup {
 	close_if_last_window = true,
 	popup_border_style = "NC",
 	clipboard = { sync = "none" },
@@ -45,4 +51,4 @@ require('neo-tree').setup({
 			["P"] = { "toggle_preview", config = { use_float = true } },
 		},
 	}
-})
+}

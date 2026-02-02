@@ -4,7 +4,6 @@
 -- Colorscheme Configurations
 vim.o.termguicolors = true
 vim.o.background = "dark"
-vim.cmd.colorscheme("paradise")
 
 
 -- Options
@@ -19,7 +18,10 @@ vim.o.swapfile = false
 vim.o.autochdir = true
 vim.o.undofile = true
 vim.o.clipboard = "unnamedplus"
+vim.o.mouse = "a"
 vim.opt.fillchars = { eob = " " }
+vim.o.cmdheight = 0
+vim.o.laststatus = 3
 
 
 -- Disable builtin vim plugins
@@ -47,3 +49,4 @@ local built_ins = {
 for _, plugin in pairs(built_ins) do
   vim.g["loaded_" .. plugin] = 1
 end
+

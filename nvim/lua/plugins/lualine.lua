@@ -1,141 +1,155 @@
-local ok, lualine = pcall(require, 'lualine')
+local lualine = require("lualine")
 
-if not ok then
-	return
+-- Tokyonight Moon colors
+local colors = require("paradise.palette")
+
+-- Conditions
+local conditions = {
+  buffer_not_empty = function()
+    return vim.fn.bufname(0) ~= ""
+  end,
+
+  hide_in_width = function()
+    return vim.fn.winwidth(0) > 80
+  end,
+}
+
+local config = {
+  options = {
+    component_separators = "",
+    section_separators = "",
+    theme = {
+      normal = { c = { fg = colors.fg, bg = colors.bg } },
+      inactive = { c = { fg = colors.fg, bg = colors.bg } },
+    },
+  },
+  sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {},
+  },
+  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {},
+    lualine_x = {},
+    lualine_y = {},
+    lualine_z = {},
+  },
+}
+
+local function insert_left(component)
+  table.insert(config.sections.lualine_c, component)
 end
 
-local mode = {
-	'mode',
-	fmt = function(str) return str:sub(1, 3) end,
-}
+local function insert_right(component)
+  table.insert(config.sections.lualine_x, component)
+end
 
-local searchcount = {
-	'searchcount',
-	padding = { left = 0, right = 1 },
-}
+insert_left({
+  "mode",
+  fmt = function(str)
+    -- return str:sub(1, 1) -- N, I, V, R…
+		return str
+  end,
+  color = function()
+    local mode = vim.fn.mode()
+    local mode_colors = {
+      n  = colors.blue,
+      i  = colors.green,
+      v  = colors.purple,
+      V  = colors.purple,
+      [""] = colors.purple,
+      c  = colors.orange,
+      r  = colors.red,
+      R  = colors.red,
+      t  = colors.red,
+    }
 
-local selectioncount = {
-	'selectioncount',
-	icon = '󰫙',
-	padding = { left = 0, right = 1 },
-}
+    return {
+      fg = mode_colors[mode] or colors.fg,
+      gui = "bold",
+			bg = colors.bg_dark1
+    }
+  end,
+  padding = { left = 1, right = 1 },
+})
 
-local branch = {
-	'branch',
-	icon = '',
-}
+-- Left
+-- insert_left({
+--   function()
+--     local ok, devicons = pcall(require, "nvim-web-devicons")
+--     if not ok then
+--       return ""
+--     end
+--
+--     local filename = vim.fn.expand("%:t")
+--     local extension = vim.fn.expand("%:e")
+--
+--     local icon, hl = devicons.get_icon(filename, extension, { default = true })
+--
+--     if not icon then
+--       return ""
+--     end
+--
+--     return string.format("%%#%s#%s%%*", hl, icon)
+--   end,
+--   padding = { left = 1, right = 0 },
+--   cond = conditions.buffer_not_empty,
+-- })
 
-local diff = {
-	'diff',
-	symbols = { added = ' ', modified = ' ', removed = ' ' },
-	padding = { left = 0, right = 1 },
-}
-
-local basename = {
-	function()
-		local path = vim.fn.expand('%:h')
-		if path == '.' or path == '' then
-			return ''
-		else
-			return path .. '/'
-		end
-	end,
-	padding = { left = 1, right = 0 },
-	fmt = function(str) return str:gsub('/', '  '):gsub('%s+$', '') end,
-	color = 'NonText',
-}
-
-local filetype = {
-	'filetype',
-	padding = { left = 1, right = 0 },
-	icon_only = true,
-}
-
-local filename = {
-	'filename',
-	padding = 0,
-	path = 0,
+insert_left({
+	"filename",
+	path = 1,
 	symbols = {
-		unnamed = '',
-		newfile = '',
+    modified = " ●",
+    readonly = " ",
+    unnamed = "[No Name]",
 	},
-	file_status = false,
-}
+	color = { fg = colors.fg, gui = "bold" },
+	cond = conditions.buffer_not_empty,
+})
 
-local filestatus = {
-	function()
-		if vim.bo.modified then
-			return '●'
-		elseif not vim.bo.modifiable or vim.bo.readonly then
-			return ''
-		end
-		return ''
-	end,
-	padding = 1,
-	color = 'MiniIconsGreen',
-}
+insert_left({
+  "branch",
+  icon = "",
+  color = { fg = colors.fg, gui = "bold" },
+})
 
-local diagnostics = {
-	'diagnostics',
-	update_in_insert = false,
-	symbols = { error = ' ', warn = ' ', hint = ' ', info = '󰋽 ' },
-}
+insert_left({
+  "diff",
+  symbols = { added = " ", modified = " ", removed = " " },
+  diff_color = {
+    added = { fg = colors.green },
+    modified = { fg = colors.orange },
+    removed = { fg = colors.red },
+  },
+  cond = conditions.hide_in_width,
+})
 
-local encoding = {
-	'encoding',
-	fmt = function(str) return string.upper(str) end,
-	padding = { left = 1, right = 0 },
-}
+insert_left({
+  "diagnostics",
+  sources = { "nvim_diagnostic" },
+  symbols = { error = " ", warn = " ", info = " " },
+  diagnostics_color = {
+    error = { fg = colors.red },
+    warn = { fg = colors.yellow },
+    info = { fg = colors.cyan },
+  },
+})
 
-local tabsize = {
-	function()
-		local type = vim.bo.expandtab and 'SPC' or 'TAB'
-		local size = vim.bo.expandtab and vim.bo.shiftwidth or vim.bo.tabstop
-		return type .. ':' .. size
-	end,
-	padding = { left = 1, right = 0 },
-	cond = function() return vim.bo.filetype ~= '' end,
-}
+-- Right
+insert_right({
+  "location",
+  color = { fg = colors.fg_dark },
+  cond = conditions.buffer_not_empty,
+})
 
-local fileformat = {
-	'fileformat',
-	padding = 1,
-	symbols = { unix = 'LF', dos = 'CRLF', mac = 'CR' },
-}
+insert_right("encoding")
+insert_right("filetype")
 
-local progress = {
-	'%P',
-	icon = '󰍜',
-	padding = { left = 1, right = 0 },
-}
+lualine.setup(config)
 
-local showmode = {
-	require('noice').api.status.mode.get,
-	cond = require('noice').api.status.mode.has,
-	color = 'NoiceVirtualText',
-}
-
-lualine.setup {
-	options = {
-		icons_enabled = true,
-		theme = 'auto',
-		component_separators = { left = '', right = '' },
-		section_separators = { left = '', right = '' },
-		disabled_filetypes = {},
-		always_divide_middle = true,
-		globalstatus = true,
-	},
-
-	sections = {
-		lualine_a = { mode, searchcount, selectioncount },
-		lualine_b = { branch, diff },
-		lualine_c = { basename, filetype, filename, filestatus },
-		lualine_x = { diagnostics, showmode },
-		lualine_y = { tabsize, encoding, fileformat },
-		lualine_z = { progress, 'location' },
-	},
-
-	tabline = {},
-	-- extensions = { 'nvim-dap-ui', 'toggleterm', 'trouble' },
-	extensions = { 'nvim-dap-ui', 'toggleterm', 'man', 'quickfix' },
-}
