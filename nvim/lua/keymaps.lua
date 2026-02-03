@@ -4,10 +4,10 @@ vim.keymap.set('c', 'w!', '<cmd>SudaWrite<cr>')
 
 -- Normal Maps
 vim.keymap.set('n', '<leader><space>', '<cmd>BufferPick<cr>')
+vim.keymap.set('n', '<leader>bd', '<cmd>BufferPickDelete<cr>')
 vim.keymap.set("n", "<leader>so", ":update<CR> :source<CR>")
 vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format)
 vim.keymap.set('n', '<leader>w', '<CMD>write<CR>')
-vim.keymap.set('n', '<leader>d', "<CMD>let n=bufnr() | bnext | exec 'sil bd' .. n<CR>")
 
 vim.keymap.set('n', '<C-j>', 'J') -- remap J to Control-J
 vim.keymap.set('n', 'H', '<cmd>BufferPrevious<cr>')
@@ -30,7 +30,7 @@ local fyler = require('fyler')
 local function find_fyler_win()
 	for _, win in ipairs(vim.api.nvim_list_wins()) do
 		local buf = vim.api.nvim_win_get_buf(win)
-		if vim.bo[buf].filetype == "neo-tree" then
+		if vim.bo[buf].filetype == "fyler" then
 			return win
 		end
 	end

@@ -15,8 +15,6 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Plugins List
 require("lazy").setup({
-	{ "mason-org/mason.nvim", lazy = false },
-	{ "saghen/blink.cmp", version = "1.*" },
 	{ "ahmadinne/paradise.nvim" },
 	{ "romgrk/barbar.nvim" },
 	{ "saghen/blink.indent" },
@@ -25,15 +23,14 @@ require("lazy").setup({
 	{ "nvim-mini/mini.surround" },
 	{ "nvim-lualine/lualine.nvim" },
 	{ "DaikyXendo/nvim-material-icon" }, -- icons
+	{ "mason-org/mason.nvim", lazy = false },
 	{ "neovim/nvim-lspconfig", lazy = false },
 	{ "lewis6991/gitsigns.nvim", event = 'VeryLazy' },
-	{
-		"nvim-treesitter/nvim-treesitter", build = ":TSUpdate", main = "nvim-treesitter.configs",
-		config = function() require('plugins.treesitter') end
-	},
+	{ "saghen/blink.cmp", version = "1.*", lazy = false },
+	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate", main = "nvim-treesitter.configs" },
 }, {
 	change_detection = { notify = false },
-	checker = { enabled = true, frequency = 604800 }
+	checker = { enabled = true, frequency = 604800 } -- 1 Week
 })
 
 

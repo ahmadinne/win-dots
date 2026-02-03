@@ -13,12 +13,11 @@ end
 
 --- check for splits
 local function is_user_window(window_handle)
-  return vim.bo[vim.api.nvim_win_get_buf(window_handle)].filetype ~= "NvimTree"
+  return vim.bo[vim.api.nvim_win_get_buf(window_handle)].filetype ~= "fyler"
 end
 
 --- smart close
 local function smart_close()
-  local current_buff = vim.api.nvim_get_current_buf()
   local listed_buffs = vim.fn.getbufinfo({ buflisted = 1 })
   local valid_windows = vim.tbl_filter(is_valid_window, vim.api.nvim_tabpage_list_wins(0))
   local user_windows = vim.tbl_filter(is_user_window, valid_windows)
@@ -45,11 +44,11 @@ local function smart_close()
   end
 
   if is_in_split then
-    return vim.cmd("bdelete")
+    return vim.cmd("BufferDelete")
   end
 
   if #listed_buffs > 1 then
-    return vim.cmd("bprevious | bdelete " .. current_buff)
+    return vim.cmd("BufferClose")
   end
 
   if vim.fn.tabpagenr("$") > 1 then
@@ -61,5 +60,7 @@ end
 
 -- set keymap
 vim.keymap.set("n", "<C-q>", smart_close, { silent = true, desc = "Close buffer if not last" })
-vim.keymap.set("c", "q", smart_close, { silent = true, desc = "Smart Close Buffer" })
-vim.keymap.set("c", "Q", "<cmd>quit<cr>", { silent = true, desc = "Quit Neovim" })
+vim.keymap.set("ca", "q", smart_close, { silent = true, desc = "Smart Close Buffer" })
+vim.keymap.set("ca", "Q", "<cmd>quit<cr>", { silent = true })
+vim.keymap.set("n", "<leader>q", smart_close, { silent = true })
+vim.keymap.set("n", "<leader>Q", "<cmd>quit<cr>", { silent = true })
