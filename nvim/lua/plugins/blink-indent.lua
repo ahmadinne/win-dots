@@ -5,17 +5,14 @@ if not present then return end
 indent.setup {
   static = {
     enabled = true,
-    char = '▎',
-    whitespace_char = nil, -- inherits from `vim.opt.listchars:get().space` when `nil` (see `:h listchars`)
-    priority = 1,
+    char = '┊',
     -- specify multiple highlights here for rainbow-style indent guides
     -- highlights = { 'BlinkIndentRed', 'BlinkIndentOrange', 'BlinkIndentYellow', 'BlinkIndentGreen', 'BlinkIndentViolet', 'BlinkIndentCyan' },
     highlights = { 'BlinkIndent' },
   },
   scope = {
     enabled = true,
-    char = '▎',
-    priority = 1000,
+    char = '│',
     -- set this to a single highlight, such as 'BlinkIndent' to disable rainbow-style indent guides
     -- highlights = { 'BlinkIndentScope' },
     -- optionally add: 'BlinkIndentRed', 'BlinkIndentCyan', 'BlinkIndentYellow', 'BlinkIndentGreen'

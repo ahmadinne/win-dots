@@ -40,7 +40,7 @@ fyler.setup {
 				},
 			},
 			mappings = {
-				["<Esc>"] = "CloseView",
+				["<Esc><Esc>"] = "CloseView",
 				["q"] = "CloseView",
 				["<CR>"] = "Select",
 				["<C-t>"] = "SelectTab",

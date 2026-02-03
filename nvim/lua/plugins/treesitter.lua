@@ -6,22 +6,24 @@ end
 
 treesitter.setup {
 	ensure_installed = {
-		"bash",
 		"c",
+		"bash",
 		"diff",
+		"query",
 		"html",
-		"lua",
-		"luadoc",
 		"markdown",
 		"markdown_inline",
-		"query",
+		"javascript",
+		"typescript",
+		"lua",
+		"luadoc",
 		"vim",
 		"vimdoc",
 	},
-	auto_install = true,
-	highlight = {
-		enable = true,
-		additional_vim_regex_highlighting = { "ruby" },
-	},
-	indent = { enable = true, disable = { "ruby" } }
+	modules = {},
+	sync_install = false,
+	ignore_install = {},
+	auto_install = false,
+	highlight = { enable = true },
+	indent = { enable = true }
 }

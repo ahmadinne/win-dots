@@ -15,19 +15,17 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Plugins List
 require("lazy").setup({
-	{ import = "plugins.blink" },
+	{ "mason-org/mason.nvim", lazy = false },
+	{ "saghen/blink.cmp", version = "1.*" },
 	{ "ahmadinne/paradise.nvim" },
+	{ "romgrk/barbar.nvim" },
 	{ "saghen/blink.indent" },
-	{ "RRethy/nvim-base16" },
 	{ "A7Lavinraj/fyler.nvim" },
 	{ "windwp/nvim-autopairs" },
 	{ "nvim-mini/mini.surround" },
 	{ "nvim-lualine/lualine.nvim" },
 	{ "DaikyXendo/nvim-material-icon" }, -- icons
-	{ "mason-org/mason-lspconfig.nvim" },
-	{ "mason-org/mason.nvim", lazy = false },
 	{ "neovim/nvim-lspconfig", lazy = false },
-	{ "WhoIsSethDaniel/mason-tool-installer.nvim" },
 	{ "lewis6991/gitsigns.nvim", event = 'VeryLazy' },
 	{
 		"nvim-treesitter/nvim-treesitter", build = ":TSUpdate", main = "nvim-treesitter.configs",
@@ -40,15 +38,17 @@ require("lazy").setup({
 
 
 -- Plugins Callout
-require "blink.indent".setup()
+require "barbar".setup()
 require "mini.surround".setup()
 require "nvim-autopairs".setup()
+require "plugins.blink-indent"
+require "plugins.lspconfig"
 require "plugins.fyler"
-require "plugins.lsp"
 require "plugins.blink"
-require "plugins.floaterm"
 require "plugins.telescope"
 require "plugins.mini-move"
 require "plugins.treesitter"
 require "plugins.lualine"
+require "modules.floaterm"
+require "modules.smart-close"
 vim.cmd('colorscheme paradise')

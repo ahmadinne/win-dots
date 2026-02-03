@@ -2,14 +2,14 @@ general:
   startup_commands: [
     "shell-exec yasb",
     "shell-exec C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
-    "shell-exec C:/Users/ahmadinne/AppData/Local/FlowLauncher/Flow.Launcher.exe"
+    "shell-exec C:/Users/ahmadinne/AppData/Local/FlowLauncher/Flow.Launcher.exe",
     "shell-exec C:/Users/ahmadinne/Documents/Applications/autotiler/glaze-autotiler.exe",
     "shell-exec C:/Users/ahmadinne/AppData/Roaming/AltSnap/AltSnap.exe"
   ]
   shutdown_commands: [
     "shell-exec taskkill /IM yasb.exe /",
     "shell-exec taskkill /IM autohotkey.exe /",
-    "shell-exec taskkill /IM Flow.Launcher.exe /"
+    "shell-exec taskkill /IM Flow.Launcher.exe /",
     "shell-exec taskkill /IM glaze-autotiler.exe /",
     "shell-exec taskkill /IM AltSnap.exe"
   ]

@@ -1,54 +1,52 @@
-return {
-    -- Completion engine
-	{
-		'saghen/blink.cmp',
-		event = 'VimEnter',
-		version = '1.*',
-		dependencies = {
-			{
-				'L3MON4D3/LuaSnip',
-				version = '2.*',
-				build = (function()
-					if vim.fn.has 'win32' == 1 or vim.fn.executable 'make' == 0 then
-						return
-					end
-					return 'make install_jsregexp'
-				end)(),
-				opts = {},
-			},
-			{
-				"folke/lazydev.nvim",
-				ft = "lua", -- only load on lua files
-				opts = {
-					library = {
-						{ path = "${3rd}/luv/library", words = { "vim%.uv" } },
-					},
-				},
-			},
-		},
-		opts = {
-			keymap = {
-				preset = 'default',
-			},
-			appearance = {
-				nerd_font_variant = 'mono',
-			},
-			completion = {
-				documentation = { auto_show = false, auto_show_delay_ms = 500 },
-			},
-			sources = {
-				default = { 'buffer', 'lsp', 'path', 'snippets', 'lazydev' },
-				providers = {
-					lazydev = { 
-						name = "LazyDev",
-						module = 'lazydev.integrations.blink',
-						score_offset = 100
-					},
-				},
-			},
-			snippets = { preset = 'luasnip' },
-			fuzzy = { implementation = 'lua' },
-			signature = { enabled = true },
-		},
+local present, blink = pcall(require, 'blink.cmp')
+
+if not present then return end
+
+blink.setup {
+	signature = {
+		enabled = true,
+		window = { show_documentation = true },
 	},
+
+	completion = {
+		accept = {
+			auto_brackets = { enabled = false },
+		},
+		menu = {
+			auto_show = true,
+			auto_show_delay_ms = 0,
+			draw = {
+				columns = { { "label", "label_description", gap = 1 }, { "kind" } },
+			}
+		},
+		documentation = {
+			auto_show = true,
+			auto_show_delay_ms = 1000,
+		}
+	},
+
+	keymap = {
+		["<C-_>"] = { "show" }
+	},
+
+	cmdline = { enabled = true },
+
+	sources = {
+		-- default = { 'lsp', 'path', 'buffer', 'snippets' },
+		default = function()
+			local success, node = pcall(vim.treesitter.get_node)
+			if success and node and vim.tbl_contains({ 'comment', 'line_comment', 'block_comment' }, node:type()) then
+				return { 'buffer' }
+			elseif vim.bo.filetype == 'lua' then
+				return { 'lsp', 'path' }
+			else
+				return { 'lsp', 'path', 'snippets', 'buffer' }
+			end
+		end,
+		providers = {}
+	},
+
+	-- opts_extend = { "sources.default" },
+
 }
+
