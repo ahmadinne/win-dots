@@ -16,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 -- Plugins List
 require("lazy").setup({
 	{ "ahmadinne/paradise.nvim" },
+	{ "oskarnurm/koda.nvim" },
 	{ "romgrk/barbar.nvim" },
 	{ "saghen/blink.indent" },
 	{ "A7Lavinraj/fyler.nvim" },

@@ -24,7 +24,7 @@ local function smart_close()
   local is_in_split = #user_windows > 1
 
   if vim.bo.modified then
-    return vim.notify("Buffer modified!")
+    return vim.notify("Buffer have been modified!")
   end
 
   if vim.bo.filetype == "help" then
@@ -35,6 +35,10 @@ local function smart_close()
     return vim.cmd("quit")
   end
 
+	if vim.bo.filetype == "fyler" then
+		return vim.cmd("quit")
+	end
+
   if vim.bo.buftype == "terminal" then
     return vim.cmd("bdelete!")
   end
@@ -43,19 +47,25 @@ local function smart_close()
     return vim.cmd("NvimTreeClose")
   end
 
+	if vim.bo.filetype == "lazy" then
+		return vim.cmd("quit")
+	end
+
   if is_in_split then
     return vim.cmd("BufferDelete")
   end
 
-  if #listed_buffs > 1 then
+  if #listed_buffs >= 1 then
     return vim.cmd("BufferClose")
+	else
+		return vim.cmd("quit")
   end
 
   if vim.fn.tabpagenr("$") > 1 then
     return vim.cmd("tabclose")
   end
 
-  vim.notify("Last tab or buffer!")
+	vim.notify("Last tab or buffer!")
 end
 
 -- set keymap

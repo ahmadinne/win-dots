@@ -20,7 +20,7 @@ vim.o.undofile = true
 vim.o.clipboard = "unnamedplus"
 vim.o.mouse = "a"
 vim.opt.fillchars = { eob = " " }
-vim.o.cmdheight = 0
+vim.o.cmdheight = 1
 vim.o.laststatus = 3
 
 
