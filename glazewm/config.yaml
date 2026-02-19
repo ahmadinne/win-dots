@@ -1,21 +1,22 @@
 general:
   startup_commands: [
     "shell-exec yasb",
-    "shell-exec C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec C:/Users/ahmadinne/AppData/Local/Microsoft/WindowsApps/53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4/AutoHotkeyV2.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
     "shell-exec C:/Users/ahmadinne/AppData/Local/FlowLauncher/Flow.Launcher.exe",
-    "shell-exec C:/Users/ahmadinne/Documents/Applications/autotiler/glaze-autotiler.exe",
+    "shell-exec C:/Users/ahmadinne/Documents/autotiler/glaze-autotiler.exe",
     "shell-exec C:/Users/ahmadinne/AppData/Roaming/AltSnap/AltSnap.exe"
   ]
   shutdown_commands: [
     "shell-exec taskkill /IM yasb.exe /",
     "shell-exec taskkill /IM autohotkey.exe /",
+    "shell-exec taskkill /IM AutoHotkeyUX.exe /",
     "shell-exec taskkill /IM Flow.Launcher.exe /",
     "shell-exec taskkill /IM glaze-autotiler.exe /",
     "shell-exec taskkill /IM AltSnap.exe"
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
-    "shell-exec C:/Users/ahmadinne/AppData/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec C:/Users/ahmadinne/AppData/Local/Microsoft/WindowsApps/53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4/AutoHotkeyV2.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk",
   ]
   focus_follows_cursor: true
   toggle_workspace_on_refocus: false
@@ -79,15 +80,68 @@ window_behavior:
       shown_on_top: false
 
 workspaces:
-  - name: '1'
-  - name: '2'
-  - name: '3'
-  - name: '4'
-  - name: '5'
-  - name: '6'
-  - name: '7'
-  - name: '8'
-  - name: '9'
+  # Monitor 0 / First Monitor
+  - name: 'a1'
+    display_name: '1'
+    bind_to_monitor: 0
+  - name: 'a2'
+    display_name: '2'
+    bind_to_monitor: 0
+  - name: 'a3'
+    display_name: '3'
+    bind_to_monitor: 0
+  - name: 'a4'
+    display_name: '4'
+    bind_to_monitor: 0
+  - name: 'a5'
+    display_name: '5'
+    bind_to_monitor: 0
+  - name: 'a6'
+    display_name: '6'
+    bind_to_monitor: 0
+  - name: 'a7'
+    display_name: '7'
+    bind_to_monitor: 0
+  - name: 'a8'
+    display_name: '8'
+    bind_to_monitor: 0
+  - name: 'a9'
+    display_name: '9'
+    bind_to_monitor: 0
+  - name: 'a10'
+    display_name: '10'
+    bind_to_monitor: 0
+  # Monitor 1 / Second Monitor
+  - name: 'b1'
+    display_name: '1'
+    bind_to_monitor: 1
+  - name: 'b2'
+    display_name: '2'
+    bind_to_monitor: 1
+  - name: 'b3'
+    display_name: '3'
+    bind_to_monitor: 1
+  - name: 'b4'
+    display_name: '4'
+    bind_to_monitor: 1
+  - name: 'b5'
+    display_name: '5'
+    bind_to_monitor: 1
+  - name: 'b6'
+    display_name: '6'
+    bind_to_monitor: 1
+  - name: 'b7'
+    display_name: '7'
+    bind_to_monitor: 1
+  - name: 'b8'
+    display_name: '8'
+    bind_to_monitor: 1
+  - name: 'b9'
+    display_name: '9'
+    bind_to_monitor: 1
+  - name: 'b10'
+    display_name: '10'
+    bind_to_monitor: 1
 
 window_rules:
   - commands: ['set-minimized']
@@ -129,24 +183,48 @@ window_rules:
 
 keybindings:
   # Change focus to a workspace defined in `workspaces` config.
-  - commands: ['focus --workspace 1']
+  - commands: ['focus --workspace a1', 'focus --workspace b1']
     bindings: ['alt+1']
-  - commands: ['focus --workspace 2']
+  - commands: ['focus --workspace a2', 'focus --workspace b2']
     bindings: ['alt+2']
-  - commands: ['focus --workspace 3']
+  - commands: ['focus --workspace a3', 'focus --workspace b3']
     bindings: ['alt+3']
-  - commands: ['focus --workspace 4']
+  - commands: ['focus --workspace a4', 'focus --workspace b4']
     bindings: ['alt+4']
-  - commands: ['focus --workspace 5']
+  - commands: ['focus --workspace a5', 'focus --workspace b5']
     bindings: ['alt+5']
-  - commands: ['focus --workspace 6']
+  - commands: ['focus --workspace a6', 'focus --workspace b6']
     bindings: ['alt+6']
-  - commands: ['focus --workspace 7']
+  - commands: ['focus --workspace a7', 'focus --workspace b7']
     bindings: ['alt+7']
-  - commands: ['focus --workspace 8']
+  - commands: ['focus --workspace a8', 'focus --workspace b8']
     bindings: ['alt+8']
-  - commands: ['focus --workspace 9']
+  - commands: ['focus --workspace a9', 'focus --workspace b9']
     bindings: ['alt+9']
+  - commands: ['focus --workspace a10', 'focus --workspace b10']
+    bindings: ['alt+0']
+
+  # Move focused window to a workspace defined in `workspaces` config.
+  - commands: ['move --workspace a1', 'focus --workspace a1', 'move --workspace b1', 'focus --workspace b1']
+    bindings: ['alt+shift+1']                                 
+  - commands: ['move --workspace a2', 'focus --workspace a2', 'move --workspace b2', 'focus --workspace b2']
+    bindings: ['alt+shift+2']                                 
+  - commands: ['move --workspace a3', 'focus --workspace a3', 'move --workspace b3', 'focus --workspace b3']
+    bindings: ['alt+shift+3']                                 
+  - commands: ['move --workspace a4', 'focus --workspace a4', 'move --workspace b4', 'focus --workspace b4']
+    bindings: ['alt+shift+4']                                 
+  - commands: ['move --workspace a5', 'focus --workspace a5', 'move --workspace b5', 'focus --workspace b5']
+    bindings: ['alt+shift+5']                                 
+  - commands: ['move --workspace a6', 'focus --workspace a6', 'move --workspace b6', 'focus --workspace b6']
+    bindings: ['alt+shift+6']                                 
+  - commands: ['move --workspace a7', 'focus --workspace a7', 'move --workspace b7', 'focus --workspace b7']
+    bindings: ['alt+shift+7']                                 
+  - commands: ['move --workspace a8', 'focus --workspace a8', 'move --workspace b8', 'focus --workspace b8']
+    bindings: ['alt+shift+8']                                 
+  - commands: ['move --workspace a9', 'focus --workspace a9', 'move --workspace b9', 'focus --workspace b9']
+    bindings: ['alt+shift+9']
+  - commands: ['move --workspace a10', 'focus --workspace a10', 'move --workspace b10', 'focus --workspace b10']
+    bindings: ['alt+shift+0']
 
   # Move the focused window's parent workspace to a monitor in a given
   # direction.
@@ -158,23 +236,3 @@ keybindings:
   #   bindings: ['alt+shift+d']
   # - commands: ['move-workspace --direction down']
   #   bindings: ['alt+shift+s']
-
-  # Move focused window to a workspace defined in `workspaces` config.
-  - commands: ['move --workspace 1', 'focus --workspace 1']
-    bindings: ['alt+shift+1']
-  - commands: ['move --workspace 2', 'focus --workspace 2']
-    bindings: ['alt+shift+2']
-  - commands: ['move --workspace 3', 'focus --workspace 3']
-    bindings: ['alt+shift+3']
-  - commands: ['move --workspace 4', 'focus --workspace 4']
-    bindings: ['alt+shift+4']
-  - commands: ['move --workspace 5', 'focus --workspace 5']
-    bindings: ['alt+shift+5']
-  - commands: ['move --workspace 6', 'focus --workspace 6']
-    bindings: ['alt+shift+6']
-  - commands: ['move --workspace 7', 'focus --workspace 7']
-    bindings: ['alt+shift+7']
-  - commands: ['move --workspace 8', 'focus --workspace 8']
-    bindings: ['alt+shift+8']
-  - commands: ['move --workspace 9', 'focus --workspace 9']
-    bindings: ['alt+shift+9']

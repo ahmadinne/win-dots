@@ -6873,3 +6873,37 @@ found unexpected end of stream
 2026-02-09 11:24:00,075 [WARNING] [UpdateChecker] [root/update_service.py:422]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
 2026-02-09 11:24:06,812 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
 2026-02-09 11:24:29,687 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:262]: Scanning for WiFi networks...
+2026-02-19 08:29:28,427 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-19 08:29:28,428 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-19 08:29:28,428 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-19 08:29:29,213 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-19 08:29:29,214 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-19 08:29:30,685 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-19 08:29:32,888 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-19 08:29:32,889 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-19 08:29:32,964 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-19 08:29:33,067 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-19 08:30:48,422 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-19 08:30:48,423 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-19 08:30:48,423 [ERROR] [CLIPipeServer] [cli_server/cli_server.py:229]: CLI pipe server failed to create handle. Err: 5
+2026-02-19 08:30:48,423 [ERROR] [LogPipeServer] [cli_server/cli_server.py:133]: Log pipe server failed to create handle. Err: 5
+2026-02-19 08:30:48,423 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-19 08:30:48,424 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-02-19 08:36:35,081 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-19 08:36:35,081 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-19 08:36:35,082 [ERROR] [CLIPipeServer] [cli_server/cli_server.py:229]: CLI pipe server failed to create handle. Err: 5
+2026-02-19 08:36:35,082 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-19 08:36:35,082 [ERROR] [LogPipeServer] [cli_server/cli_server.py:133]: Log pipe server failed to create handle. Err: 5
+2026-02-19 08:36:35,082 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-02-19 08:41:08,498 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-19 08:41:08,499 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-19 08:41:08,499 [ERROR] [CLIPipeServer] [cli_server/cli_server.py:229]: CLI pipe server failed to create handle. Err: 5
+2026-02-19 08:41:08,499 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-19 08:41:08,499 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-02-19 08:41:08,499 [ERROR] [LogPipeServer] [cli_server/cli_server.py:133]: Log pipe server failed to create handle. Err: 5
+2026-02-19 08:52:16,058 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-19 08:52:16,059 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-19 08:52:16,059 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-19 08:52:16,059 [ERROR] [LogPipeServer] [cli_server/cli_server.py:133]: Log pipe server failed to create handle. Err: 5
+2026-02-19 08:52:16,060 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-02-19 08:52:16,059 [ERROR] [CLIPipeServer] [cli_server/cli_server.py:229]: CLI pipe server failed to create handle. Err: 5

@@ -4,7 +4,7 @@
 ; ---- GlazeWM Keybinds -----
 
 ; Programs
-!t::Run "wt"
+!t::Run "wezterm", , "Hide"
 !e::Run "C:/Users/ahmadinne"
 !;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
 

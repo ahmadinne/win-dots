@@ -13,3 +13,13 @@ if (Get-Command bunnyfetch) {
 	git clone https://github.com/ahmadinne/bunnyfetch "$env:USERPROFILE/Documents/bunnyfetch"
 	. $env:USERPROFILE/Documents/bunnyfetch/install.ps1
 }
+
+# Autotiler
+$auto = "$env:USERPROFILE\Documents\autotiler"
+if (!(Test-Path $auto)) { 
+	New-Item -ItemType Directory -Path "$auto" -Force
+
+	Invoke-WebRequest `
+		-Uri "https://github.com/orbi-tal/glaze-autotiler/releases/download/v1.0.3/glaze-autotiler.exe" `
+		-Outfile "${auto}\glaze-autotiler.exe"
+}
