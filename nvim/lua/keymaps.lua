@@ -53,7 +53,7 @@ local function toggle_tree()
 		fyler.focus()
 	else
 		last_win = current_win
-		fyler.open({ kind = "split_left_most" })
+		fyler.open({ kind = "split_right_most" })
 	end
 end
 

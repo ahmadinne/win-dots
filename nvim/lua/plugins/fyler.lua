@@ -8,39 +8,16 @@ fyler.setup {
 	},
 	views = {
 		finder = {
-			git_status = {},
 			close_on_select = true,
 			confirm_simple = false,
 			default_explorer = true,
 			delete_to_trash = true,
-			columns = {
-				git = {
-					enabled = true,
-					symbols = {
-						Untracked = "?",
-						Added = "+",
-						Modified = "*",
-						Deleted = "x",
-						Renamed = ">",
-						Copied = "~",
-						Conflict = "!",
-						Ignored = "#",
-					},
-				},
-			},
 			icon = {
 				directory_collapsed = nil,
 				directory_empty = nil,
 				directory_expanded = nil,
 			},
-			indentscope = {
-				enabled = false,
-				markers = {
-					{ "│", "FylerIndentMarker" },
-					{ "│", "FylerIndentMarker" },
-					-- { "└", "FylerIndentMarker" },
-				},
-			},
+			indentscope = { enabled = false },
 			mappings = {
 				["<Esc><Esc>"] = "CloseView",
 				["q"] = "CloseView",
@@ -59,10 +36,6 @@ fyler.setup {
 				noremap = true,
 				silent = true,
 			},
-			follow_current_file = true,
-			watcher = {
-				enabled = true,
-			},
 			win = {
 				border = vim.o.winborder == "" and "single" or vim.o.winborder,
 				buf_opts = {
@@ -73,58 +46,13 @@ fyler.setup {
 					expandtab = true,
 					shiftwidth = 2,
 				},
-				kind = "replace",
-				kinds = {
-					float = {
-						height = "70%",
-						width = "70%",
-						top = "10%",
-						left = "15%",
-					},
-					replace = {},
-					split_above = {
-						height = "70%",
-					},
-					split_above_all = {
-						height = "70%",
-						win_opts = {
-							winfixheight = true,
-						},
-					},
-					split_below = {
-						height = "70%",
-					},
-					split_below_all = {
-						height = "70%",
-						win_opts = {
-							winfixheight = true,
-						},
-					},
-					split_left = {
-						width = "30%",
-					},
-					split_left_most = {
-						width = "30%",
-						win_opts = {
-							winfixwidth = true,
-						},
-					},
-					split_right = {
-						width = "30%",
-					},
-					split_right_most = {
-						width = "30%",
-						win_opts = {
-							winfixwidth = true,
-						},
-					},
-				},
+				kind = "split_right_most",
 				win_opts = {
 					concealcursor = "nvic",
 					conceallevel = 3,
 					cursorline = false,
 					number = false,
-					relativenumber = false,
+					relativenumber = true,
 					winhighlight = "Normal:FylerNormal,NormalNC:FylerNormalNC",
 					wrap = false,
 					signcolumn = "no",

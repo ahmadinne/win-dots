@@ -29,8 +29,9 @@
 
 .container {
 	/* margin-right: 154px; */
-	margin-right: 5px;
-	margin-left: 5px;
+	/* margin-right: 5px; */
+	/* margin-left: 5px; */
+	margin: 0 5px;
 }
 
 /* Global styles for ToolTip */
@@ -157,7 +158,7 @@
 .volume-widget {
 	border: none;
 	margin: 0px 0px;
-	padding: 0px 5px;
+	padding: 0px 7px;
 }
 
 .battery-widget:hover,
@@ -169,7 +170,8 @@
 
 .battery-widget .icon,
 .volume-widget .icon,
-.wifi-widget .icon {
+.wifi-widget .icon,
+.clock-widget .icon {
 	margin-bottom: 2px;
 	margin-right: 5px;
 }

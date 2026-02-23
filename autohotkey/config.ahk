@@ -4,9 +4,8 @@
 ; ---- GlazeWM Keybinds -----
 
 ; Programs
-!t::Run "wezterm", , "Hide"
-!e::Run "C:/Users/ahmadinne"
-!;::Run "C:/Users/ahmadinne/scoop/apps/hunt-and-peck/current/hap.exe /hint"
+!t::Run "wt"
+!e::Run "C:/Users/ahmadinne/"
 
 ; Utilities
 !p::Send "#{PrintScreen}"
@@ -55,7 +54,6 @@
 	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
 		Run "glazewm command close", , "Hide"
 }
-
 
 ; !q::
 ; {

@@ -2,7 +2,6 @@
 agalwood.Motrix
 Altsnap.Altsnap
 sharkdp.bat
-Flow-Launcher.Flow-Launcher
 MartinStorsjo.LLVM-MinGW.UCRT
 Git.Git
 Github.cli
@@ -14,4 +13,3 @@ Starship.Starship
 AmN.yasb
 DEVCOM.JetBrainsMonoNerdFont
 M2Team.NanaZip
-wez.wezterm

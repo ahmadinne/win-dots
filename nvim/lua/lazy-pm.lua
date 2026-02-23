@@ -12,20 +12,16 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-
 -- Plugins List
 require("lazy").setup({
-	{ "ahmadinne/paradise.nvim" },
-	{ "oskarnurm/koda.nvim" },
-	{ "romgrk/barbar.nvim" },
-	{ "saghen/blink.indent" },
-	{ "A7Lavinraj/fyler.nvim" },
 	{ "windwp/nvim-autopairs" },
 	{ "nvim-mini/mini.surround" },
-	{ "nvim-lualine/lualine.nvim" },
+	{ "ahmadinne/paradise.nvim" },
 	{ "DaikyXendo/nvim-material-icon" }, -- icons
+	{ "brenoprata10/nvim-highlight-colors" },
 	{ "mason-org/mason.nvim", lazy = false },
 	{ "neovim/nvim-lspconfig", lazy = false },
+	{ "A7Lavinraj/fyler.nvim", lazy = false },
 	{ "lewis6991/gitsigns.nvim", event = 'VeryLazy' },
 	{ "saghen/blink.cmp", version = "1.*", lazy = false },
 	{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate", main = "nvim-treesitter.configs" },
@@ -34,19 +30,14 @@ require("lazy").setup({
 	checker = { enabled = true, frequency = 604800 } -- 1 Week
 })
 
-
 -- Plugins Callout
-require "barbar".setup()
 require "mini.surround".setup()
 require "nvim-autopairs".setup()
-require "plugins.blink-indent"
+require "nvim-highlight-colors".setup({})
 require "plugins.lspconfig"
 require "plugins.fyler"
 require "plugins.blink"
 require "plugins.telescope"
 require "plugins.mini-move"
 require "plugins.treesitter"
-require "plugins.lualine"
 require "modules.floaterm"
-require "modules.smart-close"
-vim.cmd('colorscheme paradise')

@@ -10,7 +10,7 @@ bars:
     screens: ["*"]
     class_name: "yasb-bar"
     alignment:
-      position: "top"
+      position: "bottom"
       center: true
     animation:
       enabled: false
@@ -38,9 +38,9 @@ bars:
         alignment: "right"
         stretch: true
     widgets:
-      left: [ "battery", "wifi", "volume" ]
-      center: [ "glazewm_workspaces" ]
-      right: [ "clock" ]
+      left: [ "glazewm_workspaces" ]
+      center: [ ]
+      right: [ "battery", "wifi", "volume", "clock" ]
 widgets:
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
@@ -73,8 +73,8 @@ widgets:
       menu_config:
         blur: false
         round_corners: false
-        alignment: "left"
-        direction: "bottom"
+        alignment: "center"
+        direction: "up"
         offset_top: 6
         offset_left: 0
         wifi_icons_secured: [
@@ -100,17 +100,18 @@ widgets:
         - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-1.svg' />"  # Icon for 31-60% volume
         - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-2.svg' />"  # Icon for 61-100% volume
       audio_menu:
+        alignment: "center"
+        direction: "up"
         blur: false
         round_corners: false
-        alignment: "left"
-        direction: "bottom"
       callbacks:
         on_left: "toggle_volume_menu"
         on_right: "toggle_mute"
   clock:
     type: "yasb.clock.ClockWidget"
     options:
-      label: "{%H:%M - %a, %b %d}"
+      # label: "<span><img src='$env:USERPROFILE\\.config\\yasb\\svg\\clock.svg'/></span>{%H:%M - %a, %b %d}"
+      label: "<span><img src='$env:USERPROFILE\\.config\\yasb\\svg\\clock.svg'/></span>{%H:%M}"
   battery:
     type: "yasb.battery.BatteryWidget"
     options:

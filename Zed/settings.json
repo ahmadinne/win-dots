@@ -40,7 +40,11 @@
   },
   "helix_mode": false,
   "buffer_font_family": "JetBrainsMono Nerd Font",
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": {
+    "mode": "system",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
   "session": {
     "trust_all_worktrees": true,
   },
@@ -49,7 +53,7 @@
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
-    "mode": "dark",
+    "mode": "system",
     "light": "Gruvbox Light Soft",
     "dark": "Paradise",
   },

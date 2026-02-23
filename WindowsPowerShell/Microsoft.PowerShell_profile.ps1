@@ -1,7 +1,5 @@
-function Brightness ($br) {    Get-CimInstance -Namespace root/WMI -Classname WmiMonitorBrightnessMethods | Invoke-CimMethod -Methodname WmiSetBrightness -Argument @{ Timeout = 0; Brightness = $br } }
-
-
 # Powershell's configurations
+Import-Module -Name Terminal-Icons
 Invoke-Expression (&starship init powershell)
 Set-PSReadlineKeyHandler -Chord Ctrl+u -Function BackwardKillLine
 Set-PSReadLineKeyHandler -Chord Escape -Function Abort
@@ -15,16 +13,16 @@ Set-Alias -Name grep -Value Select-String
 Set-Alias -Name touch -Value New-Item
 
 # Aliases
-Function Startupcmd {cd "$HOME/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"; explorer .}
-Function Initcmd {nvim $HOME/AppData/Local/nvim/init.lua}
-Function Alacrittycmd {nvim $HOME/AppData/Roaming/alacritty/alacritty.toml}
+Function Startupcmd {cd "$env:USERPROFILE/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"; explorer .}
+Function Initcmd {nvim $env:USERPROFILE/AppData/Local/nvim/init.lua}
+Function Alacrittycmd {nvim $env:USERPROFILE/AppData/Roaming/alacritty/alacritty.toml}
 # Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
-Function Terminalcmd {nvim "$HOME/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
+Function Terminalcmd {nvim "$env:USERPROFILE/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
 Function Fetches {cls; bunnyfetch}
-Function ComMojang {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
+Function ComMojang {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
 Function HostsCmd {nvim "C:\Windows\System32\drivers\etc\hosts"}
-Function dbpCmd {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
-Function drpCmd {cd "C:\Users\ahmadinne\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
+Function dbpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
+Function drpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
 
 # Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
@@ -61,11 +59,6 @@ Function cd {
 	param([string]$path = $HOME)
 	Set-Location $path
 }
-
-# Set-Alias originalLs Get-ChildItem
-# Remove-Item Alias:ls -Force
-# Function ls { eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions }
-# Function lsa { eza --color=always --git --no-filesize --icons=always --no-time --no-user --no-permissions -a }
 
 Function pascal {
 	param($file)
