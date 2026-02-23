@@ -40,7 +40,7 @@ bars:
     widgets:
       left: [ "glazewm_workspaces" ]
       center: [ ]
-      right: [ "battery", "wifi", "volume", "clock" ]
+      right: [ "wifi", "volume", "battery", "clock" ]
 widgets:
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"

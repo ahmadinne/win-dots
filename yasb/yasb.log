@@ -8276,3 +8276,22 @@ found unexpected end of stream
 2026-02-23 21:54:19,822 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
 2026-02-23 21:54:19,822 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
 2026-02-23 21:54:19,840 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-23 22:13:15,675 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-23 22:13:21,617 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-23 22:13:25,339 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-23 22:13:28,231 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-23 22:14:08,259 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-23 22:14:08,270 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-23 22:14:08,371 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-23 22:14:08,371 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-23 22:14:08,375 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-23 22:14:08,739 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-23 22:14:08,739 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-23 22:14:08,739 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-23 22:14:08,758 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-23 22:14:08,759 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-23 22:14:08,877 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-23 22:14:09,112 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-23 22:14:09,112 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-23 22:14:09,112 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-23 22:14:09,128 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started

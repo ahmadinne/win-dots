@@ -39,4 +39,5 @@ vim.api.nvim_create_autocmd({ 'VimLeavePre' }, {
     desc = "Delete empty temp ShaDa files"
 })
 
+-- Colorscheme
 require("paradise").setup()
