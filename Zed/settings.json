@@ -1,5 +1,22 @@
 // Zed settings
 {
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
   "restore_on_startup": "last_workspace",
   "inline_code_actions": false,
   "disable_ai": true,
@@ -7,6 +24,10 @@
   "bottom_dock_layout": "contained",
   "preview_tabs": {
     "enable_preview_from_file_finder": true
+  },
+  "tab_bar": {
+    "show": true,
+    "show_tab_bar_buttons": false
   },
   "tabs": {
     "show_diagnostics": "errors",
@@ -27,6 +48,7 @@
     "enabled": true,
   },
   "project_panel": {
+    "hide_hidden": false,
     "dock": "right",
   },
   "toolbar": {

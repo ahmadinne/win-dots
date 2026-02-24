@@ -122,5 +122,6 @@
     "showTabsInTitlebar": true,
     "theme": "system",
     "themes": [],
-    "useAcrylicInTabRow": false
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useAnyExisting"
 }

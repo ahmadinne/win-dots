@@ -26,7 +26,7 @@
   {
     "context": "Editor && vim_mode == normal",
     "bindings": {
-      "ctrl-e": "vim::ToggleProjectPanelFocus"
+      "ctrl-e": "vim::ToggleProjectPanelFocus",
     },
   },
   // Insert Mode

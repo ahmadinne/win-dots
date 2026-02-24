@@ -7,6 +7,10 @@
 	--hover1: #363636;
 	--hover2: #5e5e5e;
 	--active: #4d4d4d;
+	--black: #101010;
+	--dark-gray: #151515;
+	--mid-gray: #202020;
+	--gray: #252525;
 }
 
 * {
@@ -129,6 +133,7 @@
 
 .glazewm-workspaces .ws-btn {
 	border: none;
+	border-radius: 5px;
 	margin: 0px 0px;
 	padding: 5px 7px;
 	color: var(--hover2);
@@ -156,6 +161,7 @@
 .wifi-widget,
 .clock-widget,
 .volume-widget {
+	border-radius: 5px;
 	border: none;
 	margin: 0px 0px;
 	padding: 0px 7px;
@@ -164,7 +170,8 @@
 .battery-widget:hover,
 .wifi-widget:hover,
 .clock-widget:hover,
-.volume-widget:hover {
+.volume-widget:hover,
+.systray .unpinned-visibility-btn:hover {
 	background-color: var(--hover1);
 }
 
@@ -174,4 +181,28 @@
 .clock-widget .icon {
 	margin-bottom: 2px;
 	margin-right: 5px;
+}
+
+.systray {}
+.systray .unpinned-container {
+	background: var(--bg3);
+	border-radius: 5px;
+	padding: 0 5px;
+}
+.systray .button {
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+}
+.systray .button:hover,
+.systray .unpinned-visibility-btn:checked:hover {
+	background-color: var(--hover1);
+}
+.systray .unpinned-visibility-btn {
+	border: none;
+	border-radius: 5px;
+	padding: 7px;
+}
+.systray .unpinned-visibility-btn:checked {
+	background-color: var(--bg3);
 }

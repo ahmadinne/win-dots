@@ -1,29 +1,27 @@
 local present, treesitter = pcall(require, 'nvim-treesitter.configs')
 
 if not present then
-	return
+  return
 end
 
 treesitter.setup {
-	ensure_installed = {
-		"c",
-		"bash",
-		"diff",
-		"query",
-		"html",
-		"markdown",
-		"markdown_inline",
-		"javascript",
-		"typescript",
-		"lua",
-		"luadoc",
-		"vim",
-		"vimdoc",
-	},
-	modules = {},
-	sync_install = false,
-	ignore_install = {},
-	auto_install = false,
-	highlight = { enable = true },
-	indent = { enable = true }
+  ensure_installed = {
+    "c",
+    "bash",
+    "diff",
+    "query",
+    "html",
+    "markdown",
+    "markdown_inline",
+    "lua",
+    "luadoc",
+    "vim",
+    "vimdoc",
+  },
+  modules = {},
+  sync_install = true,
+  ignore_install = {},
+  auto_install = false,
+  highlight = { enable = true },
+  indent = { enable = true }
 }

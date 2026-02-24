@@ -40,7 +40,7 @@ bars:
     widgets:
       left: [ "glazewm_workspaces" ]
       center: [ ]
-      right: [ "wifi", "volume", "battery", "clock" ]
+      right: [ "systray", "wifi", "volume", "battery", "clock" ]
 widgets:
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
@@ -128,5 +128,20 @@ widgets:
         icon_charging: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-charging' />"
         icon_critical: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-warning' />"
         icon_low: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-low' />"
+        icon_medium: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
         icon_high: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
         icon_full: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-full' />" 
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      label_collapsed: "<"
+      label_expanded: ">"
+      label_position: "right" # Can be "left" or "right"
+      icon_size: 16 # Can be any integer between 8 and 64
+      pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
+      show_unpinned: false
+      show_unpinned_button: true
+      show_battery: false
+      show_volume: false
+      show_network: false

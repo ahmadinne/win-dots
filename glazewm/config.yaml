@@ -1,19 +1,20 @@
 general:
   startup_commands: [
     "shell-exec yasb",
-    "shell-exec C:/Users/ahmadinne/AppData/Local/Microsoft/WindowsApps/53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4/AutoHotkeyV2.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
-    "shell-exec C:/Users/ahmadinne/Documents/autotiler/glaze-autotiler.exe",
+    "shell-exec AutoHotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec AutoHotkey.exe C:/Users/ahmadinne/.config/autohotkey/mousehide.ahk",
     "shell-exec C:/Users/ahmadinne/AppData/Roaming/AltSnap/AltSnap.exe"
   ]
   shutdown_commands: [
     "shell-exec taskkill /IM yasb.exe /",
+    "shell-exec taskkill /IM AutoHotkey.exe /",
     "shell-exec taskkill /IM AutoHotkeyV2.exe /",
-    "shell-exec taskkill /IM glaze-autotiler.exe /",
-    "shell-exec taskkill /IM AltSnap.exe"
+    "shell-exec taskkill /IM AltSnap.exe /"
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
-    "shell-exec C:/Users/ahmadinne/AppData/Local/Microsoft/WindowsApps/53721Descolada.AutoHotkeyv2StoreEdition_m6g97a4f38wd4/AutoHotkeyV2.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec AutoHotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk",
+    "shell-exec AutoHotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/mousehide.ahk"
   ]
   focus_follows_cursor: false
   toggle_workspace_on_refocus: false

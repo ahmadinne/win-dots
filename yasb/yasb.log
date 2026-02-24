@@ -8295,3 +8295,490 @@ found unexpected end of stream
 2026-02-23 22:14:09,112 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
 2026-02-23 22:14:09,112 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
 2026-02-23 22:14:09,128 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-23 22:17:14,525 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:19:43,426 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:19:43,428 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:19:43,428 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:19:43,704 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:19:43,708 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:19:44,380 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:19:47,127 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:19:47,128 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:19:47,129 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:19:47,686 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:19:48,482 [WARNING] [UpdateChecker] [root/update_service.py:296]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-02-24 02:19:48,554 [WARNING] [UpdateChecker] [root/update_service.py:425]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-02-24 02:25:04,865 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:25:04,875 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:25:04,977 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:25:04,977 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:25:04,983 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:25:05,374 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:25:05,375 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:25:05,375 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:25:05,391 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:25:05,391 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:25:05,515 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:25:05,838 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:25:05,838 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:25:05,838 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:25:05,854 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:25:14,962 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:25:14,969 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:25:15,084 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:25:15,084 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:25:15,088 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:25:15,488 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:25:15,488 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:25:15,488 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:25:15,504 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:25:15,505 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:25:15,639 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:25:15,989 [ERROR] [MainThread] [root/widget_builder.py:111]: Failed to validate widget(s) due to invalid options  - systray
+      show_unpined_button:
+      - Extra inputs are not permitted
+      
+2026-02-24 02:25:16,016 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:25:16,017 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:25:16,017 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:25:16,032 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:25:34,387 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:25:55,503 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:25:55,516 [ERROR] [MainThread] [root/config.py:121]: The config file 'C:\Users\ahmadinne\.config\yasb\config.yaml' contains validation errors. Please fix:
+systray:
+- Extra inputs are not permitted
+
+2026-02-24 02:25:59,716 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:25:59,724 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:25:59,831 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:25:59,832 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:25:59,836 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:26:00,284 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:26:00,284 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:26:00,285 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:26:00,301 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:26:00,302 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:26:00,430 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:26:00,766 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:26:00,766 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:26:00,766 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:26:00,781 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:26:00,796 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:00,797 [DEBUG] [MainThread] [systray_widget/systray.py:502]: State file not found.
+2026-02-24 02:26:00,799 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 02:26:00,811 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 02:26:01,012 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 262910
+2026-02-24 02:26:01,017 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 02:26:01,022 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 02:26:21,881 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:26:21,889 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:26:21,996 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:26:21,996 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:26:21,999 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:26:22,014 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 02:26:22,014 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:22,014 [DEBUG] [MainThread] [systray_widget/systray.py:482]: State file not found.
+2026-02-24 02:26:22,015 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 262910
+2026-02-24 02:26:22,015 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 262910
+2026-02-24 02:26:22,365 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:26:22,366 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:26:22,366 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:26:22,382 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:26:22,383 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:26:22,517 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:26:22,879 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:26:22,879 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:26:22,879 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:26:22,897 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:26:22,911 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:22,912 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 02:26:22,928 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 02:26:23,129 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 132216
+2026-02-24 02:26:23,132 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 02:26:23,142 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 02:26:30,947 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:26:30,956 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:26:31,064 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:26:31,064 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:26:31,067 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:26:31,084 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 02:26:31,084 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:31,085 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 132216
+2026-02-24 02:26:31,086 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 132216
+2026-02-24 02:26:31,452 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:26:31,453 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:26:31,453 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:26:31,471 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:26:31,472 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:26:31,597 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:26:31,930 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:26:31,931 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:26:31,931 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:26:31,949 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:26:31,965 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:31,966 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 02:26:31,982 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 02:26:32,184 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 197754
+2026-02-24 02:26:32,186 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 02:26:32,193 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 02:26:45,178 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:26:45,186 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:26:45,288 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:26:45,288 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:26:45,292 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:26:45,304 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 02:26:45,305 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:45,308 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 197754
+2026-02-24 02:26:45,308 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 197754
+2026-02-24 02:26:45,691 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:26:45,692 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:26:45,692 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:26:45,708 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:26:45,708 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:26:45,840 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:26:46,187 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:26:46,188 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:26:46,188 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:26:46,204 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:26:46,221 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:26:46,222 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 02:26:46,236 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 02:26:46,438 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 459574
+2026-02-24 02:26:46,440 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 02:26:46,445 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 02:27:06,581 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:27:06,589 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 02:27:06,692 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 02:27:06,692 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 02:27:06,696 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 02:27:06,709 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 02:27:06,710 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:27:06,711 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 459574
+2026-02-24 02:27:06,711 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 459574
+2026-02-24 02:27:07,058 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 02:27:07,058 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 02:27:07,059 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 02:27:07,075 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 02:27:07,075 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 02:27:07,199 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 02:27:07,551 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 02:27:07,551 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 02:27:07,551 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 02:27:07,567 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 02:27:07,579 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 02:27:07,581 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 02:27:07,594 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 02:27:07,796 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 459602
+2026-02-24 02:27:07,798 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 02:27:07,804 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 02:27:17,856 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 02:27:45,320 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:28:13,024 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:28:23,155 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:28:41,223 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:08,047 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:20,066 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:32,503 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:36,352 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:40,905 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:52,309 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:29:58,775 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:30:22,833 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:30:53,522 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:31:26,209 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:31:56,008 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:32:07,906 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:32:23,287 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:32:45,576 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:32:55,840 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:33:01,189 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:33:04,805 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:33:15,038 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:33:19,317 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:33:42,607 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:34:02,716 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:34:11,434 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:34:29,454 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:34:34,671 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:35:17,823 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:35:29,054 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:35:37,308 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:35:52,157 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:36:07,789 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:36:15,557 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:36:32,666 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:36:44,036 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:37:03,175 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:37:42,468 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,469 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,471 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,473 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,476 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,478 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,482 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,484 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,486 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,490 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,495 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,496 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,500 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,502 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,508 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,512 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,516 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,520 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,522 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,526 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,534 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,540 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,548 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,554 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,562 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,570 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,576 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,588 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,598 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,606 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,614 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,622 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,630 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,638 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,652 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,667 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,726 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,748 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,770 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,808 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,890 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,917 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,930 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,948 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:42,990 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,006 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,020 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,048 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,115 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,128 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,134 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,142 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,148 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,150 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,154 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,164 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,170 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,178 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,188 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,196 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,206 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,216 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,230 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,242 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,256 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,270 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,284 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,296 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,304 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,314 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,324 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,336 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,346 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,356 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,366 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,376 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,378 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,384 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,392 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,398 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,406 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,412 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,420 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,430 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,442 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,456 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,462 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,466 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,486 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,506 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,528 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:37:43,556 [DEBUG] [MainThread] [systray_widget/systray.py:413]: Is empty: True, force show: True
+2026-02-24 02:38:08,246 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:38:34,838 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:39:03,222 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:39:28,083 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:39:37,366 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:39:41,543 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:39:44,021 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:40:31,481 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:40:57,333 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:18,542 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:20,401 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:41:35,303 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:36,728 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:42,015 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:43,212 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:50,973 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:41:52,191 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:42:15,019 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:42:46,588 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:43:03,698 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:43:15,053 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:43:27,266 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:43:30,576 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:44:42,984 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:45:14,195 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:45:23,287 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:45:28,494 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:45:34,228 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:45:40,567 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:45:57,723 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:46:02,357 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:46:15,043 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:46:22,355 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:46:48,381 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:47:06,610 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:47:21,933 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-24 02:47:47,695 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 02:47:49,486 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 03:02:49,291 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-24 03:02:49,292 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-24 03:02:49,402 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 03:02:49,402 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 03:02:49,427 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 03:02:49,429 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 03:02:49,443 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 459602
+2026-02-24 03:02:49,444 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 459602
+2026-02-24 03:02:49,914 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 03:02:49,914 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 03:02:49,915 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 03:02:50,074 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 03:02:50,075 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 03:02:50,396 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 03:02:51,187 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 03:02:51,188 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 03:02:51,188 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 03:02:51,238 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 03:02:51,257 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 03:02:51,259 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 03:02:51,313 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 03:02:51,515 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 264178
+2026-02-24 03:02:51,518 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 03:02:51,523 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 03:03:24,811 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 03:03:24,824 [INFO] [MainThread] [root/controller.py:15]: Reloading Application because of config change.
+2026-02-24 03:03:24,926 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 03:03:24,926 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 03:03:24,930 [INFO] [MainThread] [root/bar_manager.py:79]: Successfully loaded updated config and re-initialised all bars.
+2026-02-24 03:03:24,946 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 03:03:24,946 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 03:03:24,948 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 264178
+2026-02-24 03:03:24,948 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 264178
+2026-02-24 03:03:25,324 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 03:03:25,324 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 03:03:25,325 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 03:03:25,345 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 03:03:25,345 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 03:03:25,485 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 03:03:25,847 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 03:03:25,848 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 03:03:25,848 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 03:03:25,866 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 03:03:25,881 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 03:03:25,883 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 03:03:25,902 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 03:03:26,104 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 329670
+2026-02-24 03:03:26,107 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 03:03:26,114 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 03:03:37,186 [DEBUG] [Thread-6] [root/watcher.py:90]: Config file modified: c:\users\ahmadinne\.config\yasb\config.yaml
+2026-02-24 03:03:47,712 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 03:16:42,715 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 03:16:44,425 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 03:16:47,487 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 03:17:27,199 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 03:18:06,618 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 10:09:05,847 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 10:09:05,853 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 10:09:05,882 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 329670
+2026-02-24 16:44:05,102 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 16:44:05,105 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 16:44:05,106 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 16:44:05,417 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 16:44:05,419 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 16:44:06,282 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 16:44:08,295 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 16:44:08,295 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 16:44:08,296 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 16:44:08,435 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 16:44:08,553 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 16:44:08,587 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 16:44:08,708 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 16:44:08,910 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66388
+2026-02-24 16:44:08,922 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 16:44:08,937 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 16:44:09,308 [WARNING] [UpdateChecker] [root/update_service.py:296]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-02-24 16:44:09,308 [WARNING] [UpdateChecker] [root/update_service.py:425]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-02-24 16:44:46,967 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 16:44:48,826 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:543]: Connecting to wifi network...
+2026-02-24 16:44:49,529 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 16:44:49,981 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:565]: Connection completed to wifi network
+2026-02-24 17:03:50,434 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 17:43:38,864 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 17:57:16,837 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 17:58:59,318 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 18:00:39,194 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 18:00:48,274 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 18:01:02,036 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 18:01:04,300 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 18:01:05,646 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-24 18:01:07,078 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:543]: Connecting to wifi network...
+2026-02-24 18:01:07,765 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 18:01:08,199 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:565]: Connection completed to wifi network
+2026-02-24 18:32:21,713 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 20:38:30,264 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-24 23:14:40,488 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-24 23:14:40,493 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-24 23:14:40,601 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 23:14:40,601 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 23:14:40,672 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 23:14:40,675 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 23:14:40,691 [DEBUG] [WiFiConnectWorker] [systray_widget/utils.py:97]: Destroying window 66388
+2026-02-24 23:14:40,693 [DEBUG] [WiFiConnectWorker] [systray_widget/utils.py:97]: Destroying window 66388
+2026-02-24 23:14:41,324 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 23:14:41,324 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 23:14:41,324 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 23:14:41,516 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 23:14:41,517 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 23:14:41,969 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 23:14:42,962 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 23:14:42,962 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 23:14:42,962 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 23:14:43,028 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 23:14:43,070 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 23:14:43,073 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 23:14:43,171 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 23:14:43,372 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 131920
+2026-02-24 23:14:43,403 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 23:14:43,409 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-24 23:17:08,532 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-24 23:17:08,532 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-24 23:17:08,645 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-24 23:17:08,645 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-24 23:17:08,711 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-24 23:17:08,711 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 23:17:08,713 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 131920
+2026-02-24 23:17:08,714 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 131920
+2026-02-24 23:17:09,142 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-24 23:17:09,143 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-24 23:17:09,143 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-24 23:17:09,185 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-24 23:17:09,186 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-24 23:17:09,338 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-24 23:17:09,718 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-24 23:17:09,718 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-24 23:17:09,718 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-24 23:17:09,745 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-24 23:17:09,763 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-24 23:17:09,765 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-24 23:17:09,793 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-24 23:17:09,996 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 197458
+2026-02-24 23:17:10,004 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-24 23:17:10,010 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294

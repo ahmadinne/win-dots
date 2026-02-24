@@ -2,7 +2,7 @@
 agalwood.Motrix
 Altsnap.Altsnap
 sharkdp.bat
-MartinStorsjo.LLVM-MinGW.UCRT
+BrechtSanders.WinLibs.POSIX.UCRT
 Git.Git
 Github.cli
 glzr-io.glazewm
