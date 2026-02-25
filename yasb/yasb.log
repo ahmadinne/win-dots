@@ -8782,3 +8782,394 @@ systray:
 2026-02-24 23:17:09,996 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 197458
 2026-02-24 23:17:10,004 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
 2026-02-24 23:17:10,010 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 00:12:26,571 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:599]: WiFi network disconnected
+2026-02-25 00:13:12,202 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 00:13:14,051 [DEBUG] [MainThread] [wifi_widget/wifi_widgets.py:543]: Connecting to wifi network...
+2026-02-25 00:13:14,477 [DEBUG] [WiFiConnectWorker] [wifi_widget/wifi_widgets.py:565]: Connection completed to wifi network
+2026-02-25 00:21:40,184 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 00:21:40,187 [DEBUG] [WiFiConnectWorker] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 00:21:40,190 [DEBUG] [WiFiConnectWorker] [systray_widget/utils.py:97]: Destroying window 197458
+2026-02-25 00:22:40,497 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-25 00:22:40,503 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-25 00:22:40,505 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 00:22:40,571 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 00:22:40,573 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 00:22:41,317 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 00:22:44,258 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 00:22:44,290 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 00:22:44,334 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 00:22:44,391 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 00:22:44,462 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 00:22:44,541 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 00:22:44,607 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 00:22:44,831 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66518
+2026-02-25 00:22:45,121 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 00:22:45,220 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49249
+2026-02-25 00:22:59,990 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 01:41:29,921 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 01:41:31,962 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 04:02:23,916 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 04:02:23,918 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 04:02:23,950 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66518
+2026-02-25 13:11:32,088 [INFO] [MainThread] [root/log.py:95]: YASB v1.8.9
+2026-02-25 13:11:32,120 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.5
+2026-02-25 13:11:32,122 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 13:11:32,622 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 13:11:32,625 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 13:11:34,345 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 13:11:39,683 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 13:11:39,684 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 13:11:39,684 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 13:11:40,048 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 13:11:40,122 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 13:11:40,248 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 13:11:40,515 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 13:11:40,717 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66404
+2026-02-25 13:11:40,882 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 13:11:40,926 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 13:13:29,097 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 13:15:52,927 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 13:15:52,927 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 13:15:52,928 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66404
+2026-02-25 13:15:52,940 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-02-25 13:15:52,942 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-02-25 13:15:52,945 [ERROR] [MainThread] [qasync._QEventLoop/__init__.py:770]: Exception in callback Task.task_wakeup()
+handle: <Handle Task.task_wakeup()>
+Traceback (most recent call last):
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\events.py", line 94, in _run
+RuntimeError: loop <QIOCPEventLoop running=False closed=False debug=False> is not the running loop
+2026-02-25 13:15:52,946 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 13:15:52,947 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 13:15:52,949 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66404
+2026-02-25 13:15:52,950 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:220]: Stopping worker thread...
+2026-02-25 13:15:52,958 [DEBUG] [Dummy-10] [qasync._windows._EventWorker/_windows.py:204]: Exiting thread
+2026-02-25 13:15:52,960 [DEBUG] [MainThread] [qasync._windows._IocpProactor/_windows.py:78]: Closing
+2026-02-25 13:15:52,960 [ERROR] [MainThread] [root/main.py:181]: Exception during application startup
+Traceback (most recent call last):
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\runners.py", line 204, in run
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\runners.py", line 127, in run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 435, in run_until_complete
+RuntimeError: Event loop stopped before Future completed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 179, in <module>
+  File "main.py", line 92, in main
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\runners.py", line 203, in run
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\runners.py", line 63, in __exit__
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\runners.py", line 71, in close
+  File "C:\hostedtoolcache\windows\Python\3.14.2\x64\Lib\asyncio\runners.py", line 215, in _cancel_all_tasks
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 435, in run_until_complete
+RuntimeError: Event loop stopped before Future completed.
+2026-02-25 13:15:52,962 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66404
+2026-02-25 13:16:58,766 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 13:16:58,767 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 13:16:58,767 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 13:16:59,061 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 13:16:59,063 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 13:17:00,315 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 13:17:02,399 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 13:17:02,399 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 13:17:02,400 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 13:17:02,485 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 13:17:02,507 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 13:17:02,509 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 13:17:02,664 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 13:17:02,866 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66686
+2026-02-25 13:17:02,875 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 13:17:02,897 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 13:17:05,967 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 13:17:27,216 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 13:17:45,180 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66686
+2026-02-25 13:17:45,275 [INFO] [MainThread] [root/bar_helper.py:526]: AppBarManager need to re-register 1 bar
+2026-02-25 13:17:52,309 [INFO] [MainThread] [root/bar_helper.py:535]: Re-registered AppBar for primary-bar_Mi Monitor_4a35daac (space reservation + fullscreen)
+2026-02-25 13:17:53,185 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 13:17:53,186 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 13:17:53,295 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 13:17:53,296 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 13:17:53,326 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 13:17:53,326 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 13:17:53,328 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66686
+2026-02-25 13:17:53,328 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66686
+2026-02-25 13:17:53,787 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 13:17:53,788 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 13:17:53,789 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 13:17:53,817 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 13:17:53,817 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 13:17:53,970 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 13:17:54,342 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 13:17:54,343 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 13:17:54,343 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 13:17:54,366 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 13:17:54,389 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 13:17:54,391 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 13:17:54,412 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 13:17:54,613 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 132200
+2026-02-25 13:17:54,616 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 13:17:54,619 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:33:17,837 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:33:17,838 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:33:17,942 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:33:17,942 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:33:17,987 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:33:17,988 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:33:18,002 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 132200
+2026-02-25 15:33:18,002 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 132200
+2026-02-25 15:33:18,596 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:33:18,597 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:33:18,597 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:33:18,727 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 15:33:18,728 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 15:33:19,108 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 15:33:19,867 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 15:33:19,867 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 15:33:19,867 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 15:33:19,916 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 15:33:19,948 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:33:19,950 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 15:33:19,999 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 15:33:20,200 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 197802
+2026-02-25 15:33:20,205 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:33:20,210 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:33:55,379 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:33:55,380 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:33:55,491 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:33:55,491 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:33:55,511 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:33:55,512 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:33:55,513 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 197802
+2026-02-25 15:33:55,514 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 197802
+2026-02-25 15:33:55,904 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:33:55,904 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:33:55,904 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:33:55,922 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 15:33:55,923 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 15:33:56,051 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 15:33:56,345 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 15:33:56,346 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 15:33:56,346 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 15:33:56,361 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 15:33:56,372 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:33:56,373 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 15:33:56,386 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 15:33:56,587 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 721796
+2026-02-25 15:33:56,589 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:33:56,594 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:35:15,452 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:35:15,452 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:35:15,554 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:35:15,554 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:35:15,568 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:35:15,569 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:35:15,570 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 721796
+2026-02-25 15:35:15,570 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 721796
+2026-02-25 15:35:15,927 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:35:15,927 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:35:15,928 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:35:15,946 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 15:35:15,946 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 15:35:16,086 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 15:35:16,371 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 15:35:16,371 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 15:35:16,371 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 15:35:16,389 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 15:35:16,404 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:35:16,405 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 15:35:16,418 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 15:35:16,619 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 328844
+2026-02-25 15:35:16,621 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:35:16,627 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:36:47,022 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:36:47,023 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:36:47,128 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:36:47,128 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:36:47,141 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:36:47,141 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:36:47,143 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 328844
+2026-02-25 15:36:47,143 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 328844
+2026-02-25 15:36:47,505 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:36:47,506 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:36:47,506 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:36:47,524 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 15:36:47,525 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 15:36:47,663 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 15:36:47,942 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 15:36:47,942 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 15:36:47,942 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 15:36:47,958 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 15:36:47,975 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:36:47,977 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 15:36:47,990 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 15:36:48,192 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 3212118
+2026-02-25 15:36:48,194 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:36:48,199 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:37:03,434 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:37:04,869 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:37:04,871 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:37:04,976 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:37:04,977 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:37:05,000 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:37:05,001 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:37:05,004 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 3212118
+2026-02-25 15:37:05,004 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 3212118
+2026-02-25 15:37:05,964 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:37:05,965 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:37:05,966 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:37:06,026 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 15:37:06,028 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 15:37:06,383 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 15:37:07,141 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 15:37:07,141 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 15:37:07,141 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 15:37:07,172 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 15:37:07,192 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:37:07,194 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 15:37:07,217 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 15:37:07,419 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 918712
+2026-02-25 15:37:07,426 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:37:07,436 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:37:32,033 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:37:34,660 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:37:34,664 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:37:34,768 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:37:34,768 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:37:34,808 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:37:34,809 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:37:34,811 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 918712
+2026-02-25 15:37:34,811 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 918712
+2026-02-25 15:37:35,714 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:37:35,715 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:37:35,715 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:37:35,764 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 15:37:35,766 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 15:37:36,169 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 15:37:36,914 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 15:37:36,914 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 15:37:36,914 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 15:37:36,935 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 15:37:36,959 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:37:36,960 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 15:37:36,980 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 15:37:37,181 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 1049680
+2026-02-25 15:37:37,183 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 15:37:37,194 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 15:37:49,891 [INFO] [CLIPipeServer] [cli_server/cli_server.py:256]: CLI server received command: reload
+2026-02-25 15:37:49,892 [INFO] [CLIPipeServer] [root/controller.py:15]: Reloading Application from CLI...
+2026-02-25 15:37:50,008 [INFO] [CLIPipeServer] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:37:50,008 [DEBUG] [CLIPipeServer] [cli_server/cli_server.py:209]: CLI server stopped
+2026-02-25 15:37:50,355 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 15:37:50,355 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:37:50,355 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:37:50,356 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-02-25 15:37:50,493 [INFO] [Thread-10 (_restart_pipe_server)] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-02-25 15:37:50,493 [INFO] [Thread-11 (_run_server)] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 15:37:50,494 [INFO] [Thread-10 (_restart_pipe_server)] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 15:38:00,380 [ERROR] [MainThread] [root/main.py:69]: Timeout waiting for previous instance. Aborting start.
+2026-02-25 15:38:10,596 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 15:38:10,597 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 15:38:10,598 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 1049680
+2026-02-25 15:38:10,598 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 1049680
+2026-02-25 16:00:03,981 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 16:00:03,985 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 16:00:03,986 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 16:00:04,403 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 16:00:04,405 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 16:00:05,290 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 16:00:06,982 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 16:00:06,983 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 16:00:06,983 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 16:00:07,032 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 16:00:07,055 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:00:07,072 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 16:00:07,128 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 16:00:07,329 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66570
+2026-02-25 16:00:07,336 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 16:00:07,341 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49258
+2026-02-25 16:13:25,010 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 16:13:25,012 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:13:25,038 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66570
+2026-02-25 16:13:38,015 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 16:13:38,018 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 16:13:38,018 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 16:13:38,291 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 16:13:38,292 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 16:13:43,519 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 16:13:51,530 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 16:13:51,530 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 16:13:51,531 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 16:13:51,531 [ERROR] [CLIPipeServer] [cli_server/cli_server.py:229]: CLI pipe server failed to create handle. Err: 5
+2026-02-25 16:13:51,531 [ERROR] [LogPipeServer] [cli_server/cli_server.py:133]: Log pipe server failed to create handle. Err: 5
+2026-02-25 16:13:51,531 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-02-25 16:14:03,090 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 16:14:03,092 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 16:14:03,092 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 16:14:03,345 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 16:14:03,369 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:14:03,371 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 16:14:03,753 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 16:14:03,956 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 131980
+2026-02-25 16:14:03,982 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 16:14:04,004 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 16:18:03,140 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 16:18:03,141 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:18:03,143 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 131980
+2026-02-25 16:18:14,515 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 16:18:14,516 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 16:18:14,517 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 16:18:14,545 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 16:18:14,547 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 16:18:14,795 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 16:18:15,826 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 16:18:15,826 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 16:18:15,827 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 16:18:15,877 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 16:18:15,916 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:18:15,919 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 16:18:15,963 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 16:18:16,166 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66358
+2026-02-25 16:18:16,175 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 16:18:16,184 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 16:18:24,348 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 16:20:11,608 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 16:20:11,610 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:20:11,612 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66358
+2026-02-25 16:20:20,658 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 16:20:20,660 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 16:20:20,661 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 16:20:20,692 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 16:20:20,694 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 16:20:20,972 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 16:20:22,276 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 16:20:22,277 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 16:20:22,277 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 16:20:22,352 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 16:20:22,433 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:20:22,441 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 16:20:22,543 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 16:20:22,745 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66548
+2026-02-25 16:20:22,760 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 16:20:22,784 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49294
+2026-02-25 16:23:27,746 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-25 16:23:36,279 [DEBUG] [MainThread] [wifi_widget/wifi_managers.py:350]: Scanning for WiFi networks...
+2026-02-25 16:24:25,267 [DEBUG] [Thread-6] [root/watcher.py:84]: Stylesheet modified: c:\users\ahmadinne\.config\yasb\styles.css
+2026-02-25 16:25:07,811 [ERROR] [MainThread] [root/bar_helper.py:705]: Failed to determine Windows theme: [WinError 2] The system cannot find the file specified
+2026-02-25 16:25:45,722 [DEBUG] [MainThread] [systray_widget/systray.py:470]: Saving state to disk
+2026-02-25 16:25:45,724 [DEBUG] [MainThread] [systray_widget/systray.py:474]: Saving state to C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:25:45,726 [DEBUG] [MainThread] [systray_widget/utils.py:97]: Destroying window 66548
+2026-02-25 16:25:53,829 [INFO] [MainThread] [root/log.py:95]: YASB v1.9.0
+2026-02-25 16:25:53,830 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-02-25 16:25:53,830 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-02-25 16:25:53,858 [DEBUG] [MainThread] [qasync._windows._EventPoller/_windows.py:215]: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2026-02-25 16:25:53,860 [DEBUG] [Dummy-3] [qasync._windows._EventWorker/_windows.py:195]: Thread started
+2026-02-25 16:25:54,173 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-02-25 16:25:55,256 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb\menu
+2026-02-25 16:25:55,258 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\ahmadinne\.config\yasb
+2026-02-25 16:25:55,258 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-02-25 16:25:55,304 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-02-25 16:25:55,350 [DEBUG] [MainThread] [systray_widget/systray.py:492]: Loading state from C:\Users\ahmadinne\AppData\Local\YASB\systray_state_XILINXINCMIMONITOR5790020029475.json
+2026-02-25 16:25:55,352 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:57]: Systray thread is starting...
+2026-02-25 16:25:55,401 [DEBUG] [MainThread] [systray_widget/systray.py:243]: Systray thread started
+2026-02-25 16:25:55,603 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:168]: Adding TaskbandHWND prop to hwnd 66364
+2026-02-25 16:25:55,614 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:246]: Finding real tray hwnd
+2026-02-25 16:25:55,646 [DEBUG] [MainThread] [systray_widget/systray_monitor.py:160]: Sending TaskbarCreated message: 49273

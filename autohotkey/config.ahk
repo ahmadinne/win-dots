@@ -42,18 +42,40 @@
 !f::Send "{f11}"
 
 ; Killer do killings
-!q::{
-	check := WinExist("A")
-	if !check
-		return
+!q:: {
+    hwnd := WinExist("A")
+    if !hwnd
+        return
 
-	winClass := WinGetClass("ahk_id " check)
-	if (winClass = "progman" || winClass = "WorkerW" || winClass = "shell_TrayWnd" || winClass = "buttery-taskbar")
-		return
+    class := WinGetClass("ahk_id " hwnd)
+    if (class = "Progman"
+     || class = "WorkerW"
+     || class = "Shell_TrayWnd"
+     || class = "buttery-taskbar")
+        return
 
-	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
-		Run "glazewm command close", , "Hide"
+    ; Get window title
+    pid  := WinGetPID("ahk_id " hwnd)
+    title := WinGetTitle("ahk_id " hwnd)
+    if (title = "")
+        title := "(Untitled Window)"
+
+    fullPath := WinGetProcessPath("ahk_id " hwnd)
+    exeName := ""
+    SplitPath(fullPath, &exeName)   ; extracts only filename (e.g. wt.exe)
+
+    ; Ensure correct window is focused
+    WinActivate("ahk_id " hwnd)
+    WinWaitActive("ahk_id " hwnd)
+
+    ; YesNo + TopMost + ForceForeground
+    flags := 0x4 | 0x40000 | 0x10000
+    msg := "Title: " title "`nPID  : " pid "`nExec : " exeName
+
+    if MsgBox(msg, "Confirm to close?", flags) = "Yes"
+        Run "glazewm command close", , "Hide"
 }
+
 
 ; !q::
 ; {
