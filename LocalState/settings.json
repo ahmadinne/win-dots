@@ -3,9 +3,11 @@
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
     "alwaysShowTabs": true,
+    "compatibility.enableUnfocusedAcrylic": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "disableAnimations": true,
     "keybindings": 
     [
         {
@@ -46,12 +48,15 @@
         {
             "colorScheme": "Paradise",
             "cursorShape": "filledBox",
+            "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 11
             },
-            "intenseTextStyle": "all"
+            "intenseTextStyle": "all",
+            "pathTranslationStyle": "mingw",
+            "rightClickContextMenu": true
         },
         "list": 
         [
@@ -60,7 +65,9 @@
                 "elevate": false,
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell"
+                "name": "Windows PowerShell",
+                "pathTranslationStyle": "mingw",
+                "rightClickContextMenu": true
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -118,8 +125,11 @@
             "yellow": "#D9BC8C"
         }
     ],
+    "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
     "showTabsFullscreen": false,
     "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
+    "tabWidthMode": "titleLength",
     "theme": "system",
     "themes": [],
     "useAcrylicInTabRow": false,
