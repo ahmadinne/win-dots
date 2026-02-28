@@ -42,9 +42,7 @@ focusIndex := 1
     confirmGui.backColor := "202020"
     confirmGui.SetFont("s10 cFFFFFF", "JetBrainsMono NF")
 
-    confirmGui.AddText(, "Title: " title)
-    confirmGui.AddText(, "Exec : " exeName)
-    confirmGui.AddText(, "PID  : " pid)
+    confirmGui.AddText(, "Title: " title "`nExec : " exeName "`nPID  : " pid)
     confirmGui.AddText("cAAAAAA", "Press Y = Yes, N = No")
 
     btnYes := confirmGui.AddButton("xm h32", "Yes")
