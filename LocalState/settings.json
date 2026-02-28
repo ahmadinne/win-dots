@@ -123,5 +123,5 @@
     "theme": "system",
     "themes": [],
     "useAcrylicInTabRow": false,
-    "windowingBehavior": "useAnyExisting"
+    "windowingBehavior": "useNew"
 }

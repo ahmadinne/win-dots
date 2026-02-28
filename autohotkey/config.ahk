@@ -2,10 +2,11 @@
 #SingleInstance Force
 
 ; ---- GlazeWM Keybinds -----
+userProfilePath := EnvGet("USERPROFILE")
 
 ; Programs
 !t::Run "wt"
-!e::Run "C:/Users/ahmadinne/"
+!e::Run userProfilePath
 
 ; Utilities
 !p::Send "#{PrintScreen}"
@@ -41,50 +42,14 @@
 ; }
 !f::Send "{f11}"
 
-; Killer do killings
-!q:: {
-    hwnd := WinExist("A")
-    if !hwnd
-        return
-
-    class := WinGetClass("ahk_id " hwnd)
-    if (class = "Progman"
-     || class = "WorkerW"
-     || class = "Shell_TrayWnd"
-     || class = "buttery-taskbar")
-        return
-
-    ; Get window title
-    pid  := WinGetPID("ahk_id " hwnd)
-    title := WinGetTitle("ahk_id " hwnd)
-    if (title = "")
-        title := "(Untitled Window)"
-
-    fullPath := WinGetProcessPath("ahk_id " hwnd)
-    exeName := ""
-    SplitPath(fullPath, &exeName)   ; extracts only filename (e.g. wt.exe)
-
-    ; Ensure correct window is focused
-    WinActivate("ahk_id " hwnd)
-    WinWaitActive("ahk_id " hwnd)
-
-    ; YesNo + TopMost + ForceForeground
-    flags := 0x4 | 0x40000 | 0x10000
-    msg := "Title: " title "`nPID  : " pid "`nExec : " exeName
-
-    if MsgBox(msg, "Confirm to close?", flags) = "Yes"
-        Run "glazewm command close", , "Hide"
+!+q::
+{
+    hwnd := WinGetID("A")
+    class := WinGetClass(hwnd)
+    title := WinGetTitle(hwnd)
+    process := WinGetProcessName(hwnd)
+    MsgBox "Class: " class "`nTitle: " title "`nProcess: " process, "Active Window Info"
 }
-
-
-; !q::
-; {
-;     hwnd := WinGetID("A")
-;     class := WinGetClass(hwnd)
-;     title := WinGetTitle(hwnd)
-;     process := WinGetProcessName(hwnd)
-;     MsgBox "Class: " class "`nTitle: " title "`nProcess: " process, "Active Window Info"
-; }
 
 !+Del::Run "glazewm command wm-exit", , "Hide"
 
