@@ -1,25 +1,27 @@
 general:
   startup_commands: [
-    "shell-exec %USERPROFILE%/AppData/Local/PowerToys/PowerToys.exe",
-    "shell-exec yasb",
     "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/config.ahk",
     "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/kill.ahk",
     "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/mousehide.ahk",
+    "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/expvim.ahk",
+    "shell-exec %USERPROFILE%/AppData/Local/PowerToys/PowerToys.exe",
     "shell-exec %USERPROFILE%/AppData/Roaming/AltSnap/AltSnap.exe"
+    "shell-exec yasb",
   ]
   shutdown_commands: [
-    "shell-exec taskkill /IM PowerToys.exe /",
-    "shell-exec taskkill /IM yasb.exe /",
-    "shell-exec taskkill /IM AutoHotkey.exe /",
     "shell-exec taskkill /IM AutoHotkeyV1.exe /",
     "shell-exec taskkill /IM AutoHotkeyV2.exe /",
-    "shell-exec taskkill /IM AltSnap.exe /"
+    "shell-exec taskkill /IM AutoHotkey.exe /",
+    "shell-exec taskkill /IM PowerToys.exe /",
+    "shell-exec taskkill /IM AltSnap.exe /",
+    "shell-exec taskkill /IM yasb.exe /"
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
     "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/config.ahk",
     "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/kill.ahk",
-    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/mousehide.ahk"
+    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/mousehide.ahk",
+    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/expvim.ahk"
   ]
   focus_follows_cursor: false
   toggle_workspace_on_refocus: false
