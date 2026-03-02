@@ -19,7 +19,8 @@ require("lazy").setup({
   { "nvim-mini/mini.icons" },
   { "windwp/nvim-autopairs" },
   { "nvim-mini/mini.surround" },
-  { "ahmadinne/paradise.nvim" },
+  { "vague-theme/vague.nvim" },
+  { "oskarnurm/koda.nvim" },
   { "A7Lavinraj/fyler.nvim", lazy = false },
   { "lewis6991/gitsigns.nvim", event = 'VeryLazy' },
 
@@ -40,7 +41,7 @@ require("lazy").setup({
 })
 
 -- Plugins Callout
-require "paradise".setup()
+vim.cmd("colorscheme koda")
 require "treesj".setup({})
 require "mini.surround".setup()
 require "mini.icons".setup()

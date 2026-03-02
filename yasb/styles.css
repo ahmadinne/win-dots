@@ -1,170 +1,175 @@
 /* Ahmadinne's Yasb Styles */
 :root {
-	--bg1: #202020;
-	--bg2: #333333;
-	--bg3: #1c1c1c;
-	--text1: #ffffff;
-	--hover1: #363636;
-	--hover2: #5e5e5e;
-	--active: #4d4d4d;
-	--black: #101010;
-	--dark-gray: #151515;
-	--mid-gray: #202020;
-	--gray: #252525;
+  --bg1: #202020;
+  --bg2: #333333;
+  --bg3: #1c1c1c;
+  --text1: #ffffff;
+  --text2: #bbbbbb;
+  --hover1: #363636;
+  --hover2: #5e5e5e;
+  --active: #4d4d4d;
+  --black: #101010;
+  --dark-gray: #151515;
+  --mid-gray: #202020;
+  --gray: #252525;
 }
 
 * {
-    font-size: 12px;
-    color: var(--text1);
-	  font-weight: 700;
-		font-style: normal;
-    font-family: "JetBrainsMono NFP" ;
+  font-size: 12px;
+  color: var(--text1);
+  font-weight: 700;
+  font-style: normal;
+  font-family: "JetBrainsMono NFP" ;
 }
 
 @import "./menu/wifi.css";
 @import "./menu/volume.css";
 
 .yasb-bar {
-    background-color: var(--bg1);
-    border-radius: 0px;
-    border: 0px solid var(--bg1);
-		padding: 0px 0px;
+  background-color: var(--bg1);
+  border-radius: 0px;
+  border: 0px solid var(--bg1);
+  padding: 0px 0px;
 }
 
 .container {
-	/* margin-right: 154px; */
-	/* margin-right: 5px; */
-	/* margin-left: 5px; */
-	margin: 0 5px;
+  /* margin-right: 154px; */
+  /* margin-right: 5px; */
+  /* margin-left: 5px; */
+  margin: 0 5px;
 }
 
 /* Global styles for ToolTip */
 .tooltip {
-    background-color: var(--bg1);
-    border-radius: 4px;
-    color: var(--text1);
-    padding: 5px 10px;
-    font-size: 12px;
-    font-weight: 600;
-    margin-top: 4px;
+  background-color: var(--bg1);
+  border-radius: 4px;
+  color: var(--text1);
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 4px;
 }
 /* Global context menu style */
 .context-menu,
 .context-menu .menu-checkbox {
-    background-color: var(--bg1);
-    border: none;
-    padding: 4px 0px;
-    font-size: 12px;
-    color: var(--text1)
+  background-color: var(--bg1);
+  border: none;
+  padding: 4px 0px;
+  font-size: 12px;
+  color: var(--text1)
 }
 .context-menu::right-arrow {
-    width: 8px;
-    height: 8px;
-    padding-right: 24px;
+  width: 8px;
+  height: 8px;
+  padding-right: 24px;
 }
 .context-menu::item,
 .context-menu .menu-checkbox {
-    background-color: transparent;
-    padding: 6px 12px;
-    margin: 2px 6px;
-    border-radius: 6px;
-    min-width: 100px;
+  background-color: transparent;
+  padding: 6px 12px;
+  margin: 2px 6px;
+  border-radius: 6px;
+  min-width: 100px;
 }
 
 .context-menu::item:selected,
 .context-menu .menu-checkbox:hover {
-    background-color: var(--bg2);
-    color: #FFFFFF;
+  background-color: var(--bg2);
+  color: #FFFFFF;
 }
 
 .context-menu::separator {
-    height: 1px;
-    background-color: #404040;
-    margin: 4px 8px;
+  height: 1px;
+  background-color: #404040;
+  margin: 4px 8px;
 }
 .context-menu::item:disabled {
-    color: #666666;
-    background-color: transparent;
+  color: #666666;
+  background-color: transparent;
 }
 
 .context-menu .menu-checkbox .checkbox {
-    border: none;
-    padding: 8px 16px;
-    font-size: 12px;
-    margin: 0;
-    color: var(--text1);
+  border: none;
+  padding: 8px 16px;
+  font-size: 12px;
+  margin: 0;
+  color: var(--text1);
 }
 .context-menu .submenu::item:disabled {
-    margin: 0;
-    padding-left: 16px;
+  margin: 0;
+  padding-left: 16px;
 }
 .context-menu .menu-checkbox .checkbox:unchecked {
-    color: var(--text2)
+  color: var(--text2)
 }
 .context-menu .menu-checkbox .checkbox::indicator {
-    width: 12px;
-    height: 12px;
-    margin-left: 0px;
-    margin-right: 8px;
+  width: 12px;
+  height: 12px;
+  margin-left: 0px;
+  margin-right: 8px;
 }
 .context-menu .menu-checkbox .checkbox::indicator:unchecked {
-    background: #444444;
-    border-radius: 2px;
+  background: #444444;
+  border-radius: 2px;
 }
 .context-menu .menu-checkbox .checkbox::indicator:checked {
-    background: var(--blue);
-    border-radius: 2px;
+  background: var(--blue);
+  border-radius: 2px;
 }
 .context-menu .menu-checkbox .checkbox:focus {
-    outline: none;
+  outline: none;
 }
 
 /* Spacing for the widgets */
 .widget {
-    padding: 0 2px;
-    margin: 0;
+  padding: 0 2px;
+  margin: 0;
 }
 .icon {
-    font-size: 16px;
+  font-size: 16px;
 }
 .widget .label {
-    padding: 0px 2px;
+  padding: 0px 2px;
 }
 
 .glazewm-workspaces .ws-btn {
-	border: none;
-	border-radius: 5px;
-	margin: 0px 0px;
-	padding: 5px 7px;
-	color: var(--hover2);
+  border: none;
+  border-radius: 5px;
+  background-color: var(--hover2);
+  margin: 0px 4px;
+  font-size: 0px;
+  color: transparent;
+  width: 12px;
+  height: 12px;
 }
 .glazewm-workspaces .ws-btn:hover {
-	background-color: var(--hover1);
+  background-color: var(--hover1);
 }
 .glazewm-workspaces .ws-btn.active_empty {}
 .glazewm-workspaces .ws-btn.active_populated {}
 .glazewm-workspaces .ws-btn.focused_empty {
-	color: var(--text1);
+  background-color: var(--text1);
+  width: 24px;
 }
 .glazewm-workspaces .ws-btn.focused_populated {
-	/* background-color: var(--active); */
-	color: var(--text1);
+  background-color: var(--text1);
+  width: 24px;
 }
 .glazewm-workspaces .ws-btn.focused_populated:hover {
-	/* background-color: var(--hover2); */
+  background-color: var(--text2);
 }
 .glazewm-workspaces .ws-btn .icon {
-	background-color: alpha(--text1, 0.5);
+  background-color: alpha(--text1, 0.5);
 }
 
 .battery-widget,
 .wifi-widget,
 .clock-widget,
 .volume-widget {
-	border-radius: 5px;
-	border: none;
-	margin: 0px 0px;
-	padding: 0px 7px;
+  border-radius: 5px;
+  border: none;
+  margin: 0px 0px;
+  padding: 0px 7px;
 }
 
 .battery-widget:hover,
@@ -172,37 +177,37 @@
 .clock-widget:hover,
 .volume-widget:hover,
 .systray .unpinned-visibility-btn:hover {
-	background-color: var(--hover1);
+  background-color: var(--hover1);
 }
 
 .battery-widget .icon,
 .volume-widget .icon,
 .wifi-widget .icon,
 .clock-widget .icon {
-	margin-bottom: 2px;
-	margin-right: 5px;
+  margin-bottom: 2px;
+  margin-right: 5px;
 }
 
 .systray {}
 .systray .unpinned-container {
-	background: var(--bg3);
-	border-radius: 5px;
-	padding: 0 5px;
+  background: var(--bg3);
+  border-radius: 5px;
+  padding: 0 5px;
 }
 .systray .button {
-	border: none;
-	border-radius: 3px;
-	padding: 5px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
 }
 .systray .button:hover,
 .systray .unpinned-visibility-btn:checked:hover {
-	background-color: var(--hover1);
+  background-color: var(--hover1);
 }
 .systray .unpinned-visibility-btn {
-	border: none;
-	border-radius: 5px;
-	padding: 7px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
 }
 .systray .unpinned-visibility-btn:checked {
-	background-color: var(--bg3);
+  background-color: var(--bg3);
 }

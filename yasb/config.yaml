@@ -10,10 +10,10 @@ bars:
     screens: ["*"]
     class_name: "yasb-bar"
     alignment:
-      position: "bottom"
+      position: "top"
       center: true
     animation:
-      enabled: false
+      enabled: true
     blur_effect:
       enabled: false
     window_flags:
@@ -38,9 +38,9 @@ bars:
         alignment: "right"
         stretch: true
     widgets:
-      left: [ "glazewm_workspaces" ]
-      center: [ ]
-      right: [ "systray", "wifi", "volume", "battery", "clock" ]
+      left: []
+      center: [ "glazewm_workspaces" ]
+      right: []
 widgets:
   glazewm_workspaces:
     type: "glazewm.workspaces.GlazewmWorkspacesWidget"
@@ -48,7 +48,7 @@ widgets:
       offline_label: "\u23fc Glazewm Offline"
       hide_empty_workspaces: true
       hide_if_offline: false
-      animation: false
+      animation: true
       app_icons:
         enabled_populated: false
         enabled_active: false
@@ -56,92 +56,3 @@ widgets:
         hide_label: true
         hide_duplicates: true
         hide_floating: false
-  wifi:
-    type: "yasb.wifi.WifiWidget"
-    options:
-      label: "<span>{wifi_icon}</span> {wifi_name}"
-      callbacks: 
-        on_left: "toggle_menu"
-        on_middle: "exec cmd.exe /c start ms-settings:network"
-      wifi_icons: [
-        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-off.svg' />",  # Icon for 0% strength
-        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-low.svg' />",  # Icon for 1-24% strength
-        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-low.svg' />",  # Icon for 25-49% strength
-        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi-high.svg' />",  # Icon for 50-74% strength
-        "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\wifi.svg' />"   # Icon for 75-100% strength
-      ]
-      menu_config:
-        blur: false
-        round_corners: false
-        alignment: "center"
-        direction: "up"
-        offset_top: 6
-        offset_left: 0
-        wifi_icons_secured: [
-          "\ue670",
-          "\ue671",
-          "\ue672",
-          "\ue673",
-        ]
-        wifi_icons_unsecured: [
-          "\uec3c",
-          "\uec3d",
-          "\uec3e",
-          "\uec3f",
-        ]
-  volume:
-    type: "yasb.volume.VolumeWidget"
-    options:
-      label: "<span>{icon}</span> {level}"
-      volume_icons:
-        - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-x.svg' />"  # Icon for muted
-        - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-1.svg' />"  # Icon for 0-10% volume
-        - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-1.svg' />"  # Icon for 11-30% volume
-        - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-1.svg' />"  # Icon for 31-60% volume
-        - "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\volume-2.svg' />"  # Icon for 61-100% volume
-      audio_menu:
-        alignment: "center"
-        direction: "up"
-        blur: false
-        round_corners: false
-      callbacks:
-        on_left: "toggle_volume_menu"
-        on_right: "toggle_mute"
-  clock:
-    type: "yasb.clock.ClockWidget"
-    options:
-      # label: "<span><img src='$env:USERPROFILE\\.config\\yasb\\svg\\clock.svg'/></span>{%H:%M - %a, %b %d}"
-      label: "<span><img src='$env:USERPROFILE\\.config\\yasb\\svg\\clock.svg'/></span>{%H:%M}"
-  battery:
-    type: "yasb.battery.BatteryWidget"
-    options:
-      label: "<span>{icon}</span> {percent}%"
-      status_thresholds:
-        critical: 20
-        low: 40
-        medium: 60
-        high: 80
-        full: 100
-      charging_options:
-        icon_format: "{charging_icon}"
-      status_icons:
-        icon_charging: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-charging' />"
-        icon_critical: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-warning' />"
-        icon_low: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-low' />"
-        icon_medium: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
-        icon_high: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-medium' />" 
-        icon_full: "<img src='$env:USERPROFILE\\.config\\yasb\\svg\\battery-full' />" 
-  systray:
-    type: "yasb.systray.SystrayWidget"
-    options:
-      class_name: "systray"
-      label_collapsed: "<"
-      label_expanded: ">"
-      label_position: "right" # Can be "left" or "right"
-      icon_size: 16 # Can be any integer between 8 and 64
-      pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
-      show_unpinned: false
-      show_unpinned_button: true
-      show_battery: false
-      show_volume: false
-      show_network: false

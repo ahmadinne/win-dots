@@ -1,12 +1,14 @@
 general:
   startup_commands: [
+    "shell-exec %USERPROFILE%/AppData/Local/PowerToys/PowerToys.exe",
     "shell-exec yasb",
-    "shell-exec AutoHotkey.exe C:/Users/ahmadinne/.config/autohotkey/config.ahk",
-    "shell-exec AutoHotkey.exe C:/Users/ahmadinne/.config/autohotkey/kill.ahk",
-    "shell-exec AutoHotkey.exe C:/Users/ahmadinne/.config/autohotkey/mousehide.ahk",
-    "shell-exec C:/Users/ahmadinne/AppData/Roaming/AltSnap/AltSnap.exe"
+    "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/config.ahk",
+    "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/kill.ahk",
+    "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/mousehide.ahk",
+    "shell-exec %USERPROFILE%/AppData/Roaming/AltSnap/AltSnap.exe"
   ]
   shutdown_commands: [
+    "shell-exec taskkill /IM PowerToys.exe /",
     "shell-exec taskkill /IM yasb.exe /",
     "shell-exec taskkill /IM AutoHotkey.exe /",
     "shell-exec taskkill /IM AutoHotkeyV1.exe /",
@@ -15,9 +17,9 @@ general:
   ]
   config_reload_commands: [
     "shell-exec yasbc reload",
-    "shell-exec AutoHotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/config.ahk",
-    "shell-exec AutoHotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/kill.ahk",
-    "shell-exec AutoHotkey.exe /restart C:/Users/ahmadinne/.config/autohotkey/mousehide.ahk"
+    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/config.ahk",
+    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/kill.ahk",
+    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/mousehide.ahk"
   ]
   focus_follows_cursor: false
   toggle_workspace_on_refocus: false
@@ -27,7 +29,7 @@ general:
     trigger: 'window_focus' #monitor/window
 
   hide_method: 'cloak' #cloak/hide
-  show_all_in_taskbar: true
+  show_all_in_taskbar: false
 
 gaps:
   scale_with_dpi: true
