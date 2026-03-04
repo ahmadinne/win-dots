@@ -13,7 +13,7 @@ bars:
       position: "top"
       center: true
     animation:
-      enabled: true
+      enabled: false
     blur_effect:
       enabled: false
     window_flags:
@@ -48,7 +48,7 @@ widgets:
       offline_label: "\u23fc Glazewm Offline"
       hide_empty_workspaces: true
       hide_if_offline: false
-      animation: true
+      animation: false
       app_icons:
         enabled_populated: false
         enabled_active: false

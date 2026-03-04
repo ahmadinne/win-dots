@@ -5,8 +5,8 @@ general:
     "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/mousehide.ahk",
     "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/expvim.ahk",
     "shell-exec %USERPROFILE%/AppData/Local/PowerToys/PowerToys.exe",
-    "shell-exec %USERPROFILE%/AppData/Roaming/AltSnap/AltSnap.exe"
-    "shell-exec yasb",
+    "shell-exec %USERPROFILE%/AppData/Roaming/AltSnap/AltSnap.exe",
+    "shell-exec yasb"
   ]
   shutdown_commands: [
     "shell-exec taskkill /IM AutoHotkeyV1.exe /",
@@ -173,6 +173,7 @@ window_rules:
   - commands: ['ignore']
     match:
       # Ignores any Yasb windows.
+      - window_process: { equals: 'LEGOJurassicWorld' }
       - window_process: { equals: 'AutoHotkey' }
       - window_process: { equals: 'AutoHotkeyV1' }
       - window_process: { equals: 'AutoHotkeyV2' }
