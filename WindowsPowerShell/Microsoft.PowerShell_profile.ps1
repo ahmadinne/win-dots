@@ -1,12 +1,9 @@
 # Powershell's configurations
 Import-Module -Name Terminal-Icons
-Invoke-Expression (&starship init powershell)
+# Invoke-Expression (&starship init powershell)
 Set-PSReadlineKeyHandler -Chord Ctrl+u -Function BackwardKillLine
 Set-PSReadLineKeyHandler -Chord Escape -Function Abort
 $EDITOR = "nvim"
-
-# Source
-. "$PSScriptRoot\pacman.ps1"
 
 # Unix like Aliases
 Set-Alias -Name grep -Value Select-String
@@ -16,7 +13,6 @@ Set-Alias -Name touch -Value New-Item
 Function Startupcmd {cd "$env:USERPROFILE/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/"; explorer .}
 Function Initcmd {nvim $env:USERPROFILE/AppData/Local/nvim/init.lua}
 Function Alacrittycmd {nvim $env:USERPROFILE/AppData/Roaming/alacritty/alacritty.toml}
-# Function Terminalcmd {nvim $HOME/scoop/apps/windows-terminal/current/settings/settings.json}
 Function Terminalcmd {nvim "$env:USERPROFILE/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
 Function Fetches {cls; bunnyfetch}
 Function ComMojang {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
@@ -24,7 +20,6 @@ Function HostsCmd {nvim "C:\Windows\System32\drivers\etc\hosts"}
 Function dbpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
 Function drpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
 
-# Set-Alias -Name ls -Value Ezacmd
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
 Set-Alias -Name alacritty.toml -Value Alacrittycmd
@@ -37,6 +32,7 @@ Set-Alias -Name shell:startup -Value Startupcmd
 Set-Alias -Name bf -Value bunnyfetch
 Set-Alias -Name bfs -Value Fetches
 Set-Alias -Name hosts -Value HostsCmd
+
 Set-Alias originaldbp dbp
 Remove-Item Alias:dbp -Force
 Set-Alias -Name dbp -Value dbpCmd
@@ -75,5 +71,13 @@ Function pascal {
 	& "$env:TEMP\$base.exe"
 }
 
-# Starto
-bunnyfetch
+function viCursor {
+	if ($args[0] -eq 'Command') {
+		Write-Host -NoNewLine "`e[2 q"
+	} else {
+		Write-Host -NoNewLine "`e[6 q"
+	}
+}
+
+Set-PSReadLineOption -EditMode Vi
+Set-PSReadLineOption -ViModeIndicator Cursor

@@ -2,12 +2,20 @@
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
     "actions": [],
-    "alwaysShowTabs": true,
+    "alwaysShowTabs": false,
     "compatibility.enableUnfocusedAcrylic": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
+    "disabledProfileSources": 
+    [
+        "Windows.Terminal.Azure",
+        "Windows.Terminal.VisualStudio",
+        "Windows.Terminal.Wsl",
+        "Windows.Terminal.PowershellCore"
+    ],
+    "experimental.scrollToChangeOpacity": false,
     "keybindings": 
     [
         {
@@ -15,24 +23,12 @@
             "keys": "ctrl+shift+c"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+k"
-        },
-        {
             "id": "Terminal.PasteFromClipboard",
             "keys": "ctrl+shift+v"
         },
         {
-            "id": null,
-            "keys": "ctrl+shift+p"
-        },
-        {
             "id": "Terminal.DuplicatePaneAuto",
-            "keys": "alt+shift+d"
-        },
-        {
-            "id": null,
-            "keys": "ctrl+shift+n"
+            "keys": "ctrl+shift+d"
         }
     ],
     "newTabMenu": 
@@ -41,35 +37,29 @@
             "type": "remainingProfiles"
         }
     ],
-    "newTabPosition": "afterCurrentTab",
     "profiles": 
     {
         "defaults": 
         {
             "colorScheme": "Paradise",
-            "cursorShape": "filledBox",
-            "experimental.retroTerminalEffect": false,
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
-                "size": 11
+                "size": 12
             },
-            "intenseTextStyle": "all",
-            "pathTranslationStyle": "mingw",
-            "rightClickContextMenu": true
+            "padding": "10",
+            "scrollbarState": "hidden"
         },
         "list": 
         [
             {
-                "commandline": "powershell.exe -nologo",
-                "elevate": false,
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -nologo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "name": "Windows PowerShell",
-                "pathTranslationStyle": "mingw",
-                "rightClickContextMenu": true
+                "name": "Windows PowerShell"
             },
             {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -125,13 +115,8 @@
             "yellow": "#D9BC8C"
         }
     ],
-    "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
     "showTabsFullscreen": false,
-    "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": true,
+    "showTabsInTitlebar": false,
     "tabWidthMode": "titleLength",
-    "theme": "system",
-    "themes": [],
-    "useAcrylicInTabRow": false,
-    "windowingBehavior": "useNew"
+    "themes": []
 }

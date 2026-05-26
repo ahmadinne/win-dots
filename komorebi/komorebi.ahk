@@ -1,25 +1,46 @@
 #Requires AutoHotKey v2.0
 #SingleInstance Force
+; #Include kill.ahk
 
 ; ---- Komorebi Keybinds -----
+userProfilePath := EnvGet("USERPROFILE")
 Komorebic(cmd){
 	RunWait(format("komorebic.exe {}", cmd), , "Hide")
 }
 
 ; Programs
 !t::Run "wt"
-!e::Run "C:\Users\ahmadinne\"
-; !;::Run "$env:USERPROFILE/scoop/apps/hunt-and-peck/current/hap.exe /hint"
+!e::Run userProfilePath
 
 ; Windows management
 !j::Komorebic("cycle-focus next")
 !k::Komorebic("cycle-focus previous")
-!Enter::Komorebic("promote-focus")
 !+j::Komorebic("cycle-move next")
 !+k::Komorebic("cycle-move previous")
+!Enter::Komorebic("promote-focus")
 !+Enter::Komorebic("promote")
 !h::Komorebic("resize-axis horizontal decrease")
 !l::Komorebic("resize-axis horizontal increase")
+
+; Window States
+!w::Komorebic("toggle-float")
+!m::Komorebic("minimize")
+!f::Send "{f11}"
+
+; ---- Utilities ----
+
+; Settings
+!o::Send "#^v"
+
+; Screenshot
+!p::Send "#!{PrintScreen}"
+!+p::#+s
+
+; Volume & Brightness
+!,::Send "{Volume_Down}"
+!.::Send "{Volume_Up}"
+!+,::bright(5,"-")
+!+.::bright(5,"+")
 
 ; Pause Keybindings
 !r::Komorebic("retile")
@@ -29,29 +50,21 @@ Komorebic(cmd){
 }
 !^p::Komorebic("toggle-pause")
 
-; Window States
-!w::Komorebic("toggle-float")
-; !+f::Komorebic("toggle-monocle")
-!m::Komorebic("minimize")
-!f::{
-	if WinActive("Helium") or WinActive("Firefox") or WinActive("Chrome") or WinActive("Minecraft") {
-		Send "{f11}"
-	} else {
-		Komorebic("toggle-maximize")
-	}
-}
-
 ; Killer do killings
 !q::{
 	check := WinExist("A")
 	if !check
 		return
+	
+	title := WinGetTitle("ahk_id " check)
+	if (title = "")
+		title := "Untitled"
 
 	winClass := WinGetClass("ahk_id " check)
 	if (winClass = "progman" || winClass = "WorkerW" || winClass = "shell_TrayWnd" || winClass = "buttery-taskbar")
 		return
 
-	if MsgBox("Confirm to Close?", "Warning", "YesNo") = "Yes"
+	if MsgBox("Confirm to Close " title "?", "Warning", "YesNo") = "Yes"
 		Komorebic("close")
 }
 
@@ -75,17 +88,6 @@ Komorebic(cmd){
 !+7::Komorebic("move-to-workspace 6")
 !+8::Komorebic("move-to-workspace 7")
 
-; ---- Utilities ----
-
-; Screenshot
-!p::Send "#{PrintScreen}"
-!+p::Send "#+s"
-
-; Volume & Brightness
-!,::Send "{Volume_Down}"
-!.::Send "{Volume_Up}"
-!+,::bright(5,"-")
-!+.::bright(5,"+")
 
 ; Functions (Do Not Delete)
 bright(inputNum:=0,option:=""){

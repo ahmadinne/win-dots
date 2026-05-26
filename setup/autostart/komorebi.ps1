@@ -1,5 +1,13 @@
 #!/usr/bin/env powershell
 
+# --- Set Configuration Path for Komorebi ---
+$path = "$env:USERPROFILE\.config\komorebi"
+if (!(Test-Path $path)) {
+	mkdir $path
+}
+[System.Environment]::SetEnvironmentVariable("KOMOREBI_CONFIG_HOME", $path, "Machine")
+$env:KOMOREBI_CONFIG_HOME = [System.Environment]::GetEnvironmentVariable("KOMOREBI_CONFIG_HOME", "Machine")
+
 # --- Configurations ---
 $taskname = "Komorebi"
 $taskpath = "C:\Program Files\komorebi\bin\komorebic-no-console.exe"
