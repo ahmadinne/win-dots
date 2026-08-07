@@ -9,6 +9,7 @@ $taskfold = "\Autostart"
 # --- Components ---
 $action = New-ScheduledTaskAction -Execute $taskpath
 $trigger = New-ScheduledTaskTrigger -AtLogOn
+$trigger.Delay = "PT3S"
 $principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interactive -RunLevel Highest
 
 $settings = New-ScheduledTaskSettingsSet `

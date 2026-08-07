@@ -1,7 +1,8 @@
 9PLQFDG8HH9D
+Altsnap.Altsnap
 BrechtSanders.WinLibs.POSIX.UCRT
-Git.MiniGit
-LGUG2Z.komorebi
+Git.Git
+glzr-io.glazewm
 Microsoft.PowerToys
 Neovim.Neovim
 OpenJS.NodeJS

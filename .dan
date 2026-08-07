@@ -1,11 +1,6 @@
-﻿nvim = C:\Users\ahmadinne\appdata\local\nvim
-PowerShell\ = C:\Users\ahmadinne\Documents\PowerShell
-autohotkey = C:\Users\ahmadinne\.config\autohotkey
-yasb = C:\Users\ahmadinne\.config\yasb
-Wallpapers\ = C:\Users\ahmadinne\Pictures\Wallpapers
+﻿PowerShell\ = C:\Users\ahmadinne\Documents\PowerShell
 WindowsPowerShell = C:\Users\ahmadinne\Documents\WindowsPowerShell
 LocalState = C:\Users\ahmadinne\appdata\local\packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
 komorebi = C:\Users\ahmadinne\.config\komorebi
-Zed = C:\Users\ahmadinne\appdata\roaming\Zed
-glazewm = C:\Users\ahmadinne\.config\glazewm
-startallback-patcher = C:\Users\ahmadinne\Documents\startallback-patcher
+autohotkey = C:\Users\ahmadinne\.config\autohotkey
+.glzr = C:\Users\ahmadinne\.glzr

@@ -16,9 +16,12 @@ Function Alacrittycmd {nvim $env:USERPROFILE/AppData/Roaming/alacritty/alacritty
 Function Terminalcmd {nvim "$env:USERPROFILE/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"}
 Function Fetches {cls; bunnyfetch}
 Function ComMojang {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang" }
+Function behaviorCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
+Function resourceCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
 Function HostsCmd {nvim "C:\Windows\System32\drivers\etc\hosts"}
 Function dbpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
 Function drpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
+Function repoCmd {cd "$env:USERPROFILE\Documents\Repositories" }
 
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
@@ -32,11 +35,14 @@ Set-Alias -Name shell:startup -Value Startupcmd
 Set-Alias -Name bf -Value bunnyfetch
 Set-Alias -Name bfs -Value Fetches
 Set-Alias -Name hosts -Value HostsCmd
+Set-Alias -Name repo -Value repoCmd
 
 Set-Alias originaldbp dbp
 Remove-Item Alias:dbp -Force
 Set-Alias -Name dbp -Value dbpCmd
 Set-Alias -Name drp -Value drpCmd
+Set-Alias -Name resource -Value resourceCmd
+Set-Alias -Name behavior -Value behaviorCmd
 
 Set-Alias -Name yz -Value y
 Function y {
