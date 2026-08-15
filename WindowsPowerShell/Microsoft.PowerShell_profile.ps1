@@ -1,9 +1,12 @@
 # Powershell's configurations
 Import-Module -Name Terminal-Icons
-# Invoke-Expression (&starship init powershell)
+$EDITOR = "nvim"
+# Set-PSReadLineOption -EditMode Vi #gabisa set-psread kalo ini nyala
+# Set-PSReadLineOption -ViModeIndicator Cursor #sama aja
+Set-PSReadLineKeyHandler -Chord Ctrl+w -Function BackwardKillWord
 Set-PSReadlineKeyHandler -Chord Ctrl+u -Function BackwardKillLine
 Set-PSReadLineKeyHandler -Chord Escape -Function Abort
-$EDITOR = "nvim"
+Remove-PSReadLineKeyHandler -Chord Ctrl+Spacebar
 
 # Unix like Aliases
 Set-Alias -Name grep -Value Select-String
@@ -85,5 +88,4 @@ function viCursor {
 	}
 }
 
-Set-PSReadLineOption -EditMode Vi
-Set-PSReadLineOption -ViModeIndicator Cursor
+

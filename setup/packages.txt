@@ -7,3 +7,4 @@ Microsoft.PowerToys
 Neovim.Neovim
 OpenJS.NodeJS
 DEVCOM.JetBrainsMonoNerdFont
+valinet.ExplorerPatcher

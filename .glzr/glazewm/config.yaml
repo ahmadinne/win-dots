@@ -42,7 +42,7 @@ window_effects:
   focused_window:
     border:
       enabled: true
-      color: '#626262'
+      color: '#F6DFBF'
     hide_title_bar:
       enabled: false
     corner_style:

@@ -1,6 +1,7 @@
 #Requires AutoHotKey v2.0
 #SingleInstance Force
 #Include alt.ahk
+#Include ctrlToggle.ahk
 ; #Include mousehide.ahk
 
 ; ---- GlazeWM Keybinds -----

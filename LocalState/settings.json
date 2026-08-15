@@ -45,8 +45,9 @@
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
-                "size": 12
+                "size": 10
             },
+            "icon": "\ue756",
             "padding": "20",
             "scrollbarState": "hidden"
         },
@@ -117,6 +118,7 @@
     ],
     "showTabsFullscreen": false,
     "showTabsInTitlebar": false,
+    "showTerminalTitleInTitlebar": true,
     "tabWidthMode": "titleLength",
     "themes": []
 }
