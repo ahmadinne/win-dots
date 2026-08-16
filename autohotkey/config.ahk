@@ -1,7 +1,7 @@
 #Requires AutoHotKey v2.0
 #SingleInstance Force
 #Include alt.ahk
-#Include ctrlToggle.ahk
+#Include sprintToggle.ahk
 ; #Include mousehide.ahk
 
 ; ---- GlazeWM Keybinds -----
@@ -15,11 +15,31 @@ glazewmc(cmd){
 !e::Run userProfilePath
 
 ; Utilities
-; !p::Send "#!{PrintScreen}" 	;Screenshot
-!p::RunWait('powershell -ExecutionPolicy Bypass -File "' A_MyDocuments '\WindowsPowerShell\screenshot.ps1"', , "Hide")
-!+p::Send "#+s"				;Screenshot Selection
 !o::Send "#^v"				;Audio Output
 !+o::Send "#p"				;Screen Output
+; Screenshot whole screen
+!p::{
+	Send "#{PrintScreen}"
+	Sleep 300
+	TrayTip "Screenshot taken!", "File saved in Pictures/Screenshots", 1
+}
+; Screenshot active window
+!+p::{
+	Send "!{PrintScreen}"
+	Sleep 300
+
+	TargetDir := A_MyDocuments "\..\Pictures\Screenshots"
+	if !DirExist(TargetDir)
+		DirCreate(TargetDir)
+
+	TimeStamp := FormatTime(, "yyyy-MM-dd_HH.mm.ss")
+	FilePath := TargetDir "\screenshot_" Timestamp ".png"
+
+	PowerShellCmd := 'powershell.exe -NoProfile -Command "Add-Type -AssemblyName System.Windows.Forms; if ([System.Windows.Forms.Clipboard]::ContainsImage()) { [System.Drawing.Bitmap][System.Windows.Forms.Clipboard]::GetImage().Save(\"' FilePath '\", [System.Drawing.Imaging.ImageFormat]::Png) }"'
+	Run(PowerShellCmd, , "Hide")
+	Sleep 200
+	TrayTip "Screenshot taken!", "File saved in Pictures/Screenshots", 1
+}
 
 ; Windows management
 !j::glazewmc("focus --direction down")
