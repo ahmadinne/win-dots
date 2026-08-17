@@ -32,7 +32,7 @@ $w:: {
 #HotIf
 
 IsMinecraftActive() {
-    if !WinActive("ahk_exe javaw.exe") && !WinActive("ahk_exe Minecraft.Windows.exe") && !WinActive("ahk_exe ApplicationFrameHost.exe")
+    if !WinActive("ahk_exe Minecraft.Windows.exe")
         return false
         
     title := WinGetTitle("A")
