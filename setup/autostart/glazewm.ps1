@@ -4,13 +4,12 @@
 $taskname = "GlazeWM"
 $taskpath = "C:\Program Files\glzr.io\GlazeWM\cli\glazewm.exe"
 $taskdesc = "Autorun programs at start"
-$taskfold = "\Autostart"
 
 # --- Components ---
 $action = New-ScheduledTaskAction -Execute $taskpath
 $trigger = New-ScheduledTaskTrigger -AtLogOn
 $trigger.Delay = "PT3S"
-$principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interactive -RunLevel Highest
+$principal = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonType Interactive -RunLevel Limited
 
 $settings = New-ScheduledTaskSettingsSet `
 	-AllowStartIfOnBatteries:$true `
@@ -42,7 +41,6 @@ try {
 # --- Register Task ---
 Register-ScheduledTask `
 	-TaskName $taskname `
-	-TaskPath $taskfold `
 	-Action $action `
 	-Trigger $trigger `
 	-Principal $principal `
