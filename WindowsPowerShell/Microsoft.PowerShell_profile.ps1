@@ -24,7 +24,9 @@ Function resourceCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Use
 Function HostsCmd {nvim "C:\Windows\System32\drivers\etc\hosts"}
 Function dbpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs" }
 Function drpCmd {cd "$env:USERPROFILE\AppData\Roaming\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs" }
-Function repoCmd {cd "$env:USERPROFILE\Documents\Repositories" }
+Function repoCmd {cd "$env:USERPROFILE\Repositories" }
+Function developCmd {cd "$env:USERPROFILE\Games\versions\Develop\Minecraft Bedrock\Users\Shared\games\com.mojang"}
+Function testingCmd {cd "$env:USERPROFILE\Games\versions\Develop\Minecraft Bedrock\Users\Shared\games\com.mojang"}
 
 Set-Alias -Name vi -Value $EDITOR
 Set-Alias -Name init.lua -Value Initcmd
@@ -39,6 +41,8 @@ Set-Alias -Name bf -Value bunnyfetch
 Set-Alias -Name bfs -Value Fetches
 Set-Alias -Name hosts -Value HostsCmd
 Set-Alias -Name repo -Value repoCmd
+Set-Alias -Name develop -Value developCmd
+Set-Alias -Name testing -Value testingCmd
 
 Set-Alias originaldbp dbp
 Remove-Item Alias:dbp -Force

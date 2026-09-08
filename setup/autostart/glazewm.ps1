@@ -17,16 +17,6 @@ $settings = New-ScheduledTaskSettingsSet `
 	-ExecutionTimeLimit ([TimeSpan]::Zero) `
 	-StartWhenAvailable:$false `
 
-# --- Ensure the folder exist ---
-$service = New-Object -ComObject "Schedule.Service"
-$service.Connect()
-$rootFolder = $service.GetFolder("\")
-try {
-	$null = $rootFolder.GetFolder("Autostart")
-} catch {
-	$rootFolder.CreateFolder("Autostart") | Out-Null
-}
-
 # --- Remove old task if exist ---
 try {
 	$existing = Get-ScheduledTask -TaskName $taskname -ErrorAction Stop

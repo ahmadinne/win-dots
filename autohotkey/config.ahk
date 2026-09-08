@@ -1,7 +1,9 @@
 #Requires AutoHotKey v2.0
 #SingleInstance Force
 #Include alt.ahk
-#Include sprintToggle.ahk
+#Include mcReso.ahk
+#Include autoClick.ahk
+; #Include sprintToggle.ahk
 ; #Include mousehide.ahk
 
 ; ---- GlazeWM Keybinds -----
@@ -50,6 +52,20 @@ glazewmc(cmd){
 !+k::glazewmc("move --direction down")
 !+h::glazewmc("move --direction left")
 !+l::glazewmc("move --direction right")
+
+
+; Reload and Exit
+!+Del::glazewmc("wm-exit")
+; Reload da guns!
+!+r::glazewmc("wm-reload-config")
+!r::glazewmc("wm-redraw")
+
+; Volume & Brightness
+!m::Send "{Volume_Mute}"
+!,::Send "{Volume_Down}"
+!.::Send "{Volume_Up}"
+!+,::bright(5,"-")
+!+.::bright(5,"+")
 
 ; Pause Keybindings
 !^p::glazewmc("wm-toggle-pause")
@@ -119,18 +135,51 @@ glazewmc(cmd){
 	)
 }
 
-!+Del::glazewmc("wm-exit")
+; Workspace Management
+!1::glazewmc("focus --workspace a1")
+!2::glazewmc("focus --workspace a2")
+!3::glazewmc("focus --workspace a3")
+!4::glazewmc("focus --workspace a4")
+!5::glazewmc("focus --workspace a5")
+!6::glazewmc("focus --workspace a6")
+!7::glazewmc("focus --workspace a7")
+!8::glazewmc("focus --workspace a8")
+!9::glazewmc("focus --workspace a9")
+!0::glazewmc("focus --workspace a10")
 
-; Reload da guns!
-!+r::glazewmc("wm-reload-config")
-!r::glazewmc("wm-redraw")
+#1::glazewmc("focus --workspace b1")
+#2::glazewmc("focus --workspace b2")
+#3::glazewmc("focus --workspace b3")
+#4::glazewmc("focus --workspace b4")
+#5::glazewmc("focus --workspace b5")
+#6::glazewmc("focus --workspace b6")
+#7::glazewmc("focus --workspace b7")
+#8::glazewmc("focus --workspace b8")
+#9::glazewmc("focus --workspace b9")
+#0::glazewmc("focus --workspace b10")
 
-; Volume & Brightness
-!m::Send "{Volume_Mute}"
-!,::Send "{Volume_Down}"
-!.::Send "{Volume_Up}"
-!+,::bright(5,"-")
-!+.::bright(5,"+")
+; Moving Window to Worskpace
+!+1::glazewmc("move --workspace a1") glazewmc("focus --workspace a1")
+!+2::glazewmc("move --workspace a2") glazewmc("focus --workspace a2")
+!+3::glazewmc("move --workspace a3") glazewmc("focus --workspace a3")
+!+4::glazewmc("move --workspace a4") glazewmc("focus --workspace a4")
+!+5::glazewmc("move --workspace a5") glazewmc("focus --workspace a5")
+!+6::glazewmc("move --workspace a6") glazewmc("focus --workspace a6")
+!+7::glazewmc("move --workspace a7") glazewmc("focus --workspace a7")
+!+8::glazewmc("move --workspace a8") glazewmc("focus --workspace a8")
+!+9::glazewmc("move --workspace a9") glazewmc("focus --workspace a9")
+!+0::glazewmc("move --workspace a10") glazewmc("focus --workspace a10")
+
+#+1::glazewmc("move --workspace b1") glazewmc("focus --workspace b1")
+#+2::glazewmc("move --workspace b2") glazewmc("focus --workspace b2")
+#+3::glazewmc("move --workspace b3") glazewmc("focus --workspace b3")
+#+4::glazewmc("move --workspace b4") glazewmc("focus --workspace b4")
+#+5::glazewmc("move --workspace b5") glazewmc("focus --workspace b5")
+#+6::glazewmc("move --workspace b6") glazewmc("focus --workspace b6")
+#+7::glazewmc("move --workspace b7") glazewmc("focus --workspace b7")
+#+8::glazewmc("move --workspace b8") glazewmc("focus --workspace b8")
+#+9::glazewmc("move --workspace b9") glazewmc("focus --workspace b9")
+#+0::glazewmc("move --workspace b10") glazewmc("focus --workspace b10")
 
 ; Functions (Do Not Delete)
 bright(inputNum:=0,option:=""){

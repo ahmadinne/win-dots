@@ -5,3 +5,13 @@
 [2m2026-06-20T04:35:36.342816Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No monitor under cursor.
 [2m2026-07-26T11:41:31.915601Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
 [2m2026-07-26T11:41:37.119193Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
+[2m2026-08-18T09:00:27.794788Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Platform error: Another instance of the application is already running.
+[2m2026-08-20T04:39:22.914681Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[2].commands: one or more required arguments were not provided
+ at line 154 column 15
+[2m2026-08-20T04:43:15.683249Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[2].commands: one or more required arguments were not provided
+ at line 154 column 15
+[2m2026-08-20T04:43:21.768385Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[2].commands: one or more required arguments were not provided
+ at line 154 column 15
+[2m2026-08-20T04:44:05.094998Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[2].commands: one or more required arguments were not provided
+ at line 154 column 15
+[2m2026-08-28T16:13:32.732724Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No monitor under cursor.

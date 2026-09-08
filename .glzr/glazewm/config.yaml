@@ -1,29 +1,22 @@
 general:
   startup_commands: [
-    "shell-exec AutoHotkey.exe %USERPROFILE%/.config/autohotkey/config.ahk",
-    "shell-exec %USERPROFILE%/Appdata/Local/FlowLauncher/Flow.Launcher.exe",
-    "shell-exec %USERPROFILE%/Appdata/Roaming/AltSnap/AltSnap.exe"
+    "shell-exec %USERPROFILE%/Appdata/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe %USERPROFILE%/.config/autohotkey/config.ahk"
   ]
 
   shutdown_commands: [
-    "shell-exec taskkill /IM AutoHotkeyV1.exe",
-    "shell-exec taskkill /IM AutoHotkeyV2.exe",
-    "shell-exec taskkill /IM AutoHotkey.exe",
-    "shell-exec taskkill /IM Flow.Launcher.exe",
-    "shell-exec taskkill /IM PowerToys.exe",
-    "shell-exec taskkill /IM AltSnap.exe"
+    "shell-exec taskkill /IM AutoHotkey64.exe"
   ]
 
   config_reload_commands: [
-    "shell-exec AutoHotkey.exe /restart %USERPROFILE%/.config/autohotkey/config.ahk",
+    "shell-exec '%USERPROFILE%/Appdata/Local/Programs/AutoHotkey/UX/AutoHotkeyUX.exe' /restart %USERPROFILE%/.config/autohotkey/config.ahk",
   ]
 
   focus_follows_cursor: true
   toggle_workspace_on_refocus: false
 
   cursor_jump:
-    enabled: false
-    trigger: 'window_focus' # monitor / window
+    enabled: true
+    trigger: 'monitor_focus' # monitor_focus / window_focus
 
   hide_method: 'cloak' # cloak / hide
   show_all_in_taskbar: true
@@ -46,7 +39,7 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
+      enabled: true
       style: 'square' # Allowed values: 'square', 'rounded', 'small_rounded'.
     transparency:
       enabled: false
@@ -60,7 +53,7 @@ window_effects:
     hide_title_bar:
       enabled: false
     corner_style:
-      enabled: false
+      enabled: true
       style: 'square'
     transparency:
       enabled: false
@@ -110,48 +103,41 @@ workspaces:
   - name: 'a10'
     display_name: '10'
     bind_to_monitor: 0
+
   # Monitor 1 / Second Monitor
-  # - name: 'b1'
-  #   display_name: '1'
-  #   bind_to_monitor: 1
-  # - name: 'b2'
-  #   display_name: '2'
-  #   bind_to_monitor: 1
-  # - name: 'b3'
-  #   display_name: '3'
-  #   bind_to_monitor: 1
-  # - name: 'b4'
-  #   display_name: '4'
-  #   bind_to_monitor: 1
-  # - name: 'b5'
-  #   display_name: '5'
-  #   bind_to_monitor: 1
-  # - name: 'b6'
-  #   display_name: '6'
-  #   bind_to_monitor: 1
-  # - name: 'b7'
-  #   display_name: '7'
-  #   bind_to_monitor: 1
-  # - name: 'b8'
-  #   display_name: '8'
-  #   bind_to_monitor: 1
-  # - name: 'b9'
-  #   display_name: '9'
-  #   bind_to_monitor: 1
-  # - name: 'b10'
-  #   display_name: '10'
-  #   bind_to_monitor: 1
+  - name: 'b1'
+    display_name: '1'
+    bind_to_monitor: 1
+  - name: 'b2'
+    display_name: '2'
+    bind_to_monitor: 1
+  - name: 'b3'
+    display_name: '3'
+    bind_to_monitor: 1
+  - name: 'b4'
+    display_name: '4'
+    bind_to_monitor: 1
+  - name: 'b5'
+    display_name: '5'
+    bind_to_monitor: 1
+  - name: 'b6'
+    display_name: '6'
+    bind_to_monitor: 1
+  - name: 'b7'
+    display_name: '7'
+    bind_to_monitor: 1
+  - name: 'b8'
+    display_name: '8'
+    bind_to_monitor: 1
+  - name: 'b9'
+    display_name: '9'
+    bind_to_monitor: 1
+  - name: 'b10'
+    display_name: '10'
+    bind_to_monitor: 1
 
 rules:
-  - app: 'AutoHotkey'
-    focus: true
-    floating: true
-
-  - app: 'AutoHotkeyV1'
-    focus: true
-    floating: true
-
-  - app: 'AutoHotkeyV2'
+  - app: 'AutoHotkey64'
     focus: true
     floating: true
 
@@ -163,20 +149,24 @@ window_rules:
   - commands: ['set-floating']
     match:
     - window_process: { equals: 'Bitwarden' }
+    # - window_class: { regex: 'Chrome_WidgetWin_1|MozillaDialogClass' }
+
+  - commands: ['set-fullscreen']
+    match:
+      - window_process: { equals: 'Minecraft.Windows' }
 
   - commands: ['ignore']
     match:
       # Ignores any Yasb windows.
       - window_process: { equals: 'LEGOJurassicWorld' }
-      - window_process: { equals: 'AutoHotkey' }
-      - window_process: { equals: 'AutoHotkeyV1' }
-      - window_process: { equals: 'AutoHotkeyV2' }
+      - window_process: { equals: 'AutoHotkey64' }
       - window_process: { equals: 'zebar' }
       - window_process: { equals: 'yasb' }
       - window_process: { equals: 'hap' }
       - window_process: { equals: 'buttery-taskbar' }
       - window_process: { equals: 'GoogleDriveFS'}
       - window_process: { equals: 'NanaZip.Universal.Windows' }
+      # - window_process: { equals: 'BongoWaifu'}
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -200,48 +190,90 @@ window_rules:
 
 keybindings:
   # Change focus to a workspace defined in `workspaces` config.
-  - commands: ['focus --workspace a1']
-    bindings: ['alt+1']
-  - commands: ['focus --workspace a2']
-    bindings: ['alt+2']
-  - commands: ['focus --workspace a3']
-    bindings: ['alt+3']
-  - commands: ['focus --workspace a4']
-    bindings: ['alt+4']
-  - commands: ['focus --workspace a5']
-    bindings: ['alt+5']
-  - commands: ['focus --workspace a6']
-    bindings: ['alt+6']
-  - commands: ['focus --workspace a7']
-    bindings: ['alt+7']
-  - commands: ['focus --workspace a8']
-    bindings: ['alt+8']
-  - commands: ['focus --workspace a9']
-    bindings: ['alt+9']
-  - commands: ['focus --workspace a10']
-    bindings: ['alt+0']
-
-  # Move focused window to a workspace defined in `workspaces` config.
-  - commands: ['move --workspace a1', 'focus --workspace a1']
-    bindings: ['alt+shift+1']                               
-  - commands: ['move --workspace a2', 'focus --workspace a2']
-    bindings: ['alt+shift+2']                               
-  - commands: ['move --workspace a3', 'focus --workspace a3']
-    bindings: ['alt+shift+3']                               
-  - commands: ['move --workspace a4', 'focus --workspace a4']
-    bindings: ['alt+shift+4']                               
-  - commands: ['move --workspace a5', 'focus --workspace a5']
-    bindings: ['alt+shift+5']                               
-  - commands: ['move --workspace a6', 'focus --workspace a6']
-    bindings: ['alt+shift+6']                               
-  - commands: ['move --workspace a7', 'focus --workspace a7']
-    bindings: ['alt+shift+7']                               
-  - commands: ['move --workspace a8', 'focus --workspace a8']
-    bindings: ['alt+shift+8']                               
-  - commands: ['move --workspace a9', 'focus --workspace a9']
-    bindings: ['alt+shift+9']
-  - commands: ['move --workspace a10', 'focus --workspace a10']
-    bindings: ['alt+shift+0']
+  # - commands: ['focus --workspace a1']
+  #   bindings: ['alt+1']
+  # - commands: ['focus --workspace a2']
+  #   bindings: ['alt+2']
+  # - commands: ['focus --workspace a3']
+  #   bindings: ['alt+3']
+  # - commands: ['focus --workspace a4']
+  #   bindings: ['alt+4']
+  # - commands: ['focus --workspace a5']
+  #   bindings: ['alt+5']
+  # - commands: ['focus --workspace a6']
+  #   bindings: ['alt+6']
+  # - commands: ['focus --workspace a7']
+  #   bindings: ['alt+7']
+  # - commands: ['focus --workspace a8']
+  #   bindings: ['alt+8']
+  # - commands: ['focus --workspace a9']
+  #   bindings: ['alt+9']
+  # - commands: ['focus --workspace a10']
+  #   bindings: ['alt+0']
+  # # Monitor 2
+  # - commands: ['focus --workspace b1']
+  #   bindings: ['lwin+1']
+  # - commands: ['focus --workspace b2']
+  #   bindings: ['lwin+2']
+  # - commands: ['focus --workspace b3']
+  #   bindings: ['lwin+3']
+  # - commands: ['focus --workspace b4']
+  #   bindings: ['lwin+4']
+  # - commands: ['focus --workspace b5']
+  #   bindings: ['lwin+5']
+  # - commands: ['focus --workspace b6']
+  #   bindings: ['lwin+6']
+  # - commands: ['focus --workspace b7']
+  #   bindings: ['lwin+7']
+  # - commands: ['focus --workspace b8']
+  #   bindings: ['lwin+8']
+  # - commands: ['focus --workspace b9']
+  #   bindings: ['lwin+9']
+  # - commands: ['focus --workspace b10']
+  #   bindings: ['lwin+0']
+  #
+  # # Move focused window to a workspace defined in `workspaces` config.
+  # - commands: ['move --workspace a1', 'focus --workspace a1']
+  #   bindings: ['alt+shift+1']                               
+  # - commands: ['move --workspace a2', 'focus --workspace a2']
+  #   bindings: ['alt+shift+2']                               
+  # - commands: ['move --workspace a3', 'focus --workspace a3']
+  #   bindings: ['alt+shift+3']                               
+  # - commands: ['move --workspace a4', 'focus --workspace a4']
+  #   bindings: ['alt+shift+4']                               
+  # - commands: ['move --workspace a5', 'focus --workspace a5']
+  #   bindings: ['alt+shift+5']                               
+  # - commands: ['move --workspace a6', 'focus --workspace a6']
+  #   bindings: ['alt+shift+6']                               
+  # - commands: ['move --workspace a7', 'focus --workspace a7']
+  #   bindings: ['alt+shift+7']                               
+  # - commands: ['move --workspace a8', 'focus --workspace a8']
+  #   bindings: ['alt+shift+8']                               
+  # - commands: ['move --workspace a9', 'focus --workspace a9']
+  #   bindings: ['alt+shift+9']
+  # - commands: ['move --workspace a10', 'focus --workspace a10']
+  #   bindings: ['alt+shift+0']
+  # # Monitor 2
+  # - commands: ['move --workspace b1', 'focus --workspace b1']
+  #   bindings: ['lwin+shift+1']                             
+  # - commands: ['move --workspace b2', 'focus --workspace b2']
+  #   bindings: ['lwin+shift+2']                             
+  # - commands: ['move --workspace b3', 'focus --workspace b3']
+  #   bindings: ['lwin+shift+3']                            
+  # - commands: ['move --workspace b4', 'focus --workspace b4']
+  #   bindings: ['lwin+shift+4']                            
+  # - commands: ['move --workspace b5', 'focus --workspace b5']
+  #   bindings: ['lwin+shift+5']                            
+  # - commands: ['move --workspace b6', 'focus --workspace b6']
+  #   bindings: ['lwin+shift+6']                            
+  # - commands: ['move --workspace b7', 'focus --workspace b7']
+  #   bindings: ['lwin+shift+7']                            
+  # - commands: ['move --workspace b8', 'focus --workspace b8']
+  #   bindings: ['lwin+shift+8']                            
+  # - commands: ['move --workspace b9', 'focus --workspace b9']
+  #   bindings: ['lwin+shift+9']
+  # - commands: ['move --workspace b10', 'focus --workspace b10']
+  #   bindings: ['lwin+shift+0']
 
   # Move the focused window's parent workspace to a monitor in a given
   # direction.

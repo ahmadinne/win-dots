@@ -1,10 +1,8 @@
-9PLQFDG8HH9D
+AutoHotkey.AutoHotkey
 Altsnap.Altsnap
-BrechtSanders.WinLibs.POSIX.UCRT
 Git.Git
 glzr-io.glazewm
 Microsoft.PowerToys
 Neovim.Neovim
 OpenJS.NodeJS
 DEVCOM.JetBrainsMonoNerdFont
-valinet.ExplorerPatcher
