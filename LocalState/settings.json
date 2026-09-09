@@ -15,7 +15,7 @@
     "compatibility.enableUnfocusedAcrylic": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{c127ff2f-5fd9-4993-9c5b-4e03b445385f}",
     "disableAnimations": true,
     "disabledProfileSources": 
     [
@@ -73,8 +73,10 @@
                 "size": 10
             },
             "padding": "20",
+            "pathTranslationStyle": "mingw",
             "rightClickContextMenu": true,
-            "scrollbarState": "hidden"
+            "scrollbarState": "hidden",
+            "showMarksOnScrollbar": true
         },
         "list": 
         [
@@ -90,6 +92,13 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
+            },
+            {
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "guid": "{c127ff2f-5fd9-4993-9c5b-4e03b445385f}",
+                "hidden": false,
+                "icon": "\ue765",
+                "name": "Git Bash"
             }
         ]
     },
