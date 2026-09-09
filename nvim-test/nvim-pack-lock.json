@@ -1,0 +1,113 @@
+{
+  "plugins": {
+    "blink.cmp": {
+      "rev": "78336bc89ee5365633bcf754d93df01678b5c08f",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "1.0.0 - 2.0.0"
+    },
+    "buffer_manager.nvim": {
+      "rev": "a0ac2db39c8bd4a2b6ca897f38c88770f90d9323",
+      "src": "https://github.com/j-morano/buffer_manager.nvim"
+    },
+    "faster.nvim": {
+      "rev": "6b7cb8b1a9628d4b87009c4849d510d1a3a14319",
+      "src": "https://github.com/pteroctopus/faster.nvim"
+    },
+    "fidget.nvim": {
+      "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
+      "src": "https://github.com/j-hui/fidget.nvim"
+    },
+    "fyler.nvim": {
+      "rev": "81066aa5d1fabdd6c71f57f1af57f2a1a6f91166",
+      "src": "https://github.com/FylerOrg/fyler.nvim"
+    },
+    "live-preview.nvim": {
+      "rev": "a6307fa340ed7c0d96f5c567afc8c991aad94ce0",
+      "src": "https://github.com/brianhuster/live-preview.nvim"
+    },
+    "mason-lspconfig.nvim": {
+      "rev": "5d32a9b8de9f90466797a740edb0fb4b3c27e423",
+      "src": "https://github.com/mason-org/mason-lspconfig.nvim"
+    },
+    "mason-tool-installer.nvim": {
+      "rev": "443f1ef8b5e6bf47045cb2217b6f748a223cf7dc",
+      "src": "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim"
+    },
+    "mason.nvim": {
+      "rev": "2a6940af80375532e5e9e7c1f2fc6319a1b7a69d",
+      "src": "https://github.com/mason-org/mason.nvim"
+    },
+    "mini.ai": {
+      "rev": "cb02c5444613475b7edf0c8dc98264c1c857aa6e",
+      "src": "https://github.com/nvim-mini/mini.ai"
+    },
+    "mini.comment": {
+      "rev": "27a29d6b949b9497f80a0a03421e89fed71d8c37",
+      "src": "https://github.com/nvim-mini/mini.comment"
+    },
+    "mini.icons": {
+      "rev": "98faae31e9be1cc054ae63485e58ceb185efcad0",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "nvim": {
+      "rev": "c8e5e7e67a36694e5d917b7065b26b59b8cb489f",
+      "src": "https://github.com/evergardentheme/nvim"
+    },
+    "nvim-highlight-colors": {
+      "rev": "e4c7af0211866162d999ce0bdd6a029302e19139",
+      "src": "https://github.com/brenoprata10/nvim-highlight-colors"
+    },
+    "nvim-lspconfig": {
+      "rev": "da1aff0332774a0f60d52bf972e815dfc226f276",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-surround": {
+      "rev": "8b47db616ef658b8fc27e61db2896aa2f40134de",
+      "src": "https://github.com/kylechui/nvim-surround"
+    },
+    "nvim-treesitter": {
+      "rev": "5cb0114e6242625db56dd6440e945ed1ece10bc7",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "statuscol.nvim": {
+      "rev": "887b8a03ea3804628505c9002fd07bd06a3db2e0",
+      "src": "https://github.com/luukvbaal/statuscol.nvim"
+    },
+    "todo-comments.nvim": {
+      "rev": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668",
+      "src": "https://github.com/folke/todo-comments.nvim"
+    },
+    "tokyonight.nvim": {
+      "rev": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
+      "src": "https://github.com/folke/tokyonight.nvim"
+    },
+    "vim-js": {
+      "rev": "f38483322d84eb87ebfe08dcb23da538ab3454cc",
+      "src": "https://github.com/yuezk/vim-js"
+    },
+    "vim-jsx-pretty": {
+      "rev": "6989f1663cc03d7da72b5ef1c03f87e6ddb70b41",
+      "src": "https://github.com/MaxMEllon/vim-jsx-pretty"
+    },
+    "vim-suda": {
+      "rev": "c492741b4679b3cdd4d9e34138209784e061d916",
+      "src": "https://github.com/lambdalisue/vim-suda"
+    },
+    "which-key.nvim": {
+      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
+      "src": "https://github.com/folke/which-key.nvim"
+    },
+    "yats.vim": {
+      "rev": "2d9b95b91b9f72bb1769951841b32d2a879d3cd7",
+      "src": "https://github.com/HerringtonDarkholme/yats.vim"
+    },
+    "zenbones.nvim": {
+      "rev": "8304d8df9b823ff11e103afa62f38c39f534abe6",
+      "src": "https://github.com/zenbones-theme/zenbones.nvim"
+    }
+  }
+}
